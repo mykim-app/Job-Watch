@@ -14,7 +14,7 @@ from __future__ import annotations
 
 import requests
 
-from .base import Posting, parse_ymd, squeeze
+from .base import Posting, parse_ymd, request, squeeze
 
 BASE = "https://job.cleaneye.go.kr"
 LIST_URL = BASE + "/user/selectYpRecruitment.do"
@@ -90,14 +90,15 @@ def _to_posting(row: dict, code: dict, ncs: str) -> Posting | None:
     )
 
 
-def _pages(session, log, extra: dict, max_pages: int, code: dict, ncs: str, tag: str):
+def _pages(session, log, extra: dict, max_pages: int, code: dict, ncs: str, tag: str,
+           delay: float = 1.2):
     got = []
     for page in range(1, max_pages + 1):
         data = dict(extra)
         data["pageIndex"] = page
         try:
-            r = session.post(LIST_URL, headers=HEADERS, timeout=40, data=data)
-            r.raise_for_status()
+            r = request(session, "POST", LIST_URL, log, f"클린아이 {tag} {page}p",
+                        delay=delay, headers=HEADERS, timeout=40, data=data)
             rows = r.json().get("list") or []
         except Exception as e:  # noqa: BLE001
             log(f"클린아이 {tag} {page}p 조회 실패: {e}")
@@ -115,6 +116,7 @@ def _pages(session, log, extra: dict, max_pages: int, code: dict, ncs: str, tag:
 
 
 def fetch(cfg: dict, log) -> list[Posting]:
+    delay = float(cfg.get("delay", 1.2))
     session = requests.Session()
     code = _codes(session)
 
@@ -136,7 +138,8 @@ def fetch(cfg: dict, log) -> list[Posting]:
     scanned = []
     if scan_pages:
         for st in statuses:
-            scanned += _pages(session, log, {"status": st}, scan_pages, code, "", f"전체/{st}")
+            scanned += _pages(session, log, {"status": st}, scan_pages, code, "",
+                              f"전체/{st}", delay)
 
     merged: dict[str, Posting] = {}
     for p in picked + scanned:

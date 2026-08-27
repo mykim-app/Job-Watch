@@ -12,7 +12,7 @@ from urllib.parse import quote
 import requests
 from bs4 import BeautifulSoup
 
-from .base import Posting, parse_ymd, squeeze
+from .base import Posting, parse_ymd, request, squeeze
 
 BASE = "https://www.gojobs.go.kr"
 LIST_URL = BASE + "/apmList.do"
@@ -39,6 +39,7 @@ def _list_table(soup: BeautifulSoup):
 
 def fetch(cfg: dict, log) -> list[Posting]:
     max_pages = int(cfg.get("max_pages", 3))
+    delay = float(cfg.get("delay", 1.2))
     keywords = cfg.get("query_keywords") or [""]
     session = requests.Session()
 
@@ -57,8 +58,8 @@ def fetch(cfg: dict, log) -> list[Posting]:
                 params["searchKeyword"] = kw
 
             try:
-                r = session.get(LIST_URL, params=params, headers=HEADERS, timeout=40)
-                r.raise_for_status()
+                r = request(session, "GET", LIST_URL, log, f"나라일터 '{kw}' {page}p",
+                            delay=delay, params=params, headers=HEADERS, timeout=40)
                 r.encoding = r.apparent_encoding or "utf-8"
                 soup = BeautifulSoup(r.text, "lxml")
             except Exception as e:  # noqa: BLE001

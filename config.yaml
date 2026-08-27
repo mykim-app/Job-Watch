@@ -3,7 +3,8 @@
 # ─────────────────────────────────────────────────────────────
 
 # 며칠 전 공고까지 훑을지 (중복은 어차피 걸러지므로 넉넉히 둬도 됨)
-lookback_days: 5
+# 이 값이 웹페이지에 보이는 기간과 맞물린다
+lookback_days: 30
 
 # 화면/데이터에 남겨둘 기간
 retention_days: 60
@@ -108,7 +109,7 @@ sources:
   # ── 1) 잡알리오 (공공데이터포털: 재정경제부_공공기관 채용정보 조회서비스)
   #     공기업 / 준정부기관 / 기타공공기관. 인증키 필요
   alio:
-    enabled: false
+    enabled: false          # apis.data.go.kr 는 막히는 곳이 많아 web 경로를 쓴다
     max_pages: 15          # 1페이지 100건
     ongoing_only: true     # 접수 진행중 공고만
 
@@ -120,8 +121,8 @@ sources:
   alio_web:
     enabled: true
     ncs_codes: ["R600020"]   # R600020 = 정보통신
-    max_pages: 5
-    since_days: 14
+    max_pages: 12
+    since_days: 30
 
   # ── 2) 클린아이 잡플러스
   #     지방공기업 / 지자체 출자출연기관. 인증키 불필요
@@ -130,15 +131,15 @@ sources:
     enabled: true
     recruit_field_codes: ["700020"]   # 700020 = 정보통신 (NCS 대분류 20)
     statuses: ["709001", "709002"]    # 709001 모집중 / 709002 모집예정 / 709003 모집마감
-    field_pages: 3                    # 상태별로 최근 30건씩
-    scan_pages: 4                     # 전체 목록도 상태별 최근 40건 훑기 (0 이면 생략)
+    field_pages: 6                    # 상태별로 최근 60건씩
+    scan_pages: 10                    # 전체 목록도 상태별 최근 100건 훑기 (0 이면 생략)
 
   # ── 3) 나라일터
   #     공무원 / 공공기관 경력채용. 인증키 불필요
   #     목록이 10건씩만 나와서 키워드별로 나눠 조회한다
   gojobs:
     enabled: true
-    max_pages: 3
+    max_pages: 6
     query_keywords:
       - 전산
       - 정보통신
@@ -155,7 +156,7 @@ sources:
     enabled: true
     count: 100          # 1회 최대 110
     max_pages: 2
-    since_days: 7       # 최근 7일 등록분만
+    since_days: 30      # 최근 30일 등록분만
     query_keywords:
       - 전산
       - 정보통신

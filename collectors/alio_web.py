@@ -20,7 +20,7 @@ LIST_URL = BASE + "/recruit.do"
 VIEW_URL = BASE + "/recruitview.do"
 LABEL = "잡알리오"
 
-from .base import Posting, squeeze  # noqa: E402
+from .base import Posting, request, squeeze  # noqa: E402
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/126.0",
@@ -60,9 +60,11 @@ def fetch(cfg: dict, log) -> list[Posting]:
     s_date = (today - timedelta(days=since_days)).strftime("%Y.%m.%d")
     e_date = today.strftime("%Y.%m.%d")
 
+    delay = float(cfg.get("delay", 1.2))
     session = requests.Session()
     try:
-        session.get(LIST_URL, headers=HEADERS, timeout=40).raise_for_status()
+        request(session, "GET", LIST_URL, log, "잡알리오(웹) 첫 접속",
+                delay=delay, headers=HEADERS, timeout=40)
     except Exception as e:  # noqa: BLE001
         log(f"잡알리오(웹): 첫 접속 실패 — {e}")
         return []
@@ -75,8 +77,8 @@ def fetch(cfg: dict, log) -> list[Posting]:
         data += [("detail_code", c) for c in codes]
 
         try:
-            r = session.post(LIST_URL, headers=HEADERS, data=data, timeout=40)
-            r.raise_for_status()
+            r = request(session, "POST", LIST_URL, log, f"잡알리오(웹) {page}p",
+                        delay=delay, headers=HEADERS, data=data, timeout=40)
             r.encoding = r.apparent_encoding or "utf-8"
             soup = BeautifulSoup(r.text, "lxml")
         except Exception as e:  # noqa: BLE001

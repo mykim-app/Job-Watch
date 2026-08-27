@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import re
+import time
 from dataclasses import dataclass, asdict, field
 from datetime import date, datetime
 
@@ -17,9 +18,24 @@ def squeeze(text) -> str:
     return _WS.sub(" ", str(text)).strip()
 
 
+# 같은 기관이 수집처마다 다르게 적혀 있어 중복 판정이 어긋나는 것을 막는다
+# 예: "한국중소벤처기업유통원" vs "주식회사한국중소벤처기업유통원"
+# 괄호 표기까지 살아 있는 상태에서 먼저 떼어낸다.
+# 기호를 지운 뒤에 처리하면 '(재)' 가 '재' 로 남아 '주택도시…' 같은 이름을 잘못 자른다.
+_ORG_PREFIX = re.compile(
+    r"^\s*(주식회사|유한회사|재단법인|사단법인|학교법인|특수법인|의료법인"
+    r"|㈜|\(\s*주\s*\)|\(\s*재\s*\)|\(\s*사\s*\)|\(\s*학\s*\)|\(\s*의\s*\))\s*"
+)
+
+
 def normalize_key(text) -> str:
-    """중복 판정용 정규화 — 공백·괄호·기호 제거, 소문자."""
+    """중복 판정용 정규화 — 법인 표기·공백·괄호·기호 제거, 소문자."""
     t = squeeze(text).lower()
+    for _ in range(3):                       # 표기가 겹쳐 붙은 경우까지
+        new = _ORG_PREFIX.sub("", t)
+        if new == t:
+            break
+        t = new
     t = _PUNCT.sub("", t)
     return t.replace(" ", "")
 
@@ -100,3 +116,27 @@ class Posting:
         d["cross_uid"] = self.cross_uid
         d["d_day"] = days_left(self.end_date)
         return d
+
+
+def request(session, method: str, url: str, log, tag: str = "", tries: int = 3,
+            delay: float = 1.2, **kw):
+    """요청 사이에 간격을 두고, 실패하면 몇 번 더 시도한다.
+
+    30일치처럼 페이지를 여러 장 넘길 때 서버가 503 을 돌려주는 일이 있어서
+    잠깐 쉬었다가 다시 부른다. 마지막까지 실패하면 예외를 그대로 올린다.
+    """
+    last = None
+    for attempt in range(1, tries + 1):
+        try:
+            r = session.request(method, url, **kw)
+            r.raise_for_status()
+            time.sleep(delay)
+            return r
+        except Exception as e:  # noqa: BLE001
+            last = e
+            if attempt < tries:
+                wait = delay * attempt * 3
+                if log and tag:
+                    log(f"  {tag} 재시도 {attempt}/{tries - 1} ({type(e).__name__}, {wait:.0f}초 후)")
+                time.sleep(wait)
+    raise last

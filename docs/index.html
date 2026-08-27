@@ -90,7 +90,7 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
 <div class="wrap">
   <div class="eyebrow" id="stamp-date">—</div>
   <h1>전산·통신직 채용 감시</h1>
-  <p class="sub">공공기관·지방공기업·공무원 채용공고를 매일 아침 한 번 훑습니다. 최근 3근무일치를 게시일 최신순으로 보여 줍니다.</p>
+  <p class="sub">공공기관·지방공기업·공무원 채용공고를 매일 아침 한 번 훑습니다. 최근 30일치를 게시일 최신순으로 보여 줍니다.</p>
 
   <div class="seal-row">
     <div class="seal zero" id="seal"><div><div class="n" id="seal-n">–</div><div class="lbl">신규</div></div></div>
@@ -110,6 +110,7 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const DAYS = ["일","월","화","수","목","금","토"];
+const WINDOW_DAYS = 30;   // 화면에 보여줄 기간. 이 숫자만 바꾸면 된다
 let ALL = [], SOURCE = "전체", TODAY = "", CUTOFF = "", ARCHIVE = false;
 
 const ddayText = d => d === null || d === undefined ? "" : (d < 0 ? "마감" : d === 0 ? "오늘 마감" : "D-" + d);
@@ -119,18 +120,10 @@ const fmt = iso => {
   return (d.getMonth() + 1) + "월 " + d.getDate() + "일(" + DAYS[d.getDay()] + ")";
 };
 
-// 오늘부터 거슬러 올라가 n번째 근무일의 날짜 (주말 건너뜀)
-function backBusinessDays(iso, n) {
+// 오늘부터 n일 전 날짜
+function backDays(iso, n) {
   const d = new Date(iso + "T00:00:00");
-  let counted = 0;
-  while (true) {
-    const wd = d.getDay();
-    if (wd !== 0 && wd !== 6) {
-      counted++;
-      if (counted >= n) break;
-    }
-    d.setDate(d.getDate() - 1);
-  }
+  d.setDate(d.getDate() - (n - 1));
   return d.toISOString().slice(0, 10);
 }
 
@@ -176,7 +169,7 @@ function render() {
     : '<div class="empty">오늘 새로 올라온 전산·통신직 공고가 없습니다.<br>내일 아침 9시에 다시 확인합니다.</div>';
 
   if (rest.length) {
-    html += '<div class="band"><span>' + (ARCHIVE ? "보관 중" : "지난 근무일") +
+    html += '<div class="band"><span>' + (ARCHIVE ? "보관 중" : "이전 공고") +
             '</span><span>' + rest.length + "건</span></div>";
     html += rest.map(p => card(p, false)).join("");
   }
@@ -184,7 +177,7 @@ function render() {
   const archived = ALL.filter(p => !p.duplicate_of_other_source &&
                                    (p.first_seen || "") < CUTOFF).length;
   if (ARCHIVE) {
-    html += '<button class="more on" id="toggle">최근 3근무일만 보기</button>';
+    html += '<button class="more on" id="toggle">최근 ' + WINDOW_DAYS + '일만 보기</button>';
   } else if (archived) {
     html += '<button class="more" id="toggle">보관 중인 지난 공고 ' + archived + "건 보기</button>";
   }
@@ -202,7 +195,7 @@ function refresh() {
   const n = render();
   $("#range").textContent = ARCHIVE
     ? "보관 중인 공고 전체 · 접수 진행 중인 건만"
-    : (CUTOFF ? fmt(CUTOFF) + " ~ " + fmt(TODAY) + " · 최근 3근무일" : "");
+    : (CUTOFF ? fmt(CUTOFF) + " ~ " + fmt(TODAY) + " · 최근 " + WINDOW_DAYS + "일" : "");
   return n;
 }
 
@@ -220,7 +213,7 @@ fetch("data/postings.json?v=" + Date.now())
   .then(d => {
     ALL = d.postings || [];
     TODAY = (d.updated_at || "").slice(0, 10) || (ALL[0] && ALL[0].first_seen) || "";
-    CUTOFF = TODAY ? backBusinessDays(TODAY, 3) : "";
+    CUTOFF = TODAY ? backDays(TODAY, WINDOW_DAYS) : "";
 
     const n = refresh();
 
@@ -230,7 +223,7 @@ fetch("data/postings.json?v=" + Date.now())
     $("#seal-title").textContent = n ? "새 공고 " + n + "건" : "새 공고 없음";
     $("#seal-note").textContent = n
       ? "아래 목록에서 확인하세요. 같은 공고는 다시 올라오지 않습니다."
-      : "최근 3근무일 안에 올라온 공고는 아래에 남아 있습니다.";
+      : "최근 " + WINDOW_DAYS + "일 안에 올라온 공고는 아래에 남아 있습니다.";
 
     $("#foot").innerHTML = "마지막 확인 " + esc(d.updated_at || "—") +
       " · 보관 중 " + ALL.length + "건<br>" +
