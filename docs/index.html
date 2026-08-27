@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>전산·통신직 채용 감시</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F2F4F7; --card:#FFFFFF; --ink:#10233A; --muted:#6B7789;
+  --rule:#DFE3EA; --seal:#0E7C6B; --alert:#B4331F;
+  --display:"Nanum Myeongjo",serif;
+  --body:Pretendard,-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  --data:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:680px;margin:0 auto;padding:22px 16px 64px}
+
+/* ── 머리말 */
+.eyebrow{font-family:var(--data);font-size:11px;letter-spacing:.14em;color:var(--muted);
+  text-transform:uppercase}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,7vw,34px);
+  line-height:1.24;letter-spacing:-.01em;margin:8px 0 6px}
+.sub{font-size:13.5px;line-height:1.6;color:var(--muted);margin:0}
+
+/* ── 접수인 (이 페이지의 signature) */
+.seal-row{display:flex;align-items:center;gap:18px;margin:26px 0 8px}
+.seal{flex:0 0 auto;width:104px;height:104px;display:grid;place-items:center;
+  border:2.5px solid var(--seal);border-radius:3px;color:var(--seal);
+  transform:rotate(-4deg);position:relative;background:var(--card)}
+.seal::after{content:"";position:absolute;inset:5px;border:1px solid var(--seal);
+  border-radius:2px;opacity:.55}
+.seal.zero{border-color:var(--muted);color:var(--muted)}
+.seal.zero::after{border-color:var(--muted)}
+.seal .n{font-family:var(--data);font-weight:500;font-size:40px;line-height:1}
+.seal .lbl{font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:.22em;
+  margin-top:5px;padding-left:.22em}
+.seal-text .big{font-family:var(--display);font-weight:800;font-size:19px;line-height:1.4}
+.seal-text .small{font-size:12.5px;color:var(--muted);margin-top:5px;line-height:1.55}
+@media (prefers-reduced-motion:no-preference){
+  .seal{animation:stamp .42s cubic-bezier(.2,1.5,.4,1) both}
+  @keyframes stamp{from{transform:rotate(-4deg) scale(1.5);opacity:0}
+    to{transform:rotate(-4deg) scale(1);opacity:1}}
+}
+
+/* ── 출처 필터 */
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin:26px 0 14px}
+.chip{font-family:var(--data);font-size:11.5px;letter-spacing:.02em;padding:6px 11px;
+  border:1px solid var(--rule);background:var(--card);color:var(--muted);
+  border-radius:2px;cursor:pointer}
+.chip[aria-pressed="true"]{border-color:var(--ink);color:var(--ink);font-weight:500}
+.chip:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
+
+/* ── 목록 */
+.band{font-family:var(--data);font-size:11px;letter-spacing:.14em;color:var(--muted);
+  border-top:1.5px solid var(--ink);padding-top:9px;margin:30px 0 0;
+  display:flex;justify-content:space-between;align-items:baseline}
+.item{background:var(--card);border:1px solid var(--rule);border-top:none;padding:15px 15px 14px}
+.item:first-of-type{border-top:1px solid var(--rule)}
+.item .org{font-size:12.5px;font-weight:600;color:var(--muted)}
+.item .ttl{display:block;font-size:16px;font-weight:600;line-height:1.48;
+  color:var(--ink);text-decoration:none;margin:4px 0 9px}
+.item .ttl:hover,.item .ttl:focus-visible{color:var(--seal);text-decoration:underline}
+.meta{font-family:var(--data);font-size:11.5px;color:var(--muted);display:flex;
+  flex-wrap:wrap;gap:5px 9px;align-items:center}
+.tag{border:1px solid var(--rule);padding:2px 6px;border-radius:2px}
+.tag.new{border-color:var(--seal);color:var(--seal)}
+.dday{font-weight:500}
+.dday.soon{color:var(--alert)}
+.empty{background:var(--card);border:1px dashed var(--rule);padding:26px 18px;
+  text-align:center;color:var(--muted);font-size:14px;line-height:1.7}
+footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
+  border-top:1px solid var(--rule);padding-top:14px}
+.more{margin-top:12px;font-family:var(--data);font-size:12px;background:none;
+  border:1px solid var(--rule);padding:9px 14px;color:var(--ink);cursor:pointer;width:100%}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow" id="stamp-date">—</div>
+  <h1>전산·통신직 채용 감시</h1>
+  <p class="sub">공공기관·지방공기업·협회 채용공고를 매일 아침 한 번 훑어, 어제까지 없던 공고만 골라 둡니다.</p>
+
+  <div class="seal-row">
+    <div class="seal zero" id="seal"><div><div class="n" id="seal-n">–</div><div class="lbl">신규</div></div></div>
+    <div class="seal-text">
+      <div class="big" id="seal-title">불러오는 중</div>
+      <div class="small" id="seal-note">잠시만 기다려 주세요.</div>
+    </div>
+  </div>
+
+  <div class="chips" id="chips"></div>
+  <div id="list"></div>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let ALL = [], SOURCE = "전체", SHOW_OLD = false;
+
+const ddayText = d => d === null || d === undefined ? "" : (d < 0 ? "마감" : d === 0 ? "오늘 마감" : "D-" + d);
+
+function card(p, isNew) {
+  const bits = [];
+  if (isNew) bits.push('<span class="tag new">신규</span>');
+  bits.push('<span class="tag">' + esc(p.source_label) + "</span>");
+  if (p.region) bits.push("<span>" + esc(p.region) + "</span>");
+  if (p.hire_type) bits.push("<span>" + esc(p.hire_type) + "</span>");
+  const d = ddayText(p.d_day);
+  if (d) bits.push('<span class="dday' + (typeof p.d_day === "number" && p.d_day <= 7 ? " soon" : "") + '">' + d + "</span>");
+  const period = [p.start_date, p.end_date].filter(Boolean).join(" ~ ");
+  if (period) bits.push("<span>" + esc(period) + "</span>");
+
+  const t = esc(p.title);
+  const title = p.url ? '<a class="ttl" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + t + "</a>"
+                      : '<span class="ttl">' + t + "</span>";
+  return '<article class="item"><div class="org">' + esc(p.org) + "</div>" + title +
+         '<div class="meta">' + bits.join("") + "</div></article>";
+}
+
+function render() {
+  const today = ALL.length ? ALL[0].first_seen : "";
+  const pool = SOURCE === "전체" ? ALL : ALL.filter(p => p.source_label === SOURCE);
+  const fresh = pool.filter(p => p.first_seen === today && !p.duplicate_of_other_source);
+  const rest  = pool.filter(p => p.first_seen !== today && !p.duplicate_of_other_source);
+
+  let html = '<div class="band"><span>오늘 신규</span><span>' + fresh.length + "건</span></div>";
+  html += fresh.length
+    ? fresh.map(p => card(p, true)).join("")
+    : '<div class="empty">오늘 새로 올라온 전산·통신직 공고가 없습니다.<br>내일 아침 9시에 다시 확인합니다.</div>';
+
+  if (rest.length) {
+    html += '<div class="band"><span>이전 공고</span><span>' + rest.length + "건</span></div>";
+    const shown = SHOW_OLD ? rest : rest.slice(0, 8);
+    html += shown.map(p => card(p, false)).join("");
+    if (!SHOW_OLD && rest.length > 8)
+      html += '<button class="more" id="more">이전 공고 ' + (rest.length - 8) + "건 더 보기</button>";
+  }
+  $("#list").innerHTML = html;
+  const more = $("#more");
+  if (more) more.onclick = () => { SHOW_OLD = true; render(); };
+  return fresh.length;
+}
+
+function chips(labels) {
+  $("#chips").innerHTML = ["전체", ...labels]
+    .map(l => '<button class="chip" aria-pressed="' + (l === SOURCE) + '">' + esc(l) + "</button>").join("");
+  $("#chips").querySelectorAll(".chip").forEach(b => b.onclick = () => {
+    SOURCE = b.textContent; SHOW_OLD = false;
+    chips(labels); render();
+  });
+}
+
+fetch("data/postings.json?v=" + Date.now())
+  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  .then(d => {
+    ALL = d.postings || [];
+    const today = ALL.length ? ALL[0].first_seen : "";
+    chips([...new Set(ALL.map(p => p.source_label))].sort());
+    const n = render();
+    $("#stamp-date").textContent = (d.updated_at || today || "").replace(/-/g, ".");
+    $("#seal-n").textContent = n;
+    $("#seal").classList.toggle("zero", n === 0);
+    $("#seal-title").textContent = n ? "새 공고 " + n + "건" : "새 공고 없음";
+    $("#seal-note").textContent = n
+      ? "아래 목록에서 확인하세요. 같은 공고는 다시 올라오지 않습니다."
+      : "이전에 확인한 공고는 아래에 그대로 남아 있습니다.";
+    $("#foot").innerHTML = "마지막 확인 " + esc(d.updated_at || "—") + " · 보관 중인 공고 " + ALL.length + "건<br>" +
+      "수집처: " + esc([...new Set(ALL.map(p => p.source_label))].join(", ") || "—");
+  })
+  .catch(() => {
+    $("#seal-title").textContent = "데이터가 아직 없습니다";
+    $("#seal-note").textContent = "GitHub Actions 를 한 번 실행하면 이 자리에 채워집니다.";
+    $("#list").innerHTML = '<div class="empty">Actions 탭 → daily-job-watch → Run workflow 로 첫 수집을 돌려보세요.</div>';
+  });
+</script>
+</body>
+</html>
