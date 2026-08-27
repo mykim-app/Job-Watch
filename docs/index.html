@@ -74,6 +74,19 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,7vw,34px);
 .tag.new{border-color:var(--seal);color:var(--seal)}
 .dday{font-weight:500}
 .dday.soon{color:var(--alert)}
+/* 읽은 공고 */
+.item.read{background:#FAFBFC}
+.item.read .ttl{color:var(--muted);font-weight:500}
+.item.read .org,.item.read .meta{color:#98A2B3}
+.item.read .tag{border-color:#E8EBF0;color:#98A2B3}
+.item.read .tag.new{border-color:#B8CFC9;color:#8FA9A3}
+.item.read .dday.soon{color:#C08A80}
+.item.read .ttl::after{content:"읽음";font-family:var(--data);font-size:10px;
+  letter-spacing:.08em;color:#98A2B3;margin-left:7px;vertical-align:1px;white-space:nowrap}
+.reset{background:none;border:none;padding:0;margin-top:8px;font-family:var(--data);
+  font-size:11.5px;color:var(--muted);cursor:pointer;text-decoration:underline}
+.reset:hover{color:var(--ink)}
+
 .empty{background:var(--card);border:1px dashed var(--rule);padding:26px 18px;
   text-align:center;color:var(--muted);font-size:14px;line-height:1.7}
 footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
@@ -104,6 +117,7 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
   <div class="chips" id="chips"></div>
   <div id="list"></div>
   <footer id="foot"></footer>
+  <div id="reset"></div>
 </div>
 
 <script>
@@ -111,6 +125,17 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const DAYS = ["일","월","화","수","목","금","토"];
 const WINDOW_DAYS = 30;   // 화면에 보여줄 기간. 이 숫자만 바꾸면 된다
+const READ_KEY = "jobwatch:read";
+
+// 읽은 공고는 이 브라우저에만 기록된다. 휴대폰과 PC는 따로 관리된다.
+function readSet() {
+  try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || "[]")); }
+  catch (e) { return new Set(); }
+}
+function saveRead(set) {
+  try { localStorage.setItem(READ_KEY, JSON.stringify([...set])); } catch (e) {}
+}
+let READ = readSet();
 let ALL = [], SOURCE = "전체", TODAY = "", CUTOFF = "", ARCHIVE = false;
 
 const ddayText = d => d === null || d === undefined ? "" : (d < 0 ? "마감" : d === 0 ? "오늘 마감" : "D-" + d);
@@ -129,6 +154,7 @@ function backDays(iso, n) {
 
 function card(p, isNew) {
   const bits = [];
+  const isRead = READ.has(p.uid);
   if (isNew) bits.push('<span class="tag new">신규</span>');
   bits.push('<span class="tag">' + esc(p.source_label) + "</span>");
   if (p.region) bits.push("<span>" + esc(p.region) + "</span>");
@@ -139,9 +165,11 @@ function card(p, isNew) {
   if (period) bits.push("<span>" + esc(period) + "</span>");
 
   const t = esc(p.title);
-  const title = p.url ? '<a class="ttl" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + t + "</a>"
-                      : '<span class="ttl">' + t + "</span>";
-  return '<article class="item"><div class="org">' + esc(p.org) + "</div>" + title +
+  const title = p.url
+    ? '<a class="ttl" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + t + "</a>"
+    : '<span class="ttl">' + t + "</span>";
+  return '<article class="item' + (isRead ? " read" : "") + '" data-uid="' + esc(p.uid) + '">' +
+         '<div class="org">' + esc(p.org) + "</div>" + title +
          '<div class="meta">' + bits.join("") + "</div></article>";
 }
 
@@ -183,9 +211,37 @@ function render() {
   }
 
   $("#list").innerHTML = html;
+
+  $("#list").querySelectorAll(".item .ttl[href]").forEach(a => a.addEventListener("click", () => {
+    const item = a.closest(".item");
+    const uid = item && item.dataset.uid;
+    if (!uid || READ.has(uid)) return;
+    READ.add(uid);
+    saveRead(READ);
+    item.classList.add("read");
+    updateReset();
+  }));
+
   const btn = $("#toggle");
   if (btn) btn.onclick = () => { ARCHIVE = !ARCHIVE; refresh(); window.scrollTo({top: 0}); };
   return fresh.length;
+}
+
+function updateReset() {
+  const known = new Set(ALL.map(p => p.uid));
+  const n = [...READ].filter(u => known.has(u)).length;
+  const box = $("#reset");
+  if (!box) return;
+  box.innerHTML = n
+    ? '<button class="reset" id="resetbtn">읽음 표시 지우기 (' + n + "건)</button>"
+    : "";
+  const b = $("#resetbtn");
+  if (b) b.onclick = () => {
+    READ = new Set([...READ].filter(u => !known.has(u)));   // 지금 화면 밖의 기록은 남긴다
+    saveRead(READ);
+    render();
+    updateReset();
+  };
 }
 
 function refresh() {
@@ -193,6 +249,7 @@ function refresh() {
   if (!labels.includes(SOURCE)) SOURCE = "전체";
   chips(labels);
   const n = render();
+  updateReset();
   $("#range").textContent = ARCHIVE
     ? "보관 중인 공고 전체 · 접수 진행 중인 건만"
     : (CUTOFF ? fmt(CUTOFF) + " ~ " + fmt(TODAY) + " · 최근 " + WINDOW_DAYS + "일" : "");
@@ -214,6 +271,12 @@ fetch("data/postings.json?v=" + Date.now())
     ALL = d.postings || [];
     TODAY = (d.updated_at || "").slice(0, 10) || (ALL[0] && ALL[0].first_seen) || "";
     CUTOFF = TODAY ? backDays(TODAY, WINDOW_DAYS) : "";
+
+    const known = new Set(ALL.map(p => p.uid));
+    if (READ.size > known.size * 3 + 50) {          // 너무 불어나면 정리
+      READ = new Set([...READ].filter(u => known.has(u)));
+      saveRead(READ);
+    }
 
     const n = refresh();
 
