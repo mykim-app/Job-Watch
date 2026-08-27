@@ -1,22 +1,20 @@
-"""잡알리오 — 공공데이터포털 '재정경제부_공공기관 채용정보 조회서비스'.
-
-data.go.kr 에서 활용신청 후 받은 일반 인증키(Decoding)를 ALIO_SERVICE_KEY 로 넣는다.
-응답 필드명이 바뀌어도 되도록 pick() 으로 느슨하게 읽는다.
-"""
+"""잡알리오 — 공공데이터포털 '재정경제부_공공기관 채용정보 조회서비스'."""
 
 from __future__ import annotations
 
 import os
+import time
+
 import requests
 
 from .base import Posting, parse_ymd, pick, squeeze
 
-ENDPOINT = "https://apis.data.go.kr/1051000/recruitment/list"
+PATH = "/1051000/recruitment/list"
+HOSTS = ["https://apis.data.go.kr", "http://apis.data.go.kr"]
 LABEL = "잡알리오"
 
 
 def _rows(payload) -> list:
-    """{'result': [...]} / {'response':{'body':{'items':[...]}}} 등 어떤 형태든 목록을 찾아낸다."""
     if isinstance(payload, list):
         return [r for r in payload if isinstance(r, dict)]
     if not isinstance(payload, dict):
@@ -28,6 +26,25 @@ def _rows(payload) -> list:
         if key in payload:
             return _rows(payload[key])
     return []
+
+
+def _get(params: dict, log):
+    """https → http 순으로, 각 3회까지 시도한다."""
+    last = None
+    for base in HOSTS:
+        for attempt in range(1, 4):
+            try:
+                r = requests.get(base + PATH, params=params, timeout=(60, 90))
+                r.raise_for_status()
+                if base.startswith("http://"):
+                    log("  (https 실패로 http 로 붙었음)")
+                return r
+            except Exception as e:  # noqa: BLE001
+                last = e
+                kind = type(e).__name__
+                log(f"  {base[:5]} 시도 {attempt}/3 실패: {kind}")
+                time.sleep(attempt * 5)
+    raise last
 
 
 def fetch(cfg: dict, log) -> list[Posting]:
@@ -50,15 +67,20 @@ def fetch(cfg: dict, log) -> list[Posting]:
             params["ongoingYn"] = "Y"
 
         try:
-            r = requests.get(ENDPOINT, params=params, timeout=30)
-            r.raise_for_status()
-            data = r.json()
+            r = _get(params, log)
         except Exception as e:  # noqa: BLE001
-            log(f"잡알리오 {page}p 조회 실패: {e}")
+            log(f"잡알리오 {page}p 최종 실패: {e}")
+            break
+
+        try:
+            data = r.json()
+        except ValueError:
+            log(f"잡알리오 {page}p 응답이 JSON 이 아님. 앞부분: {r.text[:200]}")
             break
 
         rows = _rows(data)
         if not rows:
+            log(f"잡알리오 {page}p 목록 없음. 응답 앞부분: {str(data)[:200]}")
             break
 
         for row in rows:
