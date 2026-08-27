@@ -121,14 +121,22 @@ def fetch(cfg: dict, log) -> list[Posting]:
     # 1) 모집분야 = 정보통신(700020) 으로 지정해 조회
     field_codes = cfg.get("recruit_field_codes") or ["700020"]
     field_pages = int(cfg.get("field_pages", 4))
+    # 709001 모집중 / 709002 모집예정 / 709003 모집마감
+    statuses = cfg.get("statuses") or ["709001", "709002"]
+
     picked = []
     for fc in field_codes:
-        picked += _pages(session, log, {"entRecruitList[]": fc},
-                         field_pages, code, "정보통신", f"분야{fc}")
+        for st in statuses:
+            picked += _pages(session, log,
+                             {"entRecruitList[]": fc, "status": st},
+                             field_pages, code, "정보통신", f"분야{fc}/{st}")
 
     # 2) 전체 목록도 최근 몇 페이지 훑기
     scan_pages = int(cfg.get("scan_pages", 5))
-    scanned = _pages(session, log, {}, scan_pages, code, "", "전체") if scan_pages else []
+    scanned = []
+    if scan_pages:
+        for st in statuses:
+            scanned += _pages(session, log, {"status": st}, scan_pages, code, "", f"전체/{st}")
 
     merged: dict[str, Posting] = {}
     for p in picked + scanned:

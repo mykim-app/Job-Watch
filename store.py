@@ -22,8 +22,9 @@ def load() -> dict:
         return {"updated_at": "", "postings": []}
 
 
-def merge(existing: dict, fresh: list[dict], today: str, retention_days: int) -> tuple[dict, list[dict]]:
-    """기존 데이터에 오늘 수집분을 합치고, (전체, 오늘 신규) 를 돌려준다."""
+def merge(existing: dict, fresh: list[dict], today: str, retention_days: int,
+          drop_closed: bool = True) -> tuple[dict, list[dict], int]:
+    """기존 데이터에 오늘 수집분을 합치고, (전체, 오늘 신규, 정리된 마감건수) 를 돌려준다."""
     by_uid = {p["uid"]: p for p in existing.get("postings", [])}
     known_cross = {p.get("cross_uid") for p in by_uid.values()}
 
@@ -50,9 +51,17 @@ def merge(existing: dict, fresh: list[dict], today: str, retention_days: int) ->
 
     cutoff = (date.fromisoformat(today) - timedelta(days=retention_days)).isoformat()
     postings = [p for p in by_uid.values() if p.get("first_seen", today) >= cutoff]
+
+    expired = 0
+    if drop_closed:
+        before = len(postings)
+        # 마감일이 지난 공고는 화면에서 뺀다 (마감 당일까지는 남긴다)
+        postings = [p for p in postings if not (p.get("end_date") and p["end_date"] < today)]
+        expired = before - len(postings)
+
     postings.sort(key=lambda p: (p.get("first_seen", ""), p.get("org", "")), reverse=True)
 
-    return {"updated_at": "", "postings": postings}, new_items
+    return {"updated_at": "", "postings": postings}, new_items, expired
 
 
 def save(payload: dict, updated_at: str) -> None:

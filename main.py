@@ -47,6 +47,8 @@ def main() -> int:
         print("수집된 공고가 0건입니다. 인증키와 설정을 확인하세요.")
 
     # ── 필터
+    drop_closed = bool(cfg.get("drop_closed", True))
+    closed = 0
     kept: list[dict] = []
     for post in raw:
         ok, hits = match(post, f)
@@ -55,14 +57,22 @@ def main() -> int:
         # 접수 시작일을 모르는 곳(HTML 게시판 등)은 날짜로 자르지 않는다
         if post.start_date and post.start_date < cutoff:
             continue
+        # 접수가 이미 끝난 공고는 받지 않는다 (마감일이 없으면 상시채용으로 보고 남김)
+        if drop_closed and post.end_date and post.end_date < today:
+            closed += 1
+            continue
         post.matched = hits
         kept.append(post.to_dict())
 
-    print(f"전산·통신직 필터 통과: {len(kept)}건")
+    print(f"전산·통신직 필터 통과: {len(kept)}건" + (f" (마감 지난 공고 {closed}건 제외)" if closed else ""))
 
     # ── 중복 제거 & 저장
     existing = store.load()
-    merged, new_items = store.merge(existing, kept, today, int(cfg.get("retention_days", 60)))
+    merged, new_items, expired = store.merge(
+        existing, kept, today, int(cfg.get("retention_days", 60)), drop_closed
+    )
+    if expired:
+        print(f"보관 목록에서 마감된 공고 {expired}건 정리")
     store.save(merged, now.strftime("%Y-%m-%d %H:%M"))
 
     print(f"신규 공고: {len(new_items)}건 / 보관 중: {len(merged['postings'])}건")
