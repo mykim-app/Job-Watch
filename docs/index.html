@@ -47,8 +47,11 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,7vw,34px);
     to{transform:rotate(-4deg) scale(1);opacity:1}}
 }
 
+.range{font-family:var(--data);font-size:11.5px;color:var(--muted);margin-top:24px;
+  letter-spacing:.02em}
+
 /* ── 출처 필터 */
-.chips{display:flex;flex-wrap:wrap;gap:7px;margin:26px 0 14px}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 14px}
 .chip{font-family:var(--data);font-size:11.5px;letter-spacing:.02em;padding:6px 11px;
   border:1px solid var(--rule);background:var(--card);color:var(--muted);
   border-radius:2px;cursor:pointer}
@@ -83,7 +86,7 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
 <div class="wrap">
   <div class="eyebrow" id="stamp-date">—</div>
   <h1>전산·통신직 채용 감시</h1>
-  <p class="sub">공공기관·지방공기업·협회 채용공고를 매일 아침 한 번 훑어, 어제까지 없던 공고만 골라 둡니다.</p>
+  <p class="sub">공공기관·지방공기업·공무원 채용공고를 매일 아침 한 번 훑습니다. 최근 3근무일치를 게시일 최신순으로 보여 줍니다.</p>
 
   <div class="seal-row">
     <div class="seal zero" id="seal"><div><div class="n" id="seal-n">–</div><div class="lbl">신규</div></div></div>
@@ -93,6 +96,7 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
     </div>
   </div>
 
+  <div class="range" id="range"></div>
   <div class="chips" id="chips"></div>
   <div id="list"></div>
   <footer id="foot"></footer>
@@ -101,9 +105,30 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
 <script>
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-let ALL = [], SOURCE = "전체", SHOW_OLD = false;
+const DAYS = ["일","월","화","수","목","금","토"];
+let ALL = [], SOURCE = "전체", TODAY = "", CUTOFF = "";
 
 const ddayText = d => d === null || d === undefined ? "" : (d < 0 ? "마감" : d === 0 ? "오늘 마감" : "D-" + d);
+const posted = p => p.start_date || p.first_seen || "";
+const fmt = iso => {
+  const d = new Date(iso + "T00:00:00");
+  return (d.getMonth() + 1) + "월 " + d.getDate() + "일(" + DAYS[d.getDay()] + ")";
+};
+
+// 오늘부터 거슬러 올라가 n번째 근무일의 날짜 (주말 건너뜀)
+function backBusinessDays(iso, n) {
+  const d = new Date(iso + "T00:00:00");
+  let counted = 0;
+  while (true) {
+    const wd = d.getDay();
+    if (wd !== 0 && wd !== 6) {
+      counted++;
+      if (counted >= n) break;
+    }
+    d.setDate(d.getDate() - 1);
+  }
+  return d.toISOString().slice(0, 10);
+}
 
 function card(p, isNew) {
   const bits = [];
@@ -123,11 +148,19 @@ function card(p, isNew) {
          '<div class="meta">' + bits.join("") + "</div></article>";
 }
 
+// 게시일 최신순, 같으면 발견일 최신순, 그다음 기관명
+const byNewest = (a, b) =>
+  posted(b).localeCompare(posted(a)) ||
+  (b.first_seen || "").localeCompare(a.first_seen || "") ||
+  (a.org || "").localeCompare(b.org || "", "ko");
+
 function render() {
-  const today = ALL.length ? ALL[0].first_seen : "";
-  const pool = SOURCE === "전체" ? ALL : ALL.filter(p => p.source_label === SOURCE);
-  const fresh = pool.filter(p => p.first_seen === today && !p.duplicate_of_other_source);
-  const rest  = pool.filter(p => p.first_seen !== today && !p.duplicate_of_other_source);
+  const pool = (SOURCE === "전체" ? ALL : ALL.filter(p => p.source_label === SOURCE))
+    .filter(p => !p.duplicate_of_other_source)
+    .filter(p => (p.first_seen || "") >= CUTOFF);
+
+  const fresh = pool.filter(p => p.first_seen === TODAY).sort(byNewest);
+  const rest  = pool.filter(p => p.first_seen !== TODAY).sort(byNewest);
 
   let html = '<div class="band"><span>오늘 신규</span><span>' + fresh.length + "건</span></div>";
   html += fresh.length
@@ -135,15 +168,10 @@ function render() {
     : '<div class="empty">오늘 새로 올라온 전산·통신직 공고가 없습니다.<br>내일 아침 9시에 다시 확인합니다.</div>';
 
   if (rest.length) {
-    html += '<div class="band"><span>이전 공고</span><span>' + rest.length + "건</span></div>";
-    const shown = SHOW_OLD ? rest : rest.slice(0, 8);
-    html += shown.map(p => card(p, false)).join("");
-    if (!SHOW_OLD && rest.length > 8)
-      html += '<button class="more" id="more">이전 공고 ' + (rest.length - 8) + "건 더 보기</button>";
+    html += '<div class="band"><span>지난 근무일</span><span>' + rest.length + "건</span></div>";
+    html += rest.map(p => card(p, false)).join("");
   }
   $("#list").innerHTML = html;
-  const more = $("#more");
-  if (more) more.onclick = () => { SHOW_OLD = true; render(); };
   return fresh.length;
 }
 
@@ -151,7 +179,7 @@ function chips(labels) {
   $("#chips").innerHTML = ["전체", ...labels]
     .map(l => '<button class="chip" aria-pressed="' + (l === SOURCE) + '">' + esc(l) + "</button>").join("");
   $("#chips").querySelectorAll(".chip").forEach(b => b.onclick = () => {
-    SOURCE = b.textContent; SHOW_OLD = false;
+    SOURCE = b.textContent;
     chips(labels); render();
   });
 }
@@ -160,23 +188,32 @@ fetch("data/postings.json?v=" + Date.now())
   .then(r => r.ok ? r.json() : Promise.reject(r.status))
   .then(d => {
     ALL = d.postings || [];
-    const today = ALL.length ? ALL[0].first_seen : "";
-    chips([...new Set(ALL.map(p => p.source_label))].sort());
+    TODAY = (d.updated_at || "").slice(0, 10) || (ALL[0] && ALL[0].first_seen) || "";
+    CUTOFF = TODAY ? backBusinessDays(TODAY, 3) : "";
+
+    const labels = [...new Set(ALL.filter(p => (p.first_seen || "") >= CUTOFF)
+                                  .map(p => p.source_label))].sort();
+    chips(labels);
     const n = render();
-    $("#stamp-date").textContent = (d.updated_at || today || "").replace(/-/g, ".");
+
+    $("#stamp-date").textContent = (d.updated_at || TODAY || "").replace(/-/g, ".");
+    $("#range").textContent = CUTOFF ? fmt(CUTOFF) + " ~ " + fmt(TODAY) + " · 최근 3근무일" : "";
     $("#seal-n").textContent = n;
     $("#seal").classList.toggle("zero", n === 0);
     $("#seal-title").textContent = n ? "새 공고 " + n + "건" : "새 공고 없음";
     $("#seal-note").textContent = n
       ? "아래 목록에서 확인하세요. 같은 공고는 다시 올라오지 않습니다."
-      : "이전에 확인한 공고는 아래에 그대로 남아 있습니다.";
-    $("#foot").innerHTML = "마지막 확인 " + esc(d.updated_at || "—") + " · 보관 중인 공고 " + ALL.length + "건<br>" +
-      "수집처: " + esc([...new Set(ALL.map(p => p.source_label))].join(", ") || "—");
+      : "최근 3근무일 안에 올라온 공고는 아래에 남아 있습니다.";
+
+    const shown = ALL.filter(p => (p.first_seen || "") >= CUTOFF).length;
+    $("#foot").innerHTML = "마지막 확인 " + esc(d.updated_at || "—") +
+      " · 화면에 표시 " + shown + "건 / 보관 중 " + ALL.length + "건<br>" +
+      "접수가 끝난 공고는 자동으로 빠집니다.";
   })
   .catch(() => {
     $("#seal-title").textContent = "데이터가 아직 없습니다";
-    $("#seal-note").textContent = "GitHub Actions 를 한 번 실행하면 이 자리에 채워집니다.";
-    $("#list").innerHTML = '<div class="empty">Actions 탭 → daily-job-watch → Run workflow 로 첫 수집을 돌려보세요.</div>';
+    $("#seal-note").textContent = "수집을 한 번 실행하면 이 자리에 채워집니다.";
+    $("#list").innerHTML = '<div class="empty">NAS에서 run.sh 를 한 번 실행해 보세요.</div>';
   });
 </script>
 </body>
