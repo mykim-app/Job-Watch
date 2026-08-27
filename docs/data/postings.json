@@ -1,4 +1,382 @@
 {
- "updated_at": "2026-08-27 13:35",
- "postings": []
+ "updated_at": "2026-08-27 14:03",
+ "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한전KDN",
+   "title": "한전KDN(주) 원전인프라부 프로젝트계약근로자 채용공고",
+   "url": ".",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-07",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "대전,경북",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "2ab904ff72d51187",
+   "cross_uid": "0966c151a0ba62d6",
+   "d_day": 11
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한전KDN",
+   "title": "한전KDN(주) 강원사업처 AMI분야 비정규직(장애인) 모집공고",
+   "url": "없음",
+   "start_date": "2026-08-25",
+   "end_date": "2026-09-08",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "강원",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "a0ab6e1d81e61ca9",
+   "cross_uid": "57b2f9a7cc4789b7",
+   "d_day": 12
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한전KDN",
+   "title": "한전KDN(주) 부산본부 미터링사업팀 AMI 일괄위탁 작업원 모집공고(26-7차)",
+   "url": "없음.",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-07",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "부산",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "e1c52808ead80c68",
+   "cross_uid": "d2dc2cb563053f43",
+   "d_day": 11
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한전KDN",
+   "title": "한전KDN(주) 광주전남본부 전력통신분야 비정규직 모집공고",
+   "url": ",",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-07",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "전남광주",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "788625e821fa60a0",
+   "cross_uid": "4aca7b3e088d6469",
+   "d_day": 11
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한전KDN",
+   "title": "한전KDN(주) 광주전남본부 AMI분야 비정규직 모집공고",
+   "url": ",",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-07",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "전남광주",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "8e45ce315fd539fc",
+   "cross_uid": "b5aa2c45c407f6e2",
+   "d_day": 11
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한전KDN",
+   "title": "한전KDN(주) 목포지사 AMI분야 비정규직 모집공고",
+   "url": ",",
+   "start_date": "2026-08-25",
+   "end_date": "2026-09-08",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "전남광주",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "4404e9a07c1f9368",
+   "cross_uid": "9026e9ff63bdcbce",
+   "d_day": 12
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한전KDN",
+   "title": "한전KDN(주) 대구본부 포항지사 AMI분야 작업원 모집공고",
+   "url": "없음",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-07",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "대구,경북",
+   "ncs": "전기.전자,정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "d521b67a97ab0d98",
+   "cross_uid": "ecc4813cf21f4ce2",
+   "d_day": 11
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국수자원공사",
+   "title": "[한국수자원공사] 제주지역협력본부 한림·한경 및 대정·안덕 유수율 유지관리사업 특수직(기술관리_건설사업) 채용 공고",
+   "url": "https://k-water.recruiter.co.kr",
+   "start_date": "2026-08-26",
+   "end_date": "2026-09-09",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "제주",
+   "ncs": "사업관리,건설,기계,전기.전자,정보통신,환경.에너지.안전",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "a0ccdc9d9c6181ca",
+   "cross_uid": "4de76ca453cc15e3",
+   "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국산업기술시험원",
+   "title": "2026년 한국산업기술시험원 정규직 채용 공고",
+   "url": "https://ktl2026.careerlink.kr/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-08",
+   "hire_type": "정규직,무기계약직,청년인턴(채용형)",
+   "recruit_type": "신입",
+   "region": "서울,대구,경기,강원,충남,경북,경남",
+   "ncs": "경영.회계.사무,교육.자연.사회과학,건설,기계,재료,화학,전기.전자,정보통신,환경.에너지.안전",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "c94224839731a72b",
+   "cross_uid": "691f1b155d7cda6c",
+   "d_day": 12
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국방송통신전파진흥원",
+   "title": "한국방송통신전파진흥원 체험형 청년인턴 채용 공고",
+   "url": "https://www.kca.kr/boardList.do?pageId=www48&boardId=CAREERS",
+   "start_date": "2026-08-27",
+   "end_date": "2026-09-10",
+   "hire_type": "청년인턴(체험형)",
+   "recruit_type": "신입",
+   "region": "전남광주",
+   "ncs": "경영.회계.사무",
+   "matched": [
+    "통신",
+    "방송통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "f92abd4bfa252010",
+   "cross_uid": "b05bc9d88135d106",
+   "d_day": 14
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국방송통신전파진흥원",
+   "title": "한국방송통신전파진흥원 휴직 대체인력(대체인력뱅크) 채용 공고",
+   "url": "https://www.kca.kr/boardList.do?pageId=www48&boardId=CAREERS",
+   "start_date": "2026-08-27",
+   "end_date": "2026-09-10",
+   "hire_type": "비정규직",
+   "recruit_type": "신입",
+   "region": "전남광주",
+   "ncs": "경영.회계.사무",
+   "matched": [
+    "통신",
+    "방송통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "a654d371eb547cdc",
+   "cross_uid": "abd92015ed86a16f",
+   "d_day": 14
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국방송통신전파진흥원",
+   "title": "한국방송통신전파진흥원 경력·신입 직원 채용 공고",
+   "url": "https://www.kca.kr/boardList.do?pageId=www48&boardId=CAREERS",
+   "start_date": "2026-08-27",
+   "end_date": "2026-09-10",
+   "hire_type": "무기계약직,비정규직",
+   "recruit_type": "신입+경력",
+   "region": "대구,경기,전남광주",
+   "ncs": "경영.회계.사무",
+   "matched": [
+    "통신",
+    "방송통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "5185e6ebeae62705",
+   "cross_uid": "4102f4b0f8a03361",
+   "d_day": 14
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국동서발전(주)",
+   "title": "한국동서발전(주) 2026년 사회형평 신입직원(대졸수준(보훈/장애)) 선발",
+   "url": "https://ewp.saramin.co.kr",
+   "start_date": "2026-08-26",
+   "end_date": "2026-09-09",
+   "hire_type": "정규직",
+   "recruit_type": "신입",
+   "region": "울산,경기,강원,충북,충남,전남광주,제주",
+   "ncs": "경영.회계.사무,화학,정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "98f5ca3639494272",
+   "cross_uid": "b6ddded84cd13dc8",
+   "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국노인인력개발원",
+   "title": "2026년 한국노인인력개발원 3분기 기간제 근로자(전산) 채용 공고",
+   "url": "https://kordi1.applyin.co.kr",
+   "start_date": "2026-08-26",
+   "end_date": "2026-09-09",
+   "hire_type": "비정규직",
+   "recruit_type": "신입",
+   "region": "경기",
+   "ncs": "사업관리,경영.회계.사무",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "d5ac9d7b76e6b6a2",
+   "cross_uid": "1b9fb9bc59bd7f16",
+   "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국과학기술기획평가원",
+   "title": "한국과학기술기획평가원 제2026-4회 위촉연구직 공개채용",
+   "url": "https://kistep2026.recruiter.co.kr/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-08",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "충북",
+   "ncs": "사업관리,경영.회계.사무,교육.자연.사회과학,법률.경찰.소방.교도.국방,기계,재료,화학,섬유.의복,전기.전자,정보통신,환경.에너지.안전,연구",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "0d21d25a24d3605f",
+   "cross_uid": "7bef7f3de2402f86",
+   "d_day": 12
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "중소벤처기업진흥공단",
+   "title": "2026년 하반기 중소벤처기업진흥공단 일반직(신입·경력) 채용 공고",
+   "url": "https://kosmes.applyin.co.kr",
+   "start_date": "2026-08-26",
+   "end_date": "2026-09-10",
+   "hire_type": "정규직",
+   "recruit_type": "신입+경력",
+   "region": "서울,부산,대구,인천,대전,울산,세종,경기,강원,충북,충남,전북,전남광주,경북,경남,제주,해외",
+   "ncs": "사업관리,경영.회계.사무,금융.보험,법률.경찰.소방.교도.국방,문화.예술.디자인.방송,영업판매,기계,재료,화학,전기.전자,정보통신,환경.에너지.안전",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "840afadfcea96e8a",
+   "cross_uid": "697af0743261437a",
+   "d_day": 14
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국립생태원",
+   "title": "2026년 국립생태원 신규직원 채용 공고",
+   "url": "https://nie.careeron.co.kr/#/",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-09",
+   "hire_type": "정규직,무기계약직,청년인턴(채용형)",
+   "recruit_type": "신입+경력",
+   "region": "충남,경북,경남",
+   "ncs": "경영.회계.사무,교육.자연.사회과학,문화.예술.디자인.방송,운전.운송,경비.청소,이용.숙박.여행.오락.스포츠,음식서비스,건설,기계,정보통신,환경.에너지.안전,농림어업",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "3a38edf512125d63",
+   "cross_uid": "d20f1f78dee8cf6a",
+   "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국립생태원",
+   "title": "2026년 제1차 국립생태원 기간제근로자(육아휴직 대체) 채용 공고",
+   "url": "https://nierecruit.fairy.im/announcement/detail/116",
+   "start_date": "2026-08-27",
+   "end_date": "2026-09-11",
+   "hire_type": "비정규직",
+   "recruit_type": "신입+경력",
+   "region": "세종,충남,경북,경남",
+   "ncs": "경영.회계.사무,교육.자연.사회과학,운전.운송,정보통신,환경.에너지.안전",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "60aa108fae879b58",
+   "cross_uid": "09ba461176cfb363",
+   "d_day": 15
+  }
+ ]
 }
