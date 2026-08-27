@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-27 14:44",
+ "updated_at": "2026-08-27 14:52",
  "postings": [
   {
    "source": "alio",
@@ -593,26 +593,6 @@
    "d_day": 1
   },
   {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "한국사학진흥재단",
-   "title": "한국사학진흥재단 2026년 2차 직원 채용 공고 (기간계약직)(기록물관리, 행정, 전산)",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=299360",
-   "start_date": "2026-07-28",
-   "end_date": "2026-08-04",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "7b8b9fe65c89ebec",
-   "cross_uid": "7ddcf1e07adcdd88",
-   "d_day": -23
-  },
-  {
    "source": "alio",
    "source_label": "잡알리오",
    "org": "한국방송통신전파진흥원",
@@ -926,48 +906,6 @@
    "d_day": 6
   },
   {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "정보통신산업진흥원",
-   "title": "정보통신산업진흥원 공무정규직(운영지원) 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=299359",
-   "start_date": "2026-07-28",
-   "end_date": "2026-08-12",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "5be905acd1961126",
-   "cross_uid": "b898ab8c53ec9de3",
-   "d_day": -15
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "정보통신산업진흥원",
-   "title": "정보통신산업진흥원 정규직(일반직 및 전문직) 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=299352",
-   "start_date": "2026-07-28",
-   "end_date": "2026-08-12",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "028b2f05a6b399f6",
-   "cross_uid": "61a21d80719861fe",
-   "d_day": -15
-  },
-  {
    "source": "alio",
    "source_label": "잡알리오",
    "org": "정보통신기획평가원",
@@ -989,126 +927,24 @@
    "d_day": 8
   },
   {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "전남대학교",
-   "title": "2026년도 제9회 계약직원(전산원) 경력경쟁채용 변경공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=299700",
-   "start_date": "2026-07-31",
-   "end_date": "2026-08-10",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "c884f7adebfef271",
-   "cross_uid": "a2156e3773731949",
-   "d_day": -17
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "전남대학교",
-   "title": "2026년도 제9회 계약직원(전산원) 경력경쟁채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=299641",
-   "start_date": "2026-07-31",
-   "end_date": "2026-08-10",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "c3c88a9f5150fa02",
-   "cross_uid": "291b883e3f37cfcb",
-   "d_day": -17
-  },
-  {
    "source": "cleaneye",
    "source_label": "클린아이",
-   "org": "인천스마트시티(주)",
-   "title": "인천스마트시티(주) 2026년 제3 채용공고(CCTV 모니터링 제한 경쟁)",
-   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000171&entSeq=000004",
-   "start_date": "2026-07-30",
-   "end_date": "2026-08-10",
-   "hire_type": "무기계약직",
-   "recruit_type": "신입+경력",
-   "region": "인천광역시",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "3913d259520f16cd",
-   "cross_uid": "7b5b17037dbd4be9",
-   "d_day": -17
-  },
-  {
-   "source": "cleaneye",
-   "source_label": "클린아이",
-   "org": "의왕도시공사",
-   "title": "2026년 제6차 기간제근로자 및 전임계약직 채용 공고",
-   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=2011000019&entSeq=000028",
-   "start_date": "2026-07-30",
-   "end_date": "2026-08-06",
-   "hire_type": "기간제",
+   "org": "성북문화재단",
+   "title": "(제26-25호)성북문화재단 정규직 채용 공고(8급-사서-전산사서)",
+   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000276&entSeq=000025",
+   "start_date": "2026-09-03",
+   "end_date": "2026-09-09",
+   "hire_type": "일반정규직",
    "recruit_type": "신입",
-   "region": "경기도",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "ff8d2af1a8e849eb",
-   "cross_uid": "9e99b7cb5a8625d6",
-   "d_day": -21
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "서울특별시교육청 서울특별시동작관악교육지원청 서울신남성초등학교",
-   "title": "(서울신남성초등학교) 기간제근로자(교육실무사_전산) 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=301078",
-   "start_date": "2026-08-14",
-   "end_date": "2026-08-18",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
+   "region": "서울특별시",
    "ncs": "",
    "matched": [
     "전산"
    ],
    "first_seen": "2026-08-27",
-   "uid": "f90c4dc7f7639efa",
-   "cross_uid": "5a57b701af42dd82",
-   "d_day": -9
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "서울특별시교육청 서울특별시남부교육지원청 서울신대림초등학교",
-   "title": "서울신대림초등학교 교육실무사[전산] 대체직원 채용계획 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=300958",
-   "start_date": "2026-08-13",
-   "end_date": "2026-08-18",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "e95827fbe55fd85d",
-   "cross_uid": "5bec281c46086888",
-   "d_day": -9
+   "uid": "86d072cd07278143",
+   "cross_uid": "a3039156139d43b9",
+   "d_day": 13
   },
   {
    "source": "gojobs",
@@ -1129,26 +965,6 @@
    "uid": "d7a62aeed454c041",
    "cross_uid": "0de495bf1eebb276",
    "d_day": 12
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "서울특별시 서대문구 의회사무국",
-   "title": "시간선택제임기제 공무원(방송전산) 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=300133",
-   "start_date": "2026-08-04",
-   "end_date": "2026-08-21",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "372d4b64e247acda",
-   "cross_uid": "84135e1d2d4bd51f",
-   "d_day": -6
   },
   {
    "source": "cleaneye",
@@ -1212,26 +1028,6 @@
    "uid": "e2ed44f7b974c36c",
    "cross_uid": "75805d34c9ca6646",
    "d_day": 11
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "보건복지부 국립정신건강센터",
-   "title": "2026년 제4회 국립정신건강센터 직원(보안요원, 정신건강전문요원,연구원[전산])채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=300030",
-   "start_date": "2026-08-05",
-   "end_date": "2026-08-12",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "9a3ab750f77d66f5",
-   "cross_uid": "a3f7583193f0f603",
-   "d_day": -15
   },
   {
    "source": "gojobs",
@@ -1313,26 +1109,6 @@
    "uid": "9617f8c201250dfb",
    "cross_uid": "4cd986e58c5192e2",
    "d_day": 7
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "국립한밭대학교",
-   "title": "국립한밭대학교 국가공무원(전산8급) 경력경쟁채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=299968",
-   "start_date": "2026-08-04",
-   "end_date": "2026-08-14",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "231131499cbc0f1b",
-   "cross_uid": "96154b84ba07bc3a",
-   "d_day": -13
   },
   {
    "source": "alio",
@@ -1501,47 +1277,6 @@
    "d_day": 8
   },
   {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "경찰청 서울특별시경찰청 서울강동경찰서",
-   "title": "서울강동경찰서 육아휴직 대체 기간제 근로자(전산직) 채용 공고 알림",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=301023",
-   "start_date": "2026-08-14",
-   "end_date": "2026-08-24",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "c3f0d5fe24ccb5cb",
-   "cross_uid": "878630fc068906e1",
-   "d_day": -3
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "경북대학교 첨단정보통신융합산업기술원",
-   "title": "[제2026-3호]경북대학교 첨단정보통신융합산업기술원·스타트업지원센터 연구원/직원 공동 채용공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=300426",
-   "start_date": "2026-08-07",
-   "end_date": "2026-08-18",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "b38292227f0be36c",
-   "cross_uid": "2e699e3dbf14a0a5",
-   "d_day": -9
-  },
-  {
    "source": "alio",
    "source_label": "잡알리오",
    "org": "건강보험심사평가원",
@@ -1584,26 +1319,6 @@
    "uid": "5cca4348a0c1d371",
    "cross_uid": "781a65299792e47e",
    "d_day": 4
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "강원대학교",
-   "title": "강원대학교 춘천캠퍼스 무기계약직 직원(전산원) 신규채용 공고 취소 안내",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=301966",
-   "start_date": "2026-08-25",
-   "end_date": "2026-08-25",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "c9f959b5d6285eac",
-   "cross_uid": "97ccad190c977f43",
-   "d_day": -2
   },
   {
    "source": "gojobs",
