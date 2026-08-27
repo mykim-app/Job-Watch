@@ -11,9 +11,9 @@ import yaml
 
 import notify
 import store
-from collectors import alio, cleaneye, gojobs, html_board
+from collectors import alio, cleaneye, gojobs, html_board, saramin
 from collectors.base import Posting
-from filters import match
+from filters import is_public_org, match
 
 KST = timezone(timedelta(hours=9))
 
@@ -39,6 +39,8 @@ def main() -> int:
         raw += cleaneye.fetch(sources["cleaneye"], log)
     if sources.get("gojobs", {}).get("enabled"):
         raw += gojobs.fetch(sources["gojobs"], log)
+    if sources.get("saramin", {}).get("enabled"):
+        raw += saramin.fetch(sources["saramin"], log)
     for board in sources.get("html_boards", []) or []:
         if board.get("enabled"):
             raw += html_board.fetch(board, log)
@@ -53,6 +55,9 @@ def main() -> int:
     for post in raw:
         ok, hits = match(post, f)
         if not ok:
+            continue
+        # 사람인은 민간기업이 대부분이라 기관명으로 한 번 더 거른다
+        if post.source == "saramin" and not is_public_org(post, f):
             continue
         # 접수 시작일을 모르는 곳(HTML 게시판 등)은 날짜로 자르지 않는다
         if post.start_date and post.start_date < cutoff:
