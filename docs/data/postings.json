@@ -1,0 +1,401 @@
+{
+ "updated_at": "2026-08-27 16:20",
+ "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국항공우주연구원",
+   "title": "(수정) 한국항공우주연구원 2026년도 하반기 정규직 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304298",
+   "start_date": "2026-08-26",
+   "end_date": "2026-09-10",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "대전",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "d3b2e95578f98c92",
+   "cross_uid": "68ec96116dfa5e0c",
+   "d_day": 14
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국중소벤처기업유통원",
+   "title": "[한국중소벤처기업유통원] 2026년 하반기 채용 공고(IT전산, 사업관리(일반, 보훈), 정산서무(장애인), 직접생산확인지원, 보건관리자)",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=303722",
+   "start_date": "2026-08-12",
+   "end_date": "2026-08-31",
+   "hire_type": "무기계약직 외 2",
+   "recruit_type": "",
+   "region": "서울 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "전산",
+    "정보통신",
+    "통신",
+    "IT"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "d476c4571e33f40c",
+   "cross_uid": "4e5f73642ab7e0d9",
+   "d_day": 4
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국전력거래소",
+   "title": "2026년도 하반기 전력거래소 공개채용(일반직_전문경력직)",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=303881",
+   "start_date": "2026-08-13",
+   "end_date": "2026-08-28",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "경기 외 3",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "622d800675606ff2",
+   "cross_uid": "45ec8df350ced14e",
+   "d_day": 1
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국전력거래소",
+   "title": "2026년도 하반기 전력거래소 공개채용(일반직_신입직)",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=303880",
+   "start_date": "2026-08-13",
+   "end_date": "2026-08-28",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "경기 외 3",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "be681747dffe24de",
+   "cross_uid": "ba51f5cb6fa27c70",
+   "d_day": 1
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국석유공사",
+   "title": "한국석유공사 2026년 하반기 직원(정규직) 채용 공고(6급 대졸수준)",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=303890",
+   "start_date": "2026-08-13",
+   "end_date": "2026-08-28",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "울산 외 6",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "6384109ee2fa08eb",
+   "cross_uid": "dc0783aa4b209d17",
+   "d_day": 1
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국산업단지공단",
+   "title": "2026년 하반기 신입직원 및 경력직원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304044",
+   "start_date": "2026-08-20",
+   "end_date": "2026-09-03",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 15",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "d50c605b3ef0235d",
+   "cross_uid": "89a6e63fc7f94ec0",
+   "d_day": 7
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국산업기술시험원",
+   "title": "2026년 한국산업기술시험원 정규직 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304192",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-08",
+   "hire_type": "무기계약직 외 2",
+   "recruit_type": "",
+   "region": "서울 외 6",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "c94224839731a72b",
+   "cross_uid": "691f1b155d7cda6c",
+   "d_day": 12
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국동서발전(주)",
+   "title": "한국동서발전(주) 2026년 사회형평 신입직원(대졸수준(보훈/장애)) 선발",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304267",
+   "start_date": "2026-08-26",
+   "end_date": "2026-09-09",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "울산 외 6",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "98f5ca3639494272",
+   "cross_uid": "b6ddded84cd13dc8",
+   "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국도로교통공단",
+   "title": "2026년도 교통직(무기계약직) 공개채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=303979",
+   "start_date": "2026-08-20",
+   "end_date": "2026-09-04",
+   "hire_type": "무기계약직",
+   "recruit_type": "",
+   "region": "서울 외 14",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "bacc84ce1f434942",
+   "cross_uid": "42b6081358cb76e6",
+   "d_day": 8
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "중소벤처기업진흥공단",
+   "title": "2026년 하반기 중소벤처기업진흥공단 일반직(신입·경력) 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304230",
+   "start_date": "2026-08-26",
+   "end_date": "2026-09-10",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 16",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "840afadfcea96e8a",
+   "cross_uid": "697af0743261437a",
+   "d_day": 14
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "주식회사한국중소벤처기업유통원",
+   "title": "2026년 하반기 채용 공고(IT전산, 사업관리(보훈), 직접생산확인지원, 정산서무(장애인), 사업관리 일반(육아휴직 대체), 보건관리자(육아휴직 대체)))",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=300741",
+   "start_date": "2026-08-12",
+   "end_date": "2026-08-31",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산",
+    "IT"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "1940eaa66de79aa0",
+   "cross_uid": "4f96c485590c4e53",
+   "d_day": 4
+  },
+  {
+   "source": "cleaneye",
+   "source_label": "클린아이",
+   "org": "성북문화재단",
+   "title": "(제26-25호)성북문화재단 정규직 채용 공고(8급-사서-전산사서)",
+   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000276&entSeq=000025",
+   "start_date": "2026-09-03",
+   "end_date": "2026-09-09",
+   "hire_type": "일반정규직",
+   "recruit_type": "신입",
+   "region": "서울특별시",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "86d072cd07278143",
+   "cross_uid": "a3039156139d43b9",
+   "d_day": 13
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "문화체육관광부 국립국어원",
+   "title": "2026년 국립국어원 언어정보과 공무직 근로자(전산원) 채용",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302197",
+   "start_date": "2026-08-27",
+   "end_date": "2026-09-03",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "2b65e5f6df748370",
+   "cross_uid": "469266e4bb55789c",
+   "d_day": 7
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "국방부 국군조직 육군 육군본부",
+   "title": "육군 정책연구위원(정보화) 및 BCTP 예비역 장성관찰관(군단 및 사단선임) 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=301746",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-03",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정보화"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "9617f8c201250dfb",
+   "cross_uid": "4cd986e58c5192e2",
+   "d_day": 7
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국립생태원",
+   "title": "(수정) 2026년 국립생태원 신규직원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304226",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-09",
+   "hire_type": "무기계약직 외 2",
+   "recruit_type": "",
+   "region": "충남 외 2",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "d154d86d94e4fcee",
+   "cross_uid": "0bf3951173957898",
+   "d_day": 13
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "과학기술정보통신부",
+   "title": "과학기술정보통신부 5급 이하 공무원 일방전입(경력경쟁채용) 모집 공고(기간연장)",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=301542",
+   "start_date": "2026-08-20",
+   "end_date": "2026-08-27",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "d615a846ee9070a4",
+   "cross_uid": "f73b95d88584a3ad",
+   "d_day": 0
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "공정거래위원회",
+   "title": "공정거래위윈회 행정·시설·전산 6급 공무원 경력경쟁채용시험 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=301972",
+   "start_date": "2026-08-25",
+   "end_date": "2026-09-04",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "919ce691ba701684",
+   "cross_uid": "992496094511852e",
+   "d_day": 8
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "건강보험심사평가원",
+   "title": "2026년 하반기 건강보험심사평가원 정규직 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=303961",
+   "start_date": "2026-08-19",
+   "end_date": "2026-09-02",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "강원",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "40bb9a4e2b25e900",
+   "cross_uid": "ec213020c1535fe9",
+   "d_day": 6
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "강원대학교",
+   "title": "강원대학교 정보화본부 계약직 직원 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=301829",
+   "start_date": "2026-08-24",
+   "end_date": "2026-09-04",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정보화"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "e3a669cbd084d85a",
+   "cross_uid": "5fb3a49881c2086f",
+   "d_day": 8
+  }
+ ]
+}
