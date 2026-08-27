@@ -78,8 +78,12 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(26px,7vw,34px);
   text-align:center;color:var(--muted);font-size:14px;line-height:1.7}
 footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
   border-top:1px solid var(--rule);padding-top:14px}
-.more{margin-top:12px;font-family:var(--data);font-size:12px;background:none;
-  border:1px solid var(--rule);padding:9px 14px;color:var(--ink);cursor:pointer;width:100%}
+.more{margin-top:14px;font-family:var(--data);font-size:12px;background:var(--card);
+  border:1px solid var(--rule);padding:11px 14px;color:var(--ink);cursor:pointer;width:100%;
+  letter-spacing:.02em}
+.more:hover{border-color:var(--ink)}
+.more:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
+.more.on{border-color:var(--ink);font-weight:500}
 </style>
 </head>
 <body>
@@ -106,7 +110,7 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const DAYS = ["일","월","화","수","목","금","토"];
-let ALL = [], SOURCE = "전체", TODAY = "", CUTOFF = "";
+let ALL = [], SOURCE = "전체", TODAY = "", CUTOFF = "", ARCHIVE = false;
 
 const ddayText = d => d === null || d === undefined ? "" : (d < 0 ? "마감" : d === 0 ? "오늘 마감" : "D-" + d);
 const posted = p => p.start_date || p.first_seen || "";
@@ -154,10 +158,14 @@ const byNewest = (a, b) =>
   (b.first_seen || "").localeCompare(a.first_seen || "") ||
   (a.org || "").localeCompare(b.org || "", "ko");
 
+function inWindow(p) {
+  return ARCHIVE || (p.first_seen || "") >= CUTOFF;
+}
+
 function render() {
   const pool = (SOURCE === "전체" ? ALL : ALL.filter(p => p.source_label === SOURCE))
     .filter(p => !p.duplicate_of_other_source)
-    .filter(p => (p.first_seen || "") >= CUTOFF);
+    .filter(inWindow);
 
   const fresh = pool.filter(p => p.first_seen === TODAY).sort(byNewest);
   const rest  = pool.filter(p => p.first_seen !== TODAY).sort(byNewest);
@@ -168,11 +176,34 @@ function render() {
     : '<div class="empty">오늘 새로 올라온 전산·통신직 공고가 없습니다.<br>내일 아침 9시에 다시 확인합니다.</div>';
 
   if (rest.length) {
-    html += '<div class="band"><span>지난 근무일</span><span>' + rest.length + "건</span></div>";
+    html += '<div class="band"><span>' + (ARCHIVE ? "보관 중" : "지난 근무일") +
+            '</span><span>' + rest.length + "건</span></div>";
     html += rest.map(p => card(p, false)).join("");
   }
+
+  const archived = ALL.filter(p => !p.duplicate_of_other_source &&
+                                   (p.first_seen || "") < CUTOFF).length;
+  if (ARCHIVE) {
+    html += '<button class="more on" id="toggle">최근 3근무일만 보기</button>';
+  } else if (archived) {
+    html += '<button class="more" id="toggle">보관 중인 지난 공고 ' + archived + "건 보기</button>";
+  }
+
   $("#list").innerHTML = html;
+  const btn = $("#toggle");
+  if (btn) btn.onclick = () => { ARCHIVE = !ARCHIVE; refresh(); window.scrollTo({top: 0}); };
   return fresh.length;
+}
+
+function refresh() {
+  const labels = [...new Set(ALL.filter(inWindow).map(p => p.source_label))].sort();
+  if (!labels.includes(SOURCE)) SOURCE = "전체";
+  chips(labels);
+  const n = render();
+  $("#range").textContent = ARCHIVE
+    ? "보관 중인 공고 전체 · 접수 진행 중인 건만"
+    : (CUTOFF ? fmt(CUTOFF) + " ~ " + fmt(TODAY) + " · 최근 3근무일" : "");
+  return n;
 }
 
 function chips(labels) {
@@ -191,13 +222,9 @@ fetch("data/postings.json?v=" + Date.now())
     TODAY = (d.updated_at || "").slice(0, 10) || (ALL[0] && ALL[0].first_seen) || "";
     CUTOFF = TODAY ? backBusinessDays(TODAY, 3) : "";
 
-    const labels = [...new Set(ALL.filter(p => (p.first_seen || "") >= CUTOFF)
-                                  .map(p => p.source_label))].sort();
-    chips(labels);
-    const n = render();
+    const n = refresh();
 
     $("#stamp-date").textContent = (d.updated_at || TODAY || "").replace(/-/g, ".");
-    $("#range").textContent = CUTOFF ? fmt(CUTOFF) + " ~ " + fmt(TODAY) + " · 최근 3근무일" : "";
     $("#seal-n").textContent = n;
     $("#seal").classList.toggle("zero", n === 0);
     $("#seal-title").textContent = n ? "새 공고 " + n + "건" : "새 공고 없음";
@@ -205,9 +232,8 @@ fetch("data/postings.json?v=" + Date.now())
       ? "아래 목록에서 확인하세요. 같은 공고는 다시 올라오지 않습니다."
       : "최근 3근무일 안에 올라온 공고는 아래에 남아 있습니다.";
 
-    const shown = ALL.filter(p => (p.first_seen || "") >= CUTOFF).length;
     $("#foot").innerHTML = "마지막 확인 " + esc(d.updated_at || "—") +
-      " · 화면에 표시 " + shown + "건 / 보관 중 " + ALL.length + "건<br>" +
+      " · 보관 중 " + ALL.length + "건<br>" +
       "접수가 끝난 공고는 자동으로 빠집니다.";
   })
   .catch(() => {
