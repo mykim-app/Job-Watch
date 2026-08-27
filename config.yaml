@@ -108,7 +108,7 @@ sources:
   # ── 1) 잡알리오 (공공데이터포털: 재정경제부_공공기관 채용정보 조회서비스)
   #     공기업 / 준정부기관 / 기타공공기관. 인증키 필요
   alio:
-    enabled: true
+    enabled: false
     max_pages: 15          # 1페이지 100건
     ongoing_only: true     # 접수 진행중 공고만
 
@@ -118,7 +118,7 @@ sources:
   #     NCS 직무를 정보통신으로 지정하므로 제목에 '전산'이 없어도 잡힌다.
   #     위 alio(API) 와 같은 데이터라 둘 다 켜면 중복 제거로 한쪽만 남는다.
   alio_web:
-    enabled: false
+    enabled: true
     ncs_codes: ["R600020"]   # R600020 = 정보통신
     max_pages: 5
     since_days: 14
