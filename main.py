@@ -11,7 +11,7 @@ import yaml
 
 import notify
 import store
-from collectors import alio, cleaneye, gojobs, html_board, saramin
+from collectors import alio, alio_web, cleaneye, gojobs, html_board, saramin
 from collectors.base import Posting
 from filters import is_public_org, match
 
@@ -35,6 +35,8 @@ def main() -> int:
     raw: list[Posting] = []
     if sources.get("alio", {}).get("enabled"):
         raw += alio.fetch(sources["alio"], log)
+    if sources.get("alio_web", {}).get("enabled"):
+        raw += alio_web.fetch(sources["alio_web"], log)
     if sources.get("cleaneye", {}).get("enabled"):
         raw += cleaneye.fetch(sources["cleaneye"], log)
     if sources.get("gojobs", {}).get("enabled"):
