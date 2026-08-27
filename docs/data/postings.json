@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-27 16:20",
+ "updated_at": "2026-08-27 21:20",
  "postings": [
   {
    "source": "alio",
@@ -235,6 +235,26 @@
    "d_day": 4
   },
   {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "세종사이버대학교",
+   "title": "세종사이버대학교 정규직원 채용공고(~.09.13.(일))",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18243",
+   "start_date": "2026-08-16",
+   "end_date": "2026-09-13",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "사이버"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "10da1a09e12c1d60",
+   "cross_uid": "7f9c740aca6ad249",
+   "d_day": 17
+  },
+  {
    "source": "cleaneye",
    "source_label": "클린아이",
    "org": "성북문화재단",
@@ -395,6 +415,26 @@
    "first_seen": "2026-08-27",
    "uid": "e3a669cbd084d85a",
    "cross_uid": "5fb3a49881c2086f",
+   "d_day": 8
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "강원대학교",
+   "title": "강원대학교 정보화본부 계약직 직원 채용 공고(~09. 04.(금))",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18266",
+   "start_date": "2026-08-25",
+   "end_date": "2026-09-04",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정보화"
+   ],
+   "first_seen": "2026-08-27",
+   "uid": "922e7484c501cafd",
+   "cross_uid": "b1d040729041546c",
    "d_day": 8
   }
  ]
