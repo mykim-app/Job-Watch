@@ -1,4 +1,8 @@
-"""잡알리오 — 공공데이터포털 '재정경제부_공공기관 채용정보 조회서비스'."""
+"""잡알리오 — 공공데이터포털 '재정경제부_공공기관 채용정보 조회서비스'.
+
+data.go.kr 에서 활용신청 후 받은 일반 인증키(Decoding)를 ALIO_SERVICE_KEY 로 넣는다.
+응답 필드명이 바뀌어도 되도록 pick() 으로 느슨하게 읽는다.
+"""
 
 from __future__ import annotations
 
@@ -15,6 +19,7 @@ LABEL = "잡알리오"
 
 
 def _rows(payload) -> list:
+    """{'result': [...]} / {'response':{'body':{'items':[...]}}} 등 어떤 형태든 목록을 찾아낸다."""
     if isinstance(payload, list):
         return [r for r in payload if isinstance(r, dict)]
     if not isinstance(payload, dict):
@@ -41,8 +46,7 @@ def _get(params: dict, log):
                 return r
             except Exception as e:  # noqa: BLE001
                 last = e
-                kind = type(e).__name__
-                log(f"  {base[:5]} 시도 {attempt}/3 실패: {kind}")
+                log(f"  {base[:5]} 시도 {attempt}/3 실패: {type(e).__name__}")
                 time.sleep(attempt * 5)
     raise last
 

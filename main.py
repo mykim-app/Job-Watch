@@ -11,9 +11,9 @@ import yaml
 
 import notify
 import store
-from collectors import alio, html_board, worknet
+from collectors import alio, cleaneye, gojobs, html_board
 from collectors.base import Posting
-from filters import is_public_org, match
+from filters import match
 
 KST = timezone(timedelta(hours=9))
 
@@ -35,8 +35,10 @@ def main() -> int:
     raw: list[Posting] = []
     if sources.get("alio", {}).get("enabled"):
         raw += alio.fetch(sources["alio"], log)
-    if sources.get("worknet", {}).get("enabled"):
-        raw += worknet.fetch(sources["worknet"], log)
+    if sources.get("cleaneye", {}).get("enabled"):
+        raw += cleaneye.fetch(sources["cleaneye"], log)
+    if sources.get("gojobs", {}).get("enabled"):
+        raw += gojobs.fetch(sources["gojobs"], log)
     for board in sources.get("html_boards", []) or []:
         if board.get("enabled"):
             raw += html_board.fetch(board, log)
@@ -49,8 +51,6 @@ def main() -> int:
     for post in raw:
         ok, hits = match(post, f)
         if not ok:
-            continue
-        if post.source == "worknet" and not is_public_org(post, f):
             continue
         # 접수 시작일을 모르는 곳(HTML 게시판 등)은 날짜로 자르지 않는다
         if post.start_date and post.start_date < cutoff:
