@@ -103,7 +103,7 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
 <div class="wrap">
   <div class="eyebrow" id="stamp-date">—</div>
   <h1>전산·통신직 채용 정보 모니터링</h1>
-  <p class="sub">공공기관·지방공기업·공무원 채용공고를 매일 아침 한 번 훑습니다. 최근 30일치를 게시일 최신순으로 보여 줍니다.</p>
+  <p class="sub">공공기관·지방공기업·공무원 채용공고를 하루 세 번 훑습니다. 최근 30일치를 게시일 최신순으로 보여 줍니다.</p>
 
   <div class="seal-row">
     <div class="seal zero" id="seal"><div><div class="n" id="seal-n">–</div><div class="lbl">신규</div></div></div>
@@ -125,6 +125,18 @@ const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const DAYS = ["일","월","화","수","목","금","토"];
 const WINDOW_DAYS = 30;   // 화면에 보여줄 기간. 이 숫자만 바꾸면 된다
+const RUN_HOURS = [9, 13, 17];   // NAS 작업 스케줄러에 걸어둔 시각. 바꾸면 여기도 맞출 것
+
+// 지금 시각 기준으로 다음 수집이 언제인지 문장으로 만든다
+function nextRunText() {
+  const now = new Date();
+  const h = now.getHours(), m = now.getMinutes();
+  const label = n => (n < 12 ? "오전 " + n : "오후 " + (n === 12 ? 12 : n - 12)) + "시";
+  for (const t of RUN_HOURS) {
+    if (h < t || (h === t && m < 5)) return "오늘 " + label(t);
+  }
+  return "내일 " + label(RUN_HOURS[0]);
+}
 const READ_KEY = "jobwatch:read";
 
 // 읽은 공고는 이 브라우저에만 기록된다. 휴대폰과 PC는 따로 관리된다.
@@ -194,7 +206,8 @@ function render() {
   let html = '<div class="band"><span>오늘 신규</span><span>' + fresh.length + "건</span></div>";
   html += fresh.length
     ? fresh.map(p => card(p, true)).join("")
-    : '<div class="empty">오늘 새로 올라온 전산·통신직 공고가 없습니다.<br>내일 아침 9시에 다시 확인합니다.</div>';
+    : '<div class="empty">오늘 새로 올라온 전산·통신직 공고가 없습니다.<br>' +
+      nextRunText() + "에 다시 확인합니다.</div>";
 
   if (rest.length) {
     html += '<div class="band"><span>' + (ARCHIVE ? "보관 중" : "이전 공고") +
@@ -290,7 +303,7 @@ fetch("data/postings.json?v=" + Date.now())
 
     $("#foot").innerHTML = "마지막 확인 " + esc(d.updated_at || "—") +
       " · 보관 중 " + ALL.length + "건<br>" +
-      "접수가 끝난 공고는 자동으로 빠집니다.";
+      "매일 " + RUN_HOURS.map(h => h + "시").join("·") + " 확인 · 접수가 끝난 공고는 자동으로 빠집니다.";
   })
   .catch(() => {
     $("#seal-title").textContent = "데이터가 아직 없습니다";
