@@ -28,6 +28,25 @@ _ORG_PREFIX = re.compile(
 )
 
 
+# 수집처마다 제목 끝에 접수마감일을 덧붙이는 곳이 있어 교차 중복 판정이 어긋난다.
+# 예: "…채용 공고" vs "…채용 공고(~09. 04.(금))"
+_TILDE_NUM = re.compile(r"[\(\[]?\s*~\s*\.?\s*(?=\d)")
+# 잘라낼 꼬리는 날짜·시각 표기만으로 이루어져 있어야 한다.
+# "~08.30 신입 채용" 처럼 뒤에 내용이 이어지면 접수기간 표기이므로 건드리지 않는다.
+_DATE_ONLY = re.compile(r"^[0-9\s.\-/():,\[\]~월화수목금토일까지마감시분초오전후]*$")
+
+
+def dedupe_title(text) -> str:
+    """중복 판정용 제목 — 끝에 붙은 접수마감일 표기만 떼어낸다."""
+    t = squeeze(text)
+    for m in _TILDE_NUM.finditer(t):
+        if m.start() < 8:                    # 너무 앞에서 자르면 다른 공고끼리 겹친다
+            continue
+        if _DATE_ONLY.match(t[m.start():]):
+            return t[:m.start()].rstrip(" ([{-·,")
+    return t
+
+
 def normalize_key(text) -> str:
     """중복 판정용 정규화 — 법인 표기·공백·괄호·기호 제거, 소문자."""
     t = squeeze(text).lower()
@@ -107,7 +126,7 @@ class Posting:
     @property
     def cross_uid(self) -> str:
         """출처가 달라도 같은 공고면 같은 값 — 교차 중복 제거용."""
-        raw = f"{normalize_key(self.org)}|{normalize_key(self.title)}"
+        raw = f"{normalize_key(self.org)}|{normalize_key(dedupe_title(self.title))}"
         return hashlib.sha1(raw.encode()).hexdigest()[:16]
 
     def to_dict(self) -> dict:

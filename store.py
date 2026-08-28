@@ -52,6 +52,20 @@ def merge(existing: dict, fresh: list[dict], today: str, retention_days: int,
     cutoff = (date.fromisoformat(today) - timedelta(days=retention_days)).isoformat()
     postings = [p for p in by_uid.values() if p.get("first_seen", today) >= cutoff]
 
+    # 여러 수집처에서 들어온 같은 공고는 하나만 남긴다.
+    # 먼저 발견한 쪽을 본체로 두고 나머지는 표시만 해서 화면에서 뺀다
+    # (기록은 남겨야 나중에 다시 신규로 잡히지 않는다).
+    primary: dict[str, dict] = {}
+    for p in sorted(postings, key=lambda x: (x.get("first_seen", ""), x.get("source", ""))):
+        c = p.get("cross_uid")
+        if not c:
+            continue
+        if c in primary and primary[c] is not p:
+            p["duplicate_of_other_source"] = True
+        else:
+            primary[c] = p
+            p.pop("duplicate_of_other_source", None)
+
     expired = 0
     if drop_closed:
         before = len(postings)
