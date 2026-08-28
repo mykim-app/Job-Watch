@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-08-28 13:00",
+ "updated_at": "2026-08-28 17:00",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국수자원공사",
+   "title": "[한국수자원공사] 2026년 전문직, 시설운영직(경력) 제한경쟁 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304367",
+   "start_date": "2026-08-28",
+   "end_date": "2026-09-11",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "경기",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-28",
+   "uid": "295bfdd0b1f5e6aa",
+   "cross_uid": "4ef0507bff3f3ea8",
+   "d_day": 14
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
