@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-28 09:00",
+ "updated_at": "2026-08-28 09:45",
  "postings": [
   {
    "source": "alio",
@@ -251,7 +251,7 @@
    ],
    "first_seen": "2026-08-27",
    "uid": "10da1a09e12c1d60",
-   "cross_uid": "7f9c740aca6ad249",
+   "cross_uid": "88ca932420d568ea",
    "d_day": 16
   },
   {
@@ -413,8 +413,9 @@
    ],
    "first_seen": "2026-08-27",
    "uid": "922e7484c501cafd",
-   "cross_uid": "b1d040729041546c",
-   "d_day": 7
+   "cross_uid": "5fb3a49881c2086f",
+   "d_day": 7,
+   "duplicate_of_other_source": true
   }
  ]
 }
