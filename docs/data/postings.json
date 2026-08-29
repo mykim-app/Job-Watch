@@ -1,6 +1,47 @@
 {
- "updated_at": "2026-08-28 17:00",
+ "updated_at": "2026-08-29 09:00",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "예금보험공사",
+   "title": "2026년도 예금보험공사 신입직원 채용안내",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304400",
+   "start_date": "2026-08-28",
+   "end_date": "2026-09-11",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-29",
+   "uid": "a69345e2ab44533d",
+   "cross_uid": "6fec7669721deda5",
+   "d_day": 13
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "연세대학교(미래)",
+   "title": "연세대학교(미래) 단기계약직(휴직대체)(AI융합과학원) 채용(~9/6 16시)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18288",
+   "start_date": "2026-08-28",
+   "end_date": "",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "AI"
+   ],
+   "first_seen": "2026-08-29",
+   "uid": "2be71b97b03e5b9e",
+   "cross_uid": "56ce00a1a6257f79",
+   "d_day": null
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -20,7 +61,7 @@
    "first_seen": "2026-08-28",
    "uid": "295bfdd0b1f5e6aa",
    "cross_uid": "4ef0507bff3f3ea8",
-   "d_day": 14
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -41,7 +82,7 @@
    "first_seen": "2026-08-27",
    "uid": "d3b2e95578f98c92",
    "cross_uid": "68ec96116dfa5e0c",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "alio",
@@ -64,70 +105,7 @@
    "first_seen": "2026-08-27",
    "uid": "d476c4571e33f40c",
    "cross_uid": "4e5f73642ab7e0d9",
-   "d_day": 3
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국전력거래소",
-   "title": "2026년도 하반기 전력거래소 공개채용(일반직_전문경력직)",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=303881",
-   "start_date": "2026-08-13",
-   "end_date": "2026-08-28",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "경기 외 3",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "622d800675606ff2",
-   "cross_uid": "45ec8df350ced14e",
-   "d_day": 0
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국전력거래소",
-   "title": "2026년도 하반기 전력거래소 공개채용(일반직_신입직)",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=303880",
-   "start_date": "2026-08-13",
-   "end_date": "2026-08-28",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "경기 외 3",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "be681747dffe24de",
-   "cross_uid": "ba51f5cb6fa27c70",
-   "d_day": 0
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국석유공사",
-   "title": "한국석유공사 2026년 하반기 직원(정규직) 채용 공고(6급 대졸수준)",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=303890",
-   "start_date": "2026-08-13",
-   "end_date": "2026-08-28",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "울산 외 6",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-27",
-   "uid": "6384109ee2fa08eb",
-   "cross_uid": "dc0783aa4b209d17",
-   "d_day": 0
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -148,7 +126,7 @@
    "first_seen": "2026-08-27",
    "uid": "d50c605b3ef0235d",
    "cross_uid": "89a6e63fc7f94ec0",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -169,7 +147,7 @@
    "first_seen": "2026-08-27",
    "uid": "c94224839731a72b",
    "cross_uid": "691f1b155d7cda6c",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -190,7 +168,7 @@
    "first_seen": "2026-08-27",
    "uid": "98f5ca3639494272",
    "cross_uid": "b6ddded84cd13dc8",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "alio",
@@ -211,7 +189,7 @@
    "first_seen": "2026-08-27",
    "uid": "bacc84ce1f434942",
    "cross_uid": "42b6081358cb76e6",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -232,7 +210,7 @@
    "first_seen": "2026-08-27",
    "uid": "840afadfcea96e8a",
    "cross_uid": "697af0743261437a",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "gojobs",
@@ -253,7 +231,7 @@
    "first_seen": "2026-08-27",
    "uid": "1940eaa66de79aa0",
    "cross_uid": "4f96c485590c4e53",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "uman",
@@ -273,7 +251,7 @@
    "first_seen": "2026-08-27",
    "uid": "10da1a09e12c1d60",
    "cross_uid": "88ca932420d568ea",
-   "d_day": 16
+   "d_day": 15
   },
   {
    "source": "cleaneye",
@@ -293,7 +271,7 @@
    "first_seen": "2026-08-27",
    "uid": "86d072cd07278143",
    "cross_uid": "a3039156139d43b9",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "gojobs",
@@ -313,7 +291,7 @@
    "first_seen": "2026-08-27",
    "uid": "2b65e5f6df748370",
    "cross_uid": "469266e4bb55789c",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "gojobs",
@@ -333,7 +311,7 @@
    "first_seen": "2026-08-27",
    "uid": "9617f8c201250dfb",
    "cross_uid": "4cd986e58c5192e2",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -354,7 +332,7 @@
    "first_seen": "2026-08-27",
    "uid": "d154d86d94e4fcee",
    "cross_uid": "0bf3951173957898",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "gojobs",
@@ -374,7 +352,7 @@
    "first_seen": "2026-08-27",
    "uid": "919ce691ba701684",
    "cross_uid": "992496094511852e",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -395,7 +373,7 @@
    "first_seen": "2026-08-27",
    "uid": "40bb9a4e2b25e900",
    "cross_uid": "ec213020c1535fe9",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "gojobs",
@@ -415,7 +393,7 @@
    "first_seen": "2026-08-27",
    "uid": "e3a669cbd084d85a",
    "cross_uid": "5fb3a49881c2086f",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "uman",
@@ -435,7 +413,7 @@
    "first_seen": "2026-08-27",
    "uid": "922e7484c501cafd",
    "cross_uid": "5fb3a49881c2086f",
-   "d_day": 7,
+   "d_day": 6,
    "duplicate_of_other_source": true
   }
  ]
