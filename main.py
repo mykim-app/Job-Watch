@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import importlib
 import os
 import sys
 from datetime import datetime, timedelta, timezone
@@ -11,12 +12,23 @@ import yaml
 
 import notify
 import store
-from collectors import (alio, alio_web, cleaneye, gojobs, html_board,
-                        procollege, saramin, uman, worknet)
 from collectors.base import Posting
 from filters import is_public_org, match, match_open
 
 KST = timezone(timedelta(hours=9))
+
+# (config 의 sources 키, collectors 모듈명, 로그에 쓸 이름)
+# 파일이 없거나 오류가 나도 그 출처만 건너뛰고 나머지는 계속 수집한다.
+COLLECTORS = [
+    ("alio", "alio", "잡알리오(API)"),
+    ("alio_web", "alio_web", "잡알리오(웹)"),
+    ("cleaneye", "cleaneye", "클린아이"),
+    ("gojobs", "gojobs", "나라일터"),
+    ("procollege", "procollege", "전문대학포털"),
+    ("uman", "uman", "대학교직원신문"),
+    ("saramin", "saramin", "사람인"),
+    ("worknet", "worknet", "고용24"),
+]
 
 
 def log(msg: str) -> None:
@@ -34,25 +46,34 @@ def main() -> int:
     print(f"[{now:%Y-%m-%d %H:%M} KST] 수집 시작")
 
     raw: list[Posting] = []
-    if sources.get("alio", {}).get("enabled"):
-        raw += alio.fetch(sources["alio"], log)
-    if sources.get("alio_web", {}).get("enabled"):
-        raw += alio_web.fetch(sources["alio_web"], log)
-    if sources.get("cleaneye", {}).get("enabled"):
-        raw += cleaneye.fetch(sources["cleaneye"], log)
-    if sources.get("gojobs", {}).get("enabled"):
-        raw += gojobs.fetch(sources["gojobs"], log)
-    if sources.get("procollege", {}).get("enabled"):
-        raw += procollege.fetch(sources["procollege"], log)
-    if sources.get("uman", {}).get("enabled"):
-        raw += uman.fetch(sources["uman"], log)
-    if sources.get("saramin", {}).get("enabled"):
-        raw += saramin.fetch(sources["saramin"], log)
-    if sources.get("worknet", {}).get("enabled"):
-        raw += worknet.fetch(sources["worknet"], log)
+    failed: list[str] = []
+
+    for key, module_name, label in COLLECTORS:
+        conf = sources.get(key)
+        if not (isinstance(conf, dict) and conf.get("enabled")):
+            continue
+        try:
+            mod = importlib.import_module(f"collectors.{module_name}")
+        except Exception as e:  # noqa: BLE001
+            log(f"{label}: 수집기 파일을 못 읽어 건너뜀 — {type(e).__name__}: {e}")
+            failed.append(label)
+            continue
+        try:
+            raw += mod.fetch(conf, log)
+        except Exception as e:  # noqa: BLE001
+            log(f"{label}: 수집 중 오류로 건너뜀 — {type(e).__name__}: {e}")
+            failed.append(label)
+
     for board in sources.get("html_boards", []) or []:
-        if board.get("enabled"):
+        if not board.get("enabled"):
+            continue
+        name = board.get("name", board.get("key", "게시판"))
+        try:
+            from collectors import html_board
             raw += html_board.fetch(board, log)
+        except Exception as e:  # noqa: BLE001
+            log(f"{name}: 수집 중 오류로 건너뜀 — {type(e).__name__}: {e}")
+            failed.append(name)
 
     if not raw:
         print("수집된 공고가 0건입니다. 인증키와 설정을 확인하세요.")
@@ -93,11 +114,15 @@ def main() -> int:
     )
     if expired:
         print(f"보관 목록에서 마감된 공고 {expired}건 정리")
+    merged["failed_sources"] = failed
     store.save(merged, now.strftime("%Y-%m-%d %H:%M"))
 
     print(f"신규 공고: {len(new_items)}건 / 보관 중: {len(merged['postings'])}건")
     for p in new_items:
         print(f"  + [{p.get('source_label')}] {p.get('org')} — {p.get('title')}")
+
+    if failed:
+        print(f"⚠ 수집 실패한 곳: {', '.join(failed)} (나머지는 정상 수집됨)")
 
     notify.send(new_items, today, os.environ.get("SITE_URL", ""))
     return 0

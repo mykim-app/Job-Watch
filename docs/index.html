@@ -83,6 +83,8 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(23px,6.2vw,32px);
 .item.read .dday.soon{color:#C08A80}
 .item.read .ttl::after{content:"읽음";font-family:var(--data);font-size:10px;
   letter-spacing:.08em;color:#98A2B3;margin-left:7px;vertical-align:1px;white-space:nowrap}
+.warn{margin-top:10px;padding:9px 11px;border:1px solid #E4C7C0;background:#FCF6F4;
+  color:var(--alert);font-family:var(--data);font-size:11.5px;line-height:1.6;border-radius:2px}
 .reset{background:none;border:none;padding:0;margin-top:8px;font-family:var(--data);
   font-size:11.5px;color:var(--muted);cursor:pointer;text-decoration:underline}
 .reset:hover{color:var(--ink)}
@@ -303,7 +305,11 @@ fetch("data/postings.json?v=" + Date.now())
 
     $("#foot").innerHTML = "마지막 확인 " + esc(d.updated_at || "—") +
       " · 보관 중 " + ALL.length + "건<br>" +
-      "매일 " + RUN_HOURS.map(h => h + "시").join("·") + " 확인 · 접수가 끝난 공고는 자동으로 빠집니다.";
+      "매일 " + RUN_HOURS.map(h => h + "시").join("·") + " 확인 · 접수가 끝난 공고는 자동으로 빠집니다." +
+      ((d.failed_sources && d.failed_sources.length)
+        ? '<div class="warn">마지막 확인 때 <b>' + d.failed_sources.map(esc).join(", ") +
+          "</b> 수집에 실패했습니다. 이 출처의 공고는 빠져 있을 수 있습니다.</div>"
+        : "");
   })
   .catch(() => {
     $("#seal-title").textContent = "데이터가 아직 없습니다";
