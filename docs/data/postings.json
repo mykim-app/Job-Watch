@@ -1,6 +1,149 @@
 {
- "updated_at": "2026-08-30 17:00",
+ "updated_at": "2026-08-30 17:43",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "중원대학교",
+   "title": "중원대학교 입학사정관(무기계약직) 채용 공고(~채용 완료시까지",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18267",
+   "start_date": "2026-08-25",
+   "end_date": "",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "무기계약직",
+    "무기계약"
+   ],
+   "first_seen": "2026-08-30",
+   "uid": "acf3041f56f244a3",
+   "cross_uid": "672e241ad788ec7a",
+   "d_day": null
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "전주비전대학교",
+   "title": "전주비전대학교 정규직 채용 공고(기능직))(~08 , 20(목),10:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18206",
+   "start_date": "2026-08-07",
+   "end_date": "",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정규직"
+   ],
+   "first_seen": "2026-08-30",
+   "uid": "de580bdbf2946803",
+   "cross_uid": "7bd80da628f51cff",
+   "d_day": null
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "전남대학교",
+   "title": "전남대학교 산학협력단 정규직(신규) 채용r공고(`~09. 01.(화))",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18254",
+   "start_date": "2026-08-19",
+   "end_date": "2026-09-01",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정규직"
+   ],
+   "first_seen": "2026-08-30",
+   "uid": "0fcf82d58ff569ac",
+   "cross_uid": "01444c18bd820398",
+   "d_day": 2
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "연세대학교 미래캠퍼스",
+   "title": "연세대학교 미래캠 정규직원(행정사무직 )채용 공고(~09. 13(일) 17:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18273",
+   "start_date": "2026-08-27",
+   "end_date": "2026-09-13",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정규직",
+    "정규직원"
+   ],
+   "first_seen": "2026-08-30",
+   "uid": "622e4e04e7308a6d",
+   "cross_uid": "e93ae17d9ca22b60",
+   "d_day": 14
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "안동과학대학교",
+   "title": "안동과학대학교 일반직원(정규직) 채용 공고(~09. 01(화) 18:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18281",
+   "start_date": "2026-08-28",
+   "end_date": "2026-09-01",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정규직"
+   ],
+   "first_seen": "2026-08-30",
+   "uid": "4ffc0f358c286bdf",
+   "cross_uid": "d65cbc09abbd0bae",
+   "d_day": 2
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "고려대학교",
+   "title": "고려대학교 세종캠 정규직원 채용공고 (~.08.31.(월) 12:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18242",
+   "start_date": "2026-08-16",
+   "end_date": "2026-08-31",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정규직",
+    "정규직원"
+   ],
+   "first_seen": "2026-08-30",
+   "uid": "e3c01490fcaffca0",
+   "cross_uid": "fb2fd318d4684ccf",
+   "d_day": 1
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "경희대학교",
+   "title": "경희대학교 산학협력단 (경력)직원 채용 공고(~09. 06(수) 24:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18257",
+   "start_date": "2026-08-23",
+   "end_date": "2026-09-06",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "경력"
+   ],
+   "first_seen": "2026-08-30",
+   "uid": "138b35f137a5eadf",
+   "cross_uid": "d81a26a32e0d0134",
+   "d_day": 7
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
