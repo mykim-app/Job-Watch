@@ -41,6 +41,24 @@ def match(post: Posting, f: dict) -> tuple[bool, list[str]]:
     return bool(hits), hits
 
 
+def match_open(post: Posting, f: dict, keywords: list) -> tuple[bool, list[str]]:
+    """직무(전산·통신)를 따지지 않고, 지정한 고용형태에 해당하면 수집한다.
+
+    대학교직원신문처럼 '이 게시판은 정규직이면 다 보고 싶다' 는 수집처에 쓴다.
+    제외 단어(계약직·인턴·임기제 등)는 그대로 적용된다.
+    """
+    blob = " ".join(
+        squeeze(x) for x in (post.title, post.ncs, post.recruit_type, post.hire_type)
+    )
+
+    for bad in f.get("exclude", []):
+        if _hit(blob, bad):
+            return False, []
+
+    hits = [kw for kw in keywords if _hit(blob, kw)]
+    return bool(hits), hits
+
+
 def is_public_org(post: Posting, f: dict) -> bool:
     """워크넷처럼 민간이 섞여 들어오는 출처에만 적용."""
     org = squeeze(post.org)

@@ -12,9 +12,9 @@ import yaml
 import notify
 import store
 from collectors import (alio, alio_web, cleaneye, gojobs, html_board,
-                        procollege, saramin, uman)
+                        procollege, saramin, uman, worknet)
 from collectors.base import Posting
-from filters import is_public_org, match
+from filters import is_public_org, match, match_open
 
 KST = timezone(timedelta(hours=9))
 
@@ -48,6 +48,8 @@ def main() -> int:
         raw += uman.fetch(sources["uman"], log)
     if sources.get("saramin", {}).get("enabled"):
         raw += saramin.fetch(sources["saramin"], log)
+    if sources.get("worknet", {}).get("enabled"):
+        raw += worknet.fetch(sources["worknet"], log)
     for board in sources.get("html_boards", []) or []:
         if board.get("enabled"):
             raw += html_board.fetch(board, log)
@@ -59,12 +61,18 @@ def main() -> int:
     drop_closed = bool(cfg.get("drop_closed", True))
     closed = 0
     kept: list[dict] = []
+    open_sources = f.get("open_sources") or {}
+
     for post in raw:
         ok, hits = match(post, f)
+        rule = open_sources.get(post.source)
+        if rule and not ok:
+            # 전산·통신직이 아니어도 지정한 고용형태면 담는다 (대학교직원신문 등)
+            ok, hits = match_open(post, f, rule)
         if not ok:
             continue
-        # 사람인은 민간기업이 대부분이라 기관명으로 한 번 더 거른다
-        if post.source == "saramin" and not is_public_org(post, f):
+        # 사람인·고용24 는 민간기업이 대부분이라 기관명으로 한 번 더 거른다
+        if post.source in ("saramin", "worknet") and not is_public_org(post, f):
             continue
         # 접수 시작일을 모르는 곳(HTML 게시판 등)은 날짜로 자르지 않는다
         if post.start_date and post.start_date < cutoff:
