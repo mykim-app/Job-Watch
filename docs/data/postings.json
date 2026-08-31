@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-08-31 14:04",
+ "updated_at": "2026-08-31 16:55",
  "postings": [
   {
    "source": "alio",
@@ -65,6 +65,27 @@
    "uid": "d476c4571e33f40c",
    "cross_uid": "4e5f73642ab7e0d9",
    "d_day": 0
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국전력공사",
+   "title": "2026년 1차 연구원 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304429",
+   "start_date": "2026-08-31",
+   "end_date": "2026-09-14",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "대전 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-08-31",
+   "uid": "1eb90f39c4f75d5e",
+   "cross_uid": "7e85c169ad727b6f",
+   "d_day": 14
   },
   {
    "source": "alio",
