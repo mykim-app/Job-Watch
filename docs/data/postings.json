@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-08-31 16:55",
+ "updated_at": "2026-09-01 08:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국전력공사",
+   "title": "2026년도 1차 연구직 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304429",
+   "start_date": "2026-08-31",
+   "end_date": "2026-09-14",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "대전 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-01",
+   "uid": "02358bd23bb944a9",
+   "cross_uid": "e08956b2c2f39351",
+   "d_day": 13
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -20,7 +41,7 @@
    "first_seen": "2026-08-31",
    "uid": "d3b2e95578f98c92",
    "cross_uid": "68ec96116dfa5e0c",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -41,30 +62,7 @@
    "first_seen": "2026-08-31",
    "uid": "ac0634c75b865d15",
    "cross_uid": "b6e5494a8e447fb5",
-   "d_day": 14
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국중소벤처기업유통원",
-   "title": "[한국중소벤처기업유통원] 2026년 하반기 채용 공고(IT전산, 사업관리(일반, 보훈), 정산서무(장애인), 직접생산확인지원, 보건관리자)",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=303722",
-   "start_date": "2026-08-12",
-   "end_date": "2026-08-31",
-   "hire_type": "무기계약직 외 2",
-   "recruit_type": "",
-   "region": "서울 외 1",
-   "ncs": "정보통신",
-   "matched": [
-    "전산",
-    "정보통신",
-    "통신",
-    "IT"
-   ],
-   "first_seen": "2026-08-31",
-   "uid": "d476c4571e33f40c",
-   "cross_uid": "4e5f73642ab7e0d9",
-   "d_day": 0
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -106,7 +104,7 @@
    "first_seen": "2026-08-31",
    "uid": "295bfdd0b1f5e6aa",
    "cross_uid": "4ef0507bff3f3ea8",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -127,7 +125,7 @@
    "first_seen": "2026-08-31",
    "uid": "d50c605b3ef0235d",
    "cross_uid": "89a6e63fc7f94ec0",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -148,7 +146,7 @@
    "first_seen": "2026-08-31",
    "uid": "c94224839731a72b",
    "cross_uid": "691f1b155d7cda6c",
-   "d_day": 8
+   "d_day": 7
   },
   {
    "source": "alio",
@@ -169,7 +167,7 @@
    "first_seen": "2026-08-31",
    "uid": "98f5ca3639494272",
    "cross_uid": "b6ddded84cd13dc8",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -190,7 +188,7 @@
    "first_seen": "2026-08-31",
    "uid": "bacc84ce1f434942",
    "cross_uid": "42b6081358cb76e6",
-   "d_day": 4
+   "d_day": 3
   },
   {
    "source": "alio",
@@ -211,28 +209,7 @@
    "first_seen": "2026-08-31",
    "uid": "840afadfcea96e8a",
    "cross_uid": "697af0743261437a",
-   "d_day": 10
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "주식회사한국중소벤처기업유통원",
-   "title": "2026년 하반기 채용 공고(IT전산, 사업관리(보훈), 직접생산확인지원, 정산서무(장애인), 사업관리 일반(육아휴직 대체), 보건관리자(육아휴직 대체)))",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=300741",
-   "start_date": "2026-08-12",
-   "end_date": "2026-08-31",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산",
-    "IT"
-   ],
-   "first_seen": "2026-08-31",
-   "uid": "1940eaa66de79aa0",
-   "cross_uid": "4f96c485590c4e53",
-   "d_day": 0
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -253,7 +230,7 @@
    "first_seen": "2026-08-31",
    "uid": "a69345e2ab44533d",
    "cross_uid": "6fec7669721deda5",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "uman",
@@ -274,7 +251,7 @@
    "first_seen": "2026-08-31",
    "uid": "440ab3667a51be79",
    "cross_uid": "cf982f49a3d98dbb",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "cleaneye",
@@ -294,7 +271,7 @@
    "first_seen": "2026-08-31",
    "uid": "86d072cd07278143",
    "cross_uid": "a3039156139d43b9",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "gojobs",
@@ -314,7 +291,7 @@
    "first_seen": "2026-08-31",
    "uid": "2b65e5f6df748370",
    "cross_uid": "469266e4bb55789c",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "gojobs",
@@ -334,7 +311,7 @@
    "first_seen": "2026-08-31",
    "uid": "9617f8c201250dfb",
    "cross_uid": "4cd986e58c5192e2",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -355,7 +332,7 @@
    "first_seen": "2026-08-31",
    "uid": "d154d86d94e4fcee",
    "cross_uid": "0bf3951173957898",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "gojobs",
@@ -375,28 +352,7 @@
    "first_seen": "2026-08-31",
    "uid": "919ce691ba701684",
    "cross_uid": "992496094511852e",
-   "d_day": 4
-  },
-  {
-   "source": "uman",
-   "source_label": "대학교직원신문",
-   "org": "고려대학교",
-   "title": "고려대학교 세종캠 정규직원 채용공고 (~.08.31.(월) 12:00)",
-   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18242",
-   "start_date": "2026-08-16",
-   "end_date": "2026-08-31",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-31",
-   "uid": "e3c01490fcaffca0",
-   "cross_uid": "fb2fd318d4684ccf",
-   "d_day": 0
+   "d_day": 3
   },
   {
    "source": "uman",
@@ -417,7 +373,7 @@
    "first_seen": "2026-08-31",
    "uid": "a62f75ad5de22378",
    "cross_uid": "e1e21bd5b84dfa75",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "uman",
@@ -438,7 +394,7 @@
    "first_seen": "2026-08-31",
    "uid": "4b83c199e4153ea8",
    "cross_uid": "a72081c4835b52c3",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "alio",
@@ -459,7 +415,7 @@
    "first_seen": "2026-08-31",
    "uid": "40bb9a4e2b25e900",
    "cross_uid": "ec213020c1535fe9",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "gojobs",
@@ -479,7 +435,7 @@
    "first_seen": "2026-08-31",
    "uid": "e3a669cbd084d85a",
    "cross_uid": "5fb3a49881c2086f",
-   "d_day": 4
+   "d_day": 3
   },
   {
    "source": "uman",
@@ -501,7 +457,7 @@
    "first_seen": "2026-08-31",
    "uid": "922e7484c501cafd",
    "cross_uid": "5fb3a49881c2086f",
-   "d_day": 4,
+   "d_day": 3,
    "duplicate_of_other_source": true
   }
  ],
