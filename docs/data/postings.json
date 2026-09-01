@@ -1,6 +1,91 @@
 {
- "updated_at": "2026-09-01 16:55",
+ "updated_at": "2026-09-02 08:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국장학재단",
+   "title": "한국장학재단 2026년 하반기 종합직 채용 공고(일반행정, IT 개발운영, 시설관리(경력))",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304490",
+   "start_date": "2026-09-01",
+   "end_date": "2026-09-15",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "대구",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신",
+    "IT"
+   ],
+   "first_seen": "2026-09-02",
+   "uid": "3e7ab793ecbeeea5",
+   "cross_uid": "dbd2742767586579",
+   "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국가스공사",
+   "title": "2026년 하반기 일반직(신입, 경력), 연구직 및 별정직 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304489",
+   "start_date": "2026-09-01",
+   "end_date": "2026-09-15",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 14",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-02",
+   "uid": "e3d98512e55795b7",
+   "cross_uid": "02fcb656a29eca8e",
+   "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "인천국제공항공사",
+   "title": "2026년 신입직원(일반직, 안전보안직) 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304492",
+   "start_date": "2026-09-01",
+   "end_date": "2026-09-15",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "인천",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-02",
+   "uid": "eb5aa3c8a636ee84",
+   "cross_uid": "f213fe1527c13839",
+   "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "신용보증기금",
+   "title": "2026년도 하반기 신용보증기금 신입직원 채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304432",
+   "start_date": "2026-09-02",
+   "end_date": "2026-09-16",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 15",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-02",
+   "uid": "5181fff1443e1888",
+   "cross_uid": "5a050833fb0f3767",
+   "d_day": 14
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -20,7 +105,7 @@
    "first_seen": "2026-09-01",
    "uid": "02358bd23bb944a9",
    "cross_uid": "e08956b2c2f39351",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "alio",
@@ -41,7 +126,7 @@
    "first_seen": "2026-08-31",
    "uid": "d3b2e95578f98c92",
    "cross_uid": "68ec96116dfa5e0c",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -62,7 +147,7 @@
    "first_seen": "2026-08-31",
    "uid": "ac0634c75b865d15",
    "cross_uid": "b6e5494a8e447fb5",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "alio",
@@ -104,7 +189,7 @@
    "first_seen": "2026-08-31",
    "uid": "295bfdd0b1f5e6aa",
    "cross_uid": "4ef0507bff3f3ea8",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -125,7 +210,7 @@
    "first_seen": "2026-08-31",
    "uid": "d50c605b3ef0235d",
    "cross_uid": "89a6e63fc7f94ec0",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "alio",
@@ -146,7 +231,7 @@
    "first_seen": "2026-08-31",
    "uid": "c94224839731a72b",
    "cross_uid": "691f1b155d7cda6c",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -167,7 +252,7 @@
    "first_seen": "2026-08-31",
    "uid": "98f5ca3639494272",
    "cross_uid": "b6ddded84cd13dc8",
-   "d_day": 8
+   "d_day": 7
   },
   {
    "source": "alio",
@@ -188,7 +273,7 @@
    "first_seen": "2026-08-31",
    "uid": "bacc84ce1f434942",
    "cross_uid": "42b6081358cb76e6",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -209,7 +294,7 @@
    "first_seen": "2026-08-31",
    "uid": "840afadfcea96e8a",
    "cross_uid": "697af0743261437a",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -230,7 +315,7 @@
    "first_seen": "2026-08-31",
    "uid": "a69345e2ab44533d",
    "cross_uid": "6fec7669721deda5",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "uman",
@@ -251,7 +336,7 @@
    "first_seen": "2026-08-31",
    "uid": "440ab3667a51be79",
    "cross_uid": "cf982f49a3d98dbb",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "cleaneye",
@@ -271,7 +356,7 @@
    "first_seen": "2026-08-31",
    "uid": "86d072cd07278143",
    "cross_uid": "a3039156139d43b9",
-   "d_day": 8
+   "d_day": 7
   },
   {
    "source": "gojobs",
@@ -291,7 +376,7 @@
    "first_seen": "2026-08-31",
    "uid": "2b65e5f6df748370",
    "cross_uid": "469266e4bb55789c",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "gojobs",
@@ -311,7 +396,7 @@
    "first_seen": "2026-08-31",
    "uid": "9617f8c201250dfb",
    "cross_uid": "4cd986e58c5192e2",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "alio",
@@ -332,7 +417,7 @@
    "first_seen": "2026-08-31",
    "uid": "d154d86d94e4fcee",
    "cross_uid": "0bf3951173957898",
-   "d_day": 8
+   "d_day": 7
   },
   {
    "source": "gojobs",
@@ -352,7 +437,7 @@
    "first_seen": "2026-08-31",
    "uid": "919ce691ba701684",
    "cross_uid": "992496094511852e",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "uman",
@@ -373,7 +458,7 @@
    "first_seen": "2026-08-31",
    "uid": "a62f75ad5de22378",
    "cross_uid": "e1e21bd5b84dfa75",
-   "d_day": 1
+   "d_day": 0
   },
   {
    "source": "uman",
@@ -394,7 +479,7 @@
    "first_seen": "2026-08-31",
    "uid": "4b83c199e4153ea8",
    "cross_uid": "a72081c4835b52c3",
-   "d_day": 1
+   "d_day": 0
   },
   {
    "source": "alio",
@@ -415,7 +500,7 @@
    "first_seen": "2026-08-31",
    "uid": "40bb9a4e2b25e900",
    "cross_uid": "ec213020c1535fe9",
-   "d_day": 1
+   "d_day": 0
   },
   {
    "source": "gojobs",
@@ -435,7 +520,7 @@
    "first_seen": "2026-08-31",
    "uid": "e3a669cbd084d85a",
    "cross_uid": "5fb3a49881c2086f",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "uman",
@@ -457,7 +542,7 @@
    "first_seen": "2026-08-31",
    "uid": "922e7484c501cafd",
    "cross_uid": "5fb3a49881c2086f",
-   "d_day": 3,
+   "d_day": 2,
    "duplicate_of_other_source": true
   }
  ],
