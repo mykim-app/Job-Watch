@@ -1,6 +1,48 @@
 {
- "updated_at": "2026-09-02 12:55",
+ "updated_at": "2026-09-02 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국학중앙연구원",
+   "title": "기능직(통신) 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304545",
+   "start_date": "2026-09-02",
+   "end_date": "2026-09-17",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "경기",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-02",
+   "uid": "4ada055c9fe639d8",
+   "cross_uid": "1c15e748a07fb391",
+   "d_day": 15
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국전력공사",
+   "title": "2026년도 하반기 4직급 대졸수준 신입사원 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304551",
+   "start_date": "2026-09-02",
+   "end_date": "2026-09-16",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 15",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-02",
+   "uid": "9f2b290bf9d7c365",
+   "cross_uid": "ccdc56eeed01aa61",
+   "d_day": 14
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
