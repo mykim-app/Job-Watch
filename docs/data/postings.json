@@ -1,6 +1,26 @@
 {
- "updated_at": "2026-09-03 08:55",
+ "updated_at": "2026-09-03 12:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "국립경국대학교",
+   "title": "국립경국대학교 국가공무원(사서, 전산) 전입 희망자 모집공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302554",
+   "start_date": "2026-09-03",
+   "end_date": "2026-09-14",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-09-03",
+   "uid": "086de02cc7a0c416",
+   "cross_uid": "77dddc848f57117b",
+   "d_day": 11
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
