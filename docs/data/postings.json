@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-09-04 16:55",
+ "updated_at": "2026-09-05 08:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "중소기업은행",
+   "title": "2026년 하반기 IBK기업은행 일반직원(정규직) 수시채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304557",
+   "start_date": "2026-09-04",
+   "end_date": "2026-09-21",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 16",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-05",
+   "uid": "dd06a57a14ffb042",
+   "cross_uid": "d5fbba6bf300dc0e",
+   "d_day": 16
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
@@ -19,7 +40,7 @@
    "first_seen": "2026-09-04",
    "uid": "a1b60b0438866d85",
    "cross_uid": "bd490317d8fe32c2",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "gojobs",
@@ -39,7 +60,7 @@
    "first_seen": "2026-09-04",
    "uid": "eabb1e3fba8a61d6",
    "cross_uid": "289ed6b4694982d4",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "gojobs",
@@ -59,7 +80,7 @@
    "first_seen": "2026-09-04",
    "uid": "c014112906c0ad7e",
    "cross_uid": "45ba99fb3821cbf3",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "gojobs",
@@ -80,7 +101,7 @@
    "first_seen": "2026-09-04",
    "uid": "65410974a0f8396a",
    "cross_uid": "b25d9522b71acaa1",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "cleaneye",
@@ -101,7 +122,7 @@
    "first_seen": "2026-09-04",
    "uid": "61895dff12d1e273",
    "cross_uid": "5b2413789059f52c",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "gojobs",
@@ -121,7 +142,7 @@
    "first_seen": "2026-09-03",
    "uid": "086de02cc7a0c416",
    "cross_uid": "77dddc848f57117b",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -142,7 +163,7 @@
    "first_seen": "2026-09-02",
    "uid": "4ada055c9fe639d8",
    "cross_uid": "1c15e748a07fb391",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "alio",
@@ -163,7 +184,7 @@
    "first_seen": "2026-09-02",
    "uid": "9f2b290bf9d7c365",
    "cross_uid": "ccdc56eeed01aa61",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "alio",
@@ -185,7 +206,7 @@
    "first_seen": "2026-09-02",
    "uid": "3e7ab793ecbeeea5",
    "cross_uid": "dbd2742767586579",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -206,7 +227,7 @@
    "first_seen": "2026-09-02",
    "uid": "e3d98512e55795b7",
    "cross_uid": "02fcb656a29eca8e",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -227,7 +248,7 @@
    "first_seen": "2026-09-02",
    "uid": "eb5aa3c8a636ee84",
    "cross_uid": "f213fe1527c13839",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -248,7 +269,7 @@
    "first_seen": "2026-09-02",
    "uid": "5181fff1443e1888",
    "cross_uid": "5a050833fb0f3767",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "alio",
@@ -269,7 +290,7 @@
    "first_seen": "2026-09-01",
    "uid": "02358bd23bb944a9",
    "cross_uid": "e08956b2c2f39351",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -290,7 +311,7 @@
    "first_seen": "2026-08-31",
    "uid": "d3b2e95578f98c92",
    "cross_uid": "68ec96116dfa5e0c",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -311,7 +332,7 @@
    "first_seen": "2026-08-31",
    "uid": "ac0634c75b865d15",
    "cross_uid": "b6e5494a8e447fb5",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -353,7 +374,7 @@
    "first_seen": "2026-08-31",
    "uid": "295bfdd0b1f5e6aa",
    "cross_uid": "4ef0507bff3f3ea8",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -374,7 +395,7 @@
    "first_seen": "2026-08-31",
    "uid": "c94224839731a72b",
    "cross_uid": "691f1b155d7cda6c",
-   "d_day": 4
+   "d_day": 3
   },
   {
    "source": "alio",
@@ -395,28 +416,7 @@
    "first_seen": "2026-08-31",
    "uid": "98f5ca3639494272",
    "cross_uid": "b6ddded84cd13dc8",
-   "d_day": 5
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국도로교통공단",
-   "title": "2026년도 교통직(무기계약직) 공개채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=303979",
-   "start_date": "2026-08-20",
-   "end_date": "2026-09-04",
-   "hire_type": "무기계약직",
-   "recruit_type": "",
-   "region": "서울 외 14",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-31",
-   "uid": "bacc84ce1f434942",
-   "cross_uid": "42b6081358cb76e6",
-   "d_day": 0
+   "d_day": 4
   },
   {
    "source": "alio",
@@ -437,7 +437,7 @@
    "first_seen": "2026-08-31",
    "uid": "840afadfcea96e8a",
    "cross_uid": "697af0743261437a",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -458,7 +458,7 @@
    "first_seen": "2026-08-31",
    "uid": "a69345e2ab44533d",
    "cross_uid": "6fec7669721deda5",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "uman",
@@ -479,7 +479,7 @@
    "first_seen": "2026-08-31",
    "uid": "440ab3667a51be79",
    "cross_uid": "cf982f49a3d98dbb",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "cleaneye",
@@ -499,7 +499,7 @@
    "first_seen": "2026-08-31",
    "uid": "86d072cd07278143",
    "cross_uid": "a3039156139d43b9",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "alio",
@@ -520,72 +520,11 @@
    "first_seen": "2026-08-31",
    "uid": "d154d86d94e4fcee",
    "cross_uid": "0bf3951173957898",
-   "d_day": 5
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "공정거래위원회",
-   "title": "공정거래위윈회 행정·시설·전산 6급 공무원 경력경쟁채용시험 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=301972",
-   "start_date": "2026-08-25",
-   "end_date": "2026-09-04",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-08-31",
-   "uid": "919ce691ba701684",
-   "cross_uid": "992496094511852e",
-   "d_day": 0
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "강원대학교",
-   "title": "강원대학교 정보화본부 계약직 직원 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=301829",
-   "start_date": "2026-08-24",
-   "end_date": "2026-09-04",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "정보화"
-   ],
-   "first_seen": "2026-08-31",
-   "uid": "e3a669cbd084d85a",
-   "cross_uid": "5fb3a49881c2086f",
-   "d_day": 0
-  },
-  {
-   "source": "uman",
-   "source_label": "대학교직원신문",
-   "org": "강원대학교",
-   "title": "강원대학교 정보화본부 계약직 직원 채용 공고(~09. 04.(금))",
-   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18266",
-   "start_date": "2026-08-25",
-   "end_date": "2026-09-04",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "정보통신",
-   "matched": [
-    "정보화",
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-08-31",
-   "uid": "922e7484c501cafd",
-   "cross_uid": "5fb3a49881c2086f",
-   "d_day": 0,
-   "duplicate_of_other_source": true
+   "d_day": 4
   }
  ],
  "failed_sources": [],
- "pending": []
+ "pending": [
+  "dd06a57a14ffb042"
+ ]
 }
