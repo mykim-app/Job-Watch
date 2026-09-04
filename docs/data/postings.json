@@ -1,6 +1,46 @@
 {
- "updated_at": "2026-09-04 08:55",
+ "updated_at": "2026-09-04 12:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "문화체육관광부 국립국어원",
+   "title": "2026년 국립국어원 언어정보과 공무직 근로자(전산원) 채용 변경 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302865",
+   "start_date": "2026-09-04",
+   "end_date": "2026-09-11",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-09-04",
+   "uid": "eabb1e3fba8a61d6",
+   "cross_uid": "289ed6b4694982d4",
+   "d_day": 7
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "경찰청 서울특별시경찰청 서울서대문경찰서",
+   "title": "서울서대문경찰서 공무직 근로자[무기직, 전산분야] 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302844",
+   "start_date": "2026-09-04",
+   "end_date": "2026-09-14",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-09-04",
+   "uid": "c014112906c0ad7e",
+   "cross_uid": "45ba99fb3821cbf3",
+   "d_day": 10
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
