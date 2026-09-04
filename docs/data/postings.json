@@ -1,6 +1,26 @@
 {
- "updated_at": "2026-09-04 12:55",
+ "updated_at": "2026-09-04 16:21",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "조달청",
+   "title": "조달청 일반직공무원[행정6급(법률), 전산7급, 시설7급] 경력경쟁채용시험 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302910",
+   "start_date": "2026-09-04",
+   "end_date": "2026-09-15",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-09-04",
+   "uid": "a1b60b0438866d85",
+   "cross_uid": "bd490317d8fe32c2",
+   "d_day": 11
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
@@ -61,6 +81,27 @@
    "uid": "65410974a0f8396a",
    "cross_uid": "b25d9522b71acaa1",
    "d_day": 12
+  },
+  {
+   "source": "cleaneye",
+   "source_label": "클린아이",
+   "org": "경남로봇랜드재단",
+   "title": "2026년 경남로봇랜드재단 계약직 채용 재공고",
+   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000358&entSeq=000022",
+   "start_date": "2026-09-04",
+   "end_date": "2026-09-14",
+   "hire_type": "일반계약직",
+   "recruit_type": "신입+경력",
+   "region": "경상남도",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-04",
+   "uid": "61895dff12d1e273",
+   "cross_uid": "5b2413789059f52c",
+   "d_day": 10
   },
   {
    "source": "gojobs",
@@ -545,5 +586,6 @@
    "duplicate_of_other_source": true
   }
  ],
- "failed_sources": []
+ "failed_sources": [],
+ "pending": []
 }
