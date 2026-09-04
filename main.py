@@ -12,6 +12,7 @@ import yaml
 
 import notify
 import store
+import workday
 from collectors.base import Posting
 from filters import is_public_org, match, match_open
 
@@ -115,7 +116,6 @@ def main() -> int:
     if expired:
         print(f"보관 목록에서 마감된 공고 {expired}건 정리")
     merged["failed_sources"] = failed
-    store.save(merged, now.strftime("%Y-%m-%d %H:%M"))
 
     print(f"신규 공고: {len(new_items)}건 / 보관 중: {len(merged['postings'])}건")
     for p in new_items:
@@ -124,7 +124,35 @@ def main() -> int:
     if failed:
         print(f"⚠ 수집 실패한 곳: {', '.join(failed)} (나머지는 정상 수집됨)")
 
-    notify.send(new_items, today, os.environ.get("SITE_URL", ""))
+    # ── 메일: 근무일에만 보낸다. 주말·공휴일에 찾은 공고는 다음 근무일로 넘긴다
+    workdays_only = bool((cfg.get("mail") or {}).get("workdays_only", True))
+    pending = list(dict.fromkeys(
+        (existing.get("pending") or []) + [p["uid"] for p in new_items]
+    ))
+    by_uid = {p["uid"]: p for p in merged["postings"]}
+
+    ok_day, reason = (True, "")
+    if workdays_only:
+        ok_day, reason = workday.is_workday(now.date(), log)
+
+    if not ok_day:
+        merged["pending"] = pending
+        print(f"오늘은 {reason}이라 발송하지 않습니다. 대기 {len(pending)}건 "
+              f"→ 다음 근무일에 함께 보냅니다.")
+    else:
+        to_send = [by_uid[u] for u in pending
+                   if u in by_uid and not by_uid[u].get("duplicate_of_other_source")]
+        if not to_send:
+            merged["pending"] = []
+            print("[mail] 보낼 신규 공고가 없습니다")
+        else:
+            carried = len(to_send) - len(new_items)
+            if carried > 0:
+                print(f"지난 휴일에 밀린 {carried}건을 함께 보냅니다")
+            sent = notify.send(to_send, today, os.environ.get("SITE_URL", ""))
+            merged["pending"] = [] if sent else [p["uid"] for p in to_send]
+
+    store.save(merged, now.strftime("%Y-%m-%d %H:%M"))
     return 0
 
 
