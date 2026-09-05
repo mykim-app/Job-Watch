@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-05 16:55",
+ "updated_at": "2026-09-06 08:55",
  "postings": [
   {
    "source": "alio",
@@ -20,7 +20,7 @@
    "first_seen": "2026-09-05",
    "uid": "dd06a57a14ffb042",
    "cross_uid": "d5fbba6bf300dc0e",
-   "d_day": 16
+   "d_day": 15
   },
   {
    "source": "gojobs",
@@ -40,7 +40,7 @@
    "first_seen": "2026-09-04",
    "uid": "a1b60b0438866d85",
    "cross_uid": "bd490317d8fe32c2",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "gojobs",
@@ -60,7 +60,7 @@
    "first_seen": "2026-09-04",
    "uid": "eabb1e3fba8a61d6",
    "cross_uid": "289ed6b4694982d4",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "gojobs",
@@ -80,7 +80,7 @@
    "first_seen": "2026-09-04",
    "uid": "c014112906c0ad7e",
    "cross_uid": "45ba99fb3821cbf3",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "gojobs",
@@ -101,7 +101,7 @@
    "first_seen": "2026-09-04",
    "uid": "65410974a0f8396a",
    "cross_uid": "b25d9522b71acaa1",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "cleaneye",
@@ -122,7 +122,7 @@
    "first_seen": "2026-09-04",
    "uid": "61895dff12d1e273",
    "cross_uid": "5b2413789059f52c",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "gojobs",
@@ -142,7 +142,7 @@
    "first_seen": "2026-09-03",
    "uid": "086de02cc7a0c416",
    "cross_uid": "77dddc848f57117b",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -163,7 +163,7 @@
    "first_seen": "2026-09-02",
    "uid": "4ada055c9fe639d8",
    "cross_uid": "1c15e748a07fb391",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "alio",
@@ -184,7 +184,7 @@
    "first_seen": "2026-09-02",
    "uid": "9f2b290bf9d7c365",
    "cross_uid": "ccdc56eeed01aa61",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -206,7 +206,7 @@
    "first_seen": "2026-09-02",
    "uid": "3e7ab793ecbeeea5",
    "cross_uid": "dbd2742767586579",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -227,7 +227,7 @@
    "first_seen": "2026-09-02",
    "uid": "e3d98512e55795b7",
    "cross_uid": "02fcb656a29eca8e",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -248,7 +248,7 @@
    "first_seen": "2026-09-02",
    "uid": "eb5aa3c8a636ee84",
    "cross_uid": "f213fe1527c13839",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -269,7 +269,7 @@
    "first_seen": "2026-09-02",
    "uid": "5181fff1443e1888",
    "cross_uid": "5a050833fb0f3767",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -290,7 +290,7 @@
    "first_seen": "2026-09-01",
    "uid": "02358bd23bb944a9",
    "cross_uid": "e08956b2c2f39351",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -311,7 +311,7 @@
    "first_seen": "2026-08-31",
    "uid": "d3b2e95578f98c92",
    "cross_uid": "68ec96116dfa5e0c",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "alio",
@@ -332,7 +332,7 @@
    "first_seen": "2026-08-31",
    "uid": "ac0634c75b865d15",
    "cross_uid": "b6e5494a8e447fb5",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -374,7 +374,7 @@
    "first_seen": "2026-08-31",
    "uid": "295bfdd0b1f5e6aa",
    "cross_uid": "4ef0507bff3f3ea8",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -395,7 +395,7 @@
    "first_seen": "2026-08-31",
    "uid": "c94224839731a72b",
    "cross_uid": "691f1b155d7cda6c",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -416,7 +416,7 @@
    "first_seen": "2026-08-31",
    "uid": "98f5ca3639494272",
    "cross_uid": "b6ddded84cd13dc8",
-   "d_day": 4
+   "d_day": 3
   },
   {
    "source": "alio",
@@ -437,7 +437,7 @@
    "first_seen": "2026-08-31",
    "uid": "840afadfcea96e8a",
    "cross_uid": "697af0743261437a",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "alio",
@@ -458,7 +458,7 @@
    "first_seen": "2026-08-31",
    "uid": "a69345e2ab44533d",
    "cross_uid": "6fec7669721deda5",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "uman",
@@ -479,7 +479,7 @@
    "first_seen": "2026-08-31",
    "uid": "440ab3667a51be79",
    "cross_uid": "cf982f49a3d98dbb",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "cleaneye",
@@ -499,7 +499,7 @@
    "first_seen": "2026-08-31",
    "uid": "86d072cd07278143",
    "cross_uid": "a3039156139d43b9",
-   "d_day": 4
+   "d_day": 3
   },
   {
    "source": "alio",
@@ -520,7 +520,7 @@
    "first_seen": "2026-08-31",
    "uid": "d154d86d94e4fcee",
    "cross_uid": "0bf3951173957898",
-   "d_day": 4
+   "d_day": 3
   }
  ],
  "failed_sources": [],
