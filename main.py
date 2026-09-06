@@ -27,6 +27,7 @@ COLLECTORS = [
     ("gojobs", "gojobs", "나라일터"),
     ("procollege", "procollege", "전문대학포털"),
     ("uman", "uman", "대학교직원신문"),
+    ("seoul", "seoul", "서울일자리포털"),
     ("saramin", "saramin", "사람인"),
     ("worknet", "worknet", "고용24"),
 ]
@@ -93,8 +94,8 @@ def main() -> int:
             ok, hits = match_open(post, f, rule)
         if not ok:
             continue
-        # 사람인·고용24 는 민간기업이 대부분이라 기관명으로 한 번 더 거른다
-        if post.source in ("saramin", "worknet") and not is_public_org(post, f):
+        # 사람인·고용24·서울일자리포털은 민간이 대부분이라 기관명으로 한 번 더 거른다
+        if post.source in ("saramin", "worknet", "seoul") and not is_public_org(post, f):
             continue
         # 접수 시작일을 모르는 곳(HTML 게시판 등)은 날짜로 자르지 않는다
         if post.start_date and post.start_date < cutoff:
