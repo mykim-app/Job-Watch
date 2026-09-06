@@ -14,7 +14,7 @@ import notify
 import store
 import workday
 from collectors.base import Posting
-from filters import is_public_org, match, match_open
+from filters import excluded_reason, is_public_org, match, match_open
 
 KST = timezone(timedelta(hours=9))
 
@@ -112,10 +112,7 @@ def main() -> int:
             # 전산·통신직이 아니어도 지정한 고용형태면 담는다 (대학교직원신문 등)
             ok, hits = match_open(post, f, rule)
         if not ok:
-            blob = " ".join(x for x in (post.title, post.ncs,
-                                        post.recruit_type, post.hire_type) if x)
-            bad = next((w for w in f.get("exclude", []) if w and w in blob), None)
-            note(post.source, f"제외 단어 '{bad}'" if bad else "직무 키워드 없음", post)
+            note(post.source, excluded_reason(post, f) or "직무 키워드 없음", post)
             continue
         # 사람인·고용24·서울일자리포털은 민간이 대부분이라 기관명으로 한 번 더 거른다
         if post.source in ("saramin", "worknet", "seoul") and not is_public_org(post, f):
