@@ -6,11 +6,12 @@
 # 이 값이 웹페이지에 보이는 기간과 맞물린다
 lookback_days: 30
 
-# 화면/데이터에 남겨둘 기간
-retention_days: 60
+# 공고 데이터를 남겨둘 기간(일). 이 기간이 지난 기록은 자동으로 사라진다.
+# 로그 보관기간과 같은 값을 쓴다. .env 에 KEEP_DAYS 를 두면 로그·데이터가 함께 바뀐다.
+retention_days: 365
 
 # 특정 수집처가 왜 0건인지 볼 때 쓴다. 수집처 키를 넣으면 단계별 탈락 수와 예시를 찍는다.
-# 확인이 끝나면 빈 목록으로 되돌리면 된다.  예: diagnose: [seoul]
+# 확인이 끝나면 빈 목록으로 되돌리면 된다.  예: diagnose: []
 diagnose: []
 diagnose_samples: 8
 
@@ -91,6 +92,7 @@ filters:
     - 계약근로자
     - 일용
     - 작업원
+    # 서울일자리포털(고용24)의 고용형태 표기
     - 기간의 정함이 있는
 
   # 이 말이 함께 있으면 위 고용형태 제외를 적용하지 않는다
@@ -204,7 +206,7 @@ sources:
   #     고용24에서 '채용정보' 서비스를 신청해 받은 인증키가 필요하다(기업회원 전용).
   #     Secret/.env 이름은 WORKNET_AUTH_KEY. 키가 없으면 조용히 건너뛴다.
   worknet:
-    enabled: false
+    enabled: true
     display: 100
     max_pages: 2
     query_keywords:

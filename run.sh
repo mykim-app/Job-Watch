@@ -7,7 +7,8 @@ export HOME=/app
 export TZ="${TZ:-Asia/Seoul}"
 
 LOG_DIR=/app/logs
-KEEP_DAYS="${LOG_KEEP_DAYS:-365}"
+# 로그와 공고 데이터를 같은 기간만큼 보관한다 (.env 의 KEEP_DAYS 로 조절)
+KEEP_DAYS="${KEEP_DAYS:-365}"
 mkdir -p "$LOG_DIR"
 
 # ISO 기준 주 (월요일 시작). 예: 2026-W36

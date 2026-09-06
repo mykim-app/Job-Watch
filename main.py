@@ -158,14 +158,16 @@ def main() -> int:
 
     # ── 중복 제거 & 저장
     existing = store.load()
+    keep_days = int(os.environ.get("KEEP_DAYS") or cfg.get("retention_days", 365))
     merged, new_items, expired = store.merge(
-        existing, kept, today, int(cfg.get("retention_days", 60)), drop_closed
+        existing, kept, today, keep_days, drop_closed
     )
     if expired:
         print(f"보관 목록에서 마감된 공고 {expired}건 정리")
     merged["failed_sources"] = failed
 
-    print(f"신규 공고: {len(new_items)}건 / 보관 중: {len(merged['postings'])}건")
+    print(f"신규 공고: {len(new_items)}건 / 보관 중: {len(merged['postings'])}건 "
+          f"(보관 {keep_days}일)")
     for p in new_items:
         print(f"  + [{p.get('source_label')}] {p.get('org')} — {p.get('title')}")
 
