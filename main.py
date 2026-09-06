@@ -84,6 +84,25 @@ def main() -> int:
     drop_closed = bool(cfg.get("drop_closed", True))
     closed = 0
     kept: list[dict] = []
+
+    # 특정 수집처가 왜 0건인지 볼 때 쓴다. config 의 diagnose 에 수집처 키를 넣으면
+    # 단계별 탈락 수와 예시를 로그에 남긴다.
+    diagnose = set(cfg.get("diagnose") or [])
+    n_samples = int(cfg.get("diagnose_samples", 8))
+    stats: dict = {}
+    samples: dict = {}
+
+    def note(src, stage, post):
+        if src not in diagnose:
+            return
+        st = stats.setdefault(src, {})
+        st[stage] = st.get(stage, 0) + 1
+        if stage != "통과":
+            box = samples.setdefault(src, {}).setdefault(stage, [])
+            if len(box) < n_samples:
+                box.append(f"[{post.org[:18]}] {post.title[:40]}"
+                           + (f" · 고용형태 {post.hire_type}" if post.hire_type else "")
+                           + (f" · 직종 {post.ncs[:18]}" if post.ncs else ""))
     open_sources = f.get("open_sources") or {}
 
     for post in raw:
@@ -93,19 +112,42 @@ def main() -> int:
             # 전산·통신직이 아니어도 지정한 고용형태면 담는다 (대학교직원신문 등)
             ok, hits = match_open(post, f, rule)
         if not ok:
+            blob = " ".join(x for x in (post.title, post.ncs,
+                                        post.recruit_type, post.hire_type) if x)
+            bad = next((w for w in f.get("exclude", []) if w and w in blob), None)
+            note(post.source, f"제외 단어 '{bad}'" if bad else "직무 키워드 없음", post)
             continue
         # 사람인·고용24·서울일자리포털은 민간이 대부분이라 기관명으로 한 번 더 거른다
         if post.source in ("saramin", "worknet", "seoul") and not is_public_org(post, f):
+            note(post.source, "기관명 조건 불일치", post)
             continue
         # 접수 시작일을 모르는 곳(HTML 게시판 등)은 날짜로 자르지 않는다
         if post.start_date and post.start_date < cutoff:
+            note(post.source, f"{cfg.get('lookback_days', 30)}일보다 오래됨", post)
             continue
         # 접수가 이미 끝난 공고는 받지 않는다 (마감일이 없으면 상시채용으로 보고 남김)
         if drop_closed and post.end_date and post.end_date < today:
             closed += 1
+            note(post.source, "접수 마감됨", post)
             continue
         post.matched = hits
+        note(post.source, "통과", post)
         kept.append(post.to_dict())
+
+    for src in sorted(diagnose):
+        st = stats.get(src)
+        if not st:
+            print(f"  [진단] {src}: 수집된 공고가 없습니다")
+            continue
+        총 = sum(st.values())
+        print(f"  [진단] {src} {총}건 → " +
+              ", ".join(f"{k} {v}건" for k, v in sorted(st.items(), key=lambda x: -x[1])))
+        for stage, box in (samples.get(src) or {}).items():
+            if stage == "직무 키워드 없음":
+                continue                      # 대부분이 여기라 예시가 의미 없다
+            print(f"    · {stage} 예시")
+            for line in box:
+                print(f"        {line}")
 
     by_source = {}
     for k in kept:

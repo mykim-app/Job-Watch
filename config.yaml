@@ -9,6 +9,11 @@ lookback_days: 30
 # 화면/데이터에 남겨둘 기간
 retention_days: 60
 
+# 특정 수집처가 왜 0건인지 볼 때 쓴다. 수집처 키를 넣으면 단계별 탈락 수와 예시를 찍는다.
+# 확인이 끝나면 빈 목록으로 되돌리면 된다.  예: diagnose: [seoul]
+diagnose: [seoul]
+diagnose_samples: 8
+
 # 메일 발송 설정
 mail:
   # 한국 기준 근무일(주말·공휴일 제외)에만 보낸다.
