@@ -39,6 +39,19 @@ FIELDS = {
     },
 }
 
+# 고용형태 값에 늘 붙는 상용구. 모든 공고에 들어 있어 그대로 두면
+# '대체인력' 같은 제외 단어에 전부 걸린다.
+BOILERPLATE = ("파견근로", "대체인력채용", "상용직전환")
+
+
+def _emp_type(raw: str) -> str:
+    """'기간의 정함이 없는 근로계약/ 파견근로 비희망/ 대체인력채용 비희망'
+    에서 실제 고용형태만 남긴다."""
+    parts = [squeeze(x) for x in squeeze(raw).split("/")]
+    keep = [p for p in parts if p and not any(b in p for b in BOILERPLATE)]
+    return " / ".join(keep)
+
+
 # 직무내용에서 찾을 전산 관련 말 (scan_job_content 를 켰을 때만 쓴다)
 IT_WORDS = ["전산", "정보화", "정보통신", "정보시스템", "정보보안", "네트워크",
             "서버", "데이터베이스", "소프트웨어", "홈페이지", "전산실"]
@@ -177,7 +190,7 @@ def fetch(cfg: dict, log) -> list[Posting]:
                     url="",                       # 원문 주소를 제공하지 않는다
                     start_date=parse_ymd(row.get(f["reg"])),
                     end_date=parse_ymd(row.get(f["close"])),
-                    hire_type=squeeze(row.get(f["emp"])),
+                    hire_type=_emp_type(row.get(f["emp"])),
                     recruit_type=squeeze(row.get(f["career"])),
                     region=squeeze(row.get(f["region"]))[:20],
                     ncs=job,

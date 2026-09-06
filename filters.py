@@ -36,6 +36,22 @@ def _blob(post: Posting) -> str:
     )
 
 
+# '비정규직' 안에는 '정규직'이 들어 있다. 이 글자가 앞에 붙으면 정규직으로 보지 않는다.
+_NEGATION = "비준"
+
+
+def _keep_spans(blob: str, keeps: list) -> list:
+    """정규직 계열 표현이 나온 구간. '비'가 앞에 붙은 것은 빼고 찾는다."""
+    spans = []
+    for g in keeps:
+        g = g.strip()
+        if not g:
+            continue
+        for m in re.finditer(rf"(?<![{_NEGATION}]){re.escape(g)}", blob):
+            spans.append((m.start(), m.end()))
+    return spans
+
+
 def excluded_reason(post: Posting, f: dict) -> str | None:
     """제외 사유. 제외 대상이 아니면 None."""
     blob = _blob(post)
@@ -44,11 +60,21 @@ def excluded_reason(post: Posting, f: dict) -> str | None:
         if _hit(blob, bad):
             return f"제외 단어 '{bad}'"
 
-    emp_bad = [w for w in f.get("exclude_employment", []) if _hit(blob, w)]
+    keeps = f.get("keep_employment", [])
+    spans = _keep_spans(blob, keeps)
+
+    # 정규직 계열로 잡힌 구간은 지우고 고용형태 제외어를 찾는다.
+    # ('무기계약직'을 '계약직'으로 잘못 잡는 것을 막는다)
+    masked = list(blob)
+    for a, b in spans:
+        for i in range(a, b):
+            masked[i] = " "
+    masked = "".join(masked)
+
+    emp_bad = [w for w in f.get("exclude_employment", []) if _hit(masked, w)]
     if emp_bad:
-        keep = [g for g in f.get("keep_employment", []) if _hit(blob, g)]
-        if keep:
-            return None                    # 정규직도 같이 뽑는 공고라 살린다
+        if spans:
+            return None            # 정규직도 같이 뽑는 공고라 살린다
         return f"고용형태 '{emp_bad[0]}'"
 
     return None
