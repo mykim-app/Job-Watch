@@ -45,6 +45,37 @@ def _rows(payload) -> tuple[list, int, str]:
     return rows, int(body.get("list_total_count") or 0), ""
 
 
+def _call(session, key, start, end, log, tag, delay):
+    url = f"{HOST}/{key}/json/{SERVICE}/{start}/{end}/"
+    r = request(session, "GET", url, log, tag, delay=delay, timeout=60)
+    return _rows(r.json())
+
+
+def _newest_first(session, key, total, log, delay) -> bool:
+    """목록이 최신순인지 확인한다.
+
+    전체가 2만 건이 넘는데 앞에서부터 읽으면 오래된 공고만 가져오게 된다.
+    앞뒤 5건씩 등록일을 비교해 어느 쪽이 최신인지 본다.
+    """
+    try:
+        head, _, _ = _call(session, key, 1, 5, log, "서울일자리포털 정렬확인(앞)", delay)
+        tail, _, _ = _call(session, key, max(total - 4, 1), total,
+                           log, "서울일자리포털 정렬확인(뒤)", delay)
+    except Exception:  # noqa: BLE001
+        return True
+
+    def newest(rows):
+        ds = [parse_ymd(x.get("JO_REG_DT")) for x in rows]
+        ds = [d for d in ds if d]
+        return max(ds) if ds else ""
+
+    h, t = newest(head), newest(tail)
+    if not h or not t:
+        return True
+    log(f"  등록일 앞 {h} / 뒤 {t}")
+    return h >= t
+
+
 def fetch(cfg: dict, log) -> list[Posting]:
     key = os.environ.get("SEOUL_API_KEY", "").strip()
     if not key:
@@ -58,15 +89,32 @@ def fetch(cfg: dict, log) -> list[Posting]:
     out: list[Posting] = []
     seen: set[str] = set()
 
+    # 총 건수부터 확인하고, 최신 공고가 어느 쪽에 있는지 판단한다
+    try:
+        _, total, err = _call(session, key, 1, 1, log, "서울일자리포털 건수확인", delay)
+    except Exception as e:  # noqa: BLE001
+        log(f"서울일자리포털 조회 실패: {type(e).__name__}: {e}")
+        return []
+    if err:
+        log(f"서울일자리포털 응답 오류: {err}")
+        return []
+
+    newest_first = _newest_first(session, key, total, log, delay) if total > PAGE else True
+    log(f"  전체 {total}건 · {'최신순' if newest_first else '오래된순(뒤에서부터 읽음)'}")
+
     for page in range(max_pages):
-        start = page * PAGE + 1
-        end = start + PAGE - 1
-        url = f"{HOST}/{key}/json/{SERVICE}/{start}/{end}/"
+        if newest_first:
+            start = page * PAGE + 1
+            end = start + PAGE - 1
+        else:
+            end = total - page * PAGE
+            start = max(end - PAGE + 1, 1)
+            if end < 1:
+                break
 
         try:
-            r = request(session, "GET", url, log, f"서울일자리포털 {page + 1}p",
-                        delay=delay, timeout=60)
-            rows, total, err = _rows(r.json())
+            rows, _, err = _call(session, key, start, end,
+                                 log, f"서울일자리포털 {page + 1}p", delay)
         except Exception as e:  # noqa: BLE001
             log(f"서울일자리포털 {page + 1}p 조회 실패: {type(e).__name__}: {e}")
             break
@@ -107,9 +155,7 @@ def fetch(cfg: dict, log) -> list[Posting]:
                 )
             )
 
-        if page == 0:
-            log(f"  서울일자리포털 전체 {total}건")
-        if len(rows) < PAGE:
+        if len(rows) < PAGE or start <= 1:
             break
 
     log(f"서울일자리포털: {len(out)}건 수집 (기관명 필터 적용 전)")

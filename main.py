@@ -107,6 +107,14 @@ def main() -> int:
         post.matched = hits
         kept.append(post.to_dict())
 
+    by_source = {}
+    for k in kept:
+        by_source[k["source_label"]] = by_source.get(k["source_label"], 0) + 1
+    if by_source:
+        detail = ", ".join(f"{n} {c}건" for n, c in
+                           sorted(by_source.items(), key=lambda x: -x[1]))
+        print(f"  출처별 통과: {detail}")
+
     print(f"전산·통신직 필터 통과: {len(kept)}건" + (f" (마감 지난 공고 {closed}건 제외)" if closed else ""))
 
     # ── 중복 제거 & 저장
