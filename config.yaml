@@ -193,7 +193,11 @@ sources:
   #     원문 주소를 안 주므로 목록에서 링크는 안 걸린다.
   seoul:
     enabled: true
-    max_pages: 3        # 1회 1000행. 3페이지면 3000건
+    # recMntList = OA-23047 (고용24 원본, 서울·경기·인천, 매일 갱신)
+    # GetJobInfo = OA-13341 (서울 일자리플러스센터, 갱신이 느림)
+    service: recMntList
+    max_pages: 3            # 1회 1000행
+    scan_job_content: false # 직무내용까지 훑을지 (켜면 놓침은 줄고 오탐은 는다)
 
   # ── 4) 사람인 오픈API
   #     https://oapi.saramin.co.kr 에서 이용신청·승인 후 access-key 발급
