@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-07 12:55",
+ "updated_at": "2026-09-07 16:55",
  "postings": [
   {
    "source": "alio",
@@ -21,6 +21,28 @@
    "uid": "587a3b42adaada6f",
    "cross_uid": "88609fccbfd82d14",
    "d_day": 15
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "코레일유통(주)",
+   "title": "코레일유통(주) 2026년 일반직(IT개발) 경력사원 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304686",
+   "start_date": "2026-09-07",
+   "end_date": "2026-09-21",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신",
+    "IT"
+   ],
+   "first_seen": "2026-09-07",
+   "uid": "29a49bce69f0c5dd",
+   "cross_uid": "d58f5d071d2f708a",
+   "d_day": 14
   },
   {
    "source": "uman",
