@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-08 12:55",
+ "updated_at": "2026-09-08 16:55",
  "postings": [
   {
    "source": "alio",
@@ -25,6 +25,27 @@
   {
    "source": "alio",
    "source_label": "잡알리오",
+   "org": "한국전기안전공사",
+   "title": "2026년 하반기 경력직원 채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304763",
+   "start_date": "2026-09-08",
+   "end_date": "2026-09-22",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "전북",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-08",
+   "uid": "03574b07d1f1bf5c",
+   "cross_uid": "dfff6e5065229ca6",
+   "d_day": 14
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
    "org": "한국수목원정원관리원",
    "title": "한국수목원정원관리원 2026년 제3차 신규직원 채용 공고",
    "url": "https://job.alio.go.kr/recruitview.do?idx=304713",
@@ -42,6 +63,27 @@
    "uid": "5ac2281879d552e7",
    "cross_uid": "18ef771d2e99ddb1",
    "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국도로공사",
+   "title": "2026년 하반기 한국도로공사 일반직 신입(인턴)사원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304761",
+   "start_date": "2026-09-08",
+   "end_date": "2026-09-22",
+   "hire_type": "청년인턴(채용형)",
+   "recruit_type": "",
+   "region": "인천 외 11",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-08",
+   "uid": "44a5eebd03b9deb6",
+   "cross_uid": "7061a605d8a5e651",
+   "d_day": 14
   },
   {
    "source": "alio",
