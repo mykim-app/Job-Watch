@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-08 16:55",
+ "updated_at": "2026-09-09 08:55",
  "postings": [
   {
    "source": "alio",
@@ -20,7 +20,7 @@
    "first_seen": "2026-09-08",
    "uid": "c486b8ed6432fe46",
    "cross_uid": "78f6552ae46ced5a",
-   "d_day": 14
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -41,7 +41,7 @@
    "first_seen": "2026-09-08",
    "uid": "03574b07d1f1bf5c",
    "cross_uid": "dfff6e5065229ca6",
-   "d_day": 14
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -62,7 +62,7 @@
    "first_seen": "2026-09-08",
    "uid": "5ac2281879d552e7",
    "cross_uid": "18ef771d2e99ddb1",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "alio",
@@ -83,7 +83,7 @@
    "first_seen": "2026-09-08",
    "uid": "44a5eebd03b9deb6",
    "cross_uid": "7061a605d8a5e651",
-   "d_day": 14
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -104,7 +104,7 @@
    "first_seen": "2026-09-07",
    "uid": "587a3b42adaada6f",
    "cross_uid": "88609fccbfd82d14",
-   "d_day": 14
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -126,7 +126,7 @@
    "first_seen": "2026-09-07",
    "uid": "29a49bce69f0c5dd",
    "cross_uid": "d58f5d071d2f708a",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "uman",
@@ -147,7 +147,7 @@
    "first_seen": "2026-09-07",
    "uid": "3ab037210a6d69cf",
    "cross_uid": "155ecc1e9d8531ca",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "uman",
@@ -169,7 +169,7 @@
    "first_seen": "2026-09-07",
    "uid": "67af424437e18801",
    "cross_uid": "80e0e4b5aacd343b",
-   "d_day": 8
+   "d_day": 7
   },
   {
    "source": "alio",
@@ -190,7 +190,7 @@
    "first_seen": "2026-09-06",
    "uid": "d3b2e95578f98c92",
    "cross_uid": "68ec96116dfa5e0c",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "alio",
@@ -211,7 +211,7 @@
    "first_seen": "2026-09-06",
    "uid": "4ada055c9fe639d8",
    "cross_uid": "1c15e748a07fb391",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -232,7 +232,7 @@
    "first_seen": "2026-09-06",
    "uid": "ac0634c75b865d15",
    "cross_uid": "b6e5494a8e447fb5",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -253,7 +253,7 @@
    "first_seen": "2026-09-06",
    "uid": "9f2b290bf9d7c365",
    "cross_uid": "ccdc56eeed01aa61",
-   "d_day": 8
+   "d_day": 7
   },
   {
    "source": "alio",
@@ -274,7 +274,7 @@
    "first_seen": "2026-09-06",
    "uid": "02358bd23bb944a9",
    "cross_uid": "e08956b2c2f39351",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -296,7 +296,7 @@
    "first_seen": "2026-09-06",
    "uid": "3e7ab793ecbeeea5",
    "cross_uid": "dbd2742767586579",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -317,28 +317,7 @@
    "first_seen": "2026-09-06",
    "uid": "295bfdd0b1f5e6aa",
    "cross_uid": "4ef0507bff3f3ea8",
-   "d_day": 3
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국산업기술시험원",
-   "title": "2026년 한국산업기술시험원 정규직 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=304192",
-   "start_date": "2026-08-24",
-   "end_date": "2026-09-08",
-   "hire_type": "무기계약직 외 2",
-   "recruit_type": "",
-   "region": "서울 외 6",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "c94224839731a72b",
-   "cross_uid": "691f1b155d7cda6c",
-   "d_day": 0
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -359,7 +338,7 @@
    "first_seen": "2026-09-06",
    "uid": "98f5ca3639494272",
    "cross_uid": "b6ddded84cd13dc8",
-   "d_day": 1
+   "d_day": 0
   },
   {
    "source": "alio",
@@ -380,7 +359,7 @@
    "first_seen": "2026-09-06",
    "uid": "e3d98512e55795b7",
    "cross_uid": "02fcb656a29eca8e",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -401,7 +380,7 @@
    "first_seen": "2026-09-06",
    "uid": "840afadfcea96e8a",
    "cross_uid": "697af0743261437a",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "alio",
@@ -422,7 +401,7 @@
    "first_seen": "2026-09-06",
    "uid": "dd06a57a14ffb042",
    "cross_uid": "d5fbba6bf300dc0e",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "gojobs",
@@ -442,7 +421,7 @@
    "first_seen": "2026-09-06",
    "uid": "a1b60b0438866d85",
    "cross_uid": "bd490317d8fe32c2",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -463,7 +442,7 @@
    "first_seen": "2026-09-06",
    "uid": "eb5aa3c8a636ee84",
    "cross_uid": "f213fe1527c13839",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -484,7 +463,7 @@
    "first_seen": "2026-09-06",
    "uid": "a69345e2ab44533d",
    "cross_uid": "6fec7669721deda5",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -505,7 +484,7 @@
    "first_seen": "2026-09-06",
    "uid": "5181fff1443e1888",
    "cross_uid": "5a050833fb0f3767",
-   "d_day": 8
+   "d_day": 7
   },
   {
    "source": "cleaneye",
@@ -545,7 +524,7 @@
    "first_seen": "2026-09-06",
    "uid": "eabb1e3fba8a61d6",
    "cross_uid": "289ed6b4694982d4",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -566,7 +545,7 @@
    "first_seen": "2026-09-06",
    "uid": "d154d86d94e4fcee",
    "cross_uid": "0bf3951173957898",
-   "d_day": 1
+   "d_day": 0
   },
   {
    "source": "gojobs",
@@ -586,7 +565,7 @@
    "first_seen": "2026-09-06",
    "uid": "086de02cc7a0c416",
    "cross_uid": "77dddc848f57117b",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "gojobs",
@@ -606,7 +585,7 @@
    "first_seen": "2026-09-06",
    "uid": "c014112906c0ad7e",
    "cross_uid": "45ba99fb3821cbf3",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "gojobs",
@@ -627,7 +606,7 @@
    "first_seen": "2026-09-06",
    "uid": "65410974a0f8396a",
    "cross_uid": "b25d9522b71acaa1",
-   "d_day": 8
+   "d_day": 7
   }
  ],
  "failed_sources": [],
