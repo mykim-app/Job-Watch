@@ -8,7 +8,7 @@ lookback_days: 30
 
 # 공고 데이터를 남겨둘 기간(일). 이 기간이 지난 기록은 자동으로 사라진다.
 # 로그 보관기간과 같은 값을 쓴다. .env 에 KEEP_DAYS 를 두면 로그·데이터가 함께 바뀐다.
-retention_days: 90
+retention_days: 365
 
 # 특정 수집처가 왜 0건인지 볼 때 쓴다. 수집처 키를 넣으면 단계별 탈락 수와 예시를 찍는다.
 # 확인이 끝나면 빈 목록으로 되돌리면 된다.  예: diagnose: []
@@ -185,6 +185,19 @@ sources:
     service: recMntList
     max_pages: 3            # 1회 1000행
     scan_job_content: false # 직무내용까지 훑을지 (켜면 놓침은 줄고 오탐은 는다)
+
+  # ── 3-E) 서울특별시 채용공고 게시판 (인증키 불필요)
+  #     검색이 첨부 공고문 본문까지 훑는다. 제목에 직렬이 없는 공고도 잡힌다.
+  #     예: "서울교통공사 9호선운영부문 공개채용" → '통신'으로 검색됨
+  seoul_notice:
+    enabled: true
+    max_pages: 2        # 키워드당 최근 20건
+    query_keywords:
+      - 전산
+      - 정보통신
+      - 정보보안
+      - 정보화
+      - 통신
 
   # ── 4) 사람인 오픈API
   #     https://oapi.saramin.co.kr 에서 이용신청·승인 후 access-key 발급
