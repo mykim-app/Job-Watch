@@ -199,6 +199,15 @@ sources:
       - 정보화
       - 통신
 
+  # ── 3-F) 인천일자리플랫폼 공공 채용정보 (인증키 불필요)
+  #     검색이 제목만 훑어서, 제목에 직렬이 없으면 상세 본문을 열어 확인한다.
+  #     나라일터·잡알리오 원천이 많아 겹치는 건 교차 중복 제거로 한쪽만 남는다.
+  incheon:
+    enabled: true
+    max_pages: 8        # 1페이지 10건. 최근 80건
+    check_detail: true
+    max_detail: 40      # 한 번 실행에 본문 최대 40건 (한 번 본 글은 다시 안 엶)
+
   # ── 4) 사람인 오픈API
   #     https://oapi.saramin.co.kr 에서 이용신청·승인 후 access-key 발급
   #     Secret 이름은 SARAMIN_ACCESS_KEY. 하루 500회 호출 제한이 있으니 키워드를 늘리지 말 것

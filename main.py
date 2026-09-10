@@ -29,6 +29,7 @@ COLLECTORS = [
     ("uman", "uman", "대학교직원신문"),
     ("seoul", "seoul", "서울일자리포털"),
     ("seoul_notice", "seoul_notice", "서울시 채용공고"),
+    ("incheon", "incheon", "인천일자리플랫폼"),
     ("saramin", "saramin", "사람인"),
     ("worknet", "worknet", "고용24"),
 ]
