@@ -1,6 +1,26 @@
 {
- "updated_at": "2026-09-10 08:55",
+ "updated_at": "2026-09-10 11:11",
  "postings": [
+  {
+   "source": "seoul_notice",
+   "source_label": "서울시 채용공고",
+   "org": "서울교통공사",
+   "title": "서울교통공사 9호선운영부문 공개채용 공고(신규직 채용)",
+   "url": "https://www.seoul.go.kr/news/news_employ.do?bbsNo=166&nttNo=464877",
+   "start_date": "2026-08-28",
+   "end_date": "2026-09-18",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "통신",
+   "matched": [
+    "통신"
+   ],
+   "first_seen": "2026-09-10",
+   "uid": "1bf41099385591b5",
+   "cross_uid": "56dd207ce19e9f37",
+   "d_day": 8
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
