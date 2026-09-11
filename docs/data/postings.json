@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-09-11 12:55",
+ "updated_at": "2026-09-11 13:07",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국인터넷진흥원",
+   "title": "2026년 한국인터넷진흥원 체험형 청년인턴 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304632",
+   "start_date": "2026-09-07",
+   "end_date": "2026-09-21",
+   "hire_type": "비정규직 외 1",
+   "recruit_type": "",
+   "region": "서울 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-11",
+   "uid": "ac5403a30f8ab74e",
+   "cross_uid": "477f030d9efed6a9",
+   "d_day": 10
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -23,6 +44,27 @@
    "d_day": 17
   },
   {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국교통안전공단",
+   "title": "2026년 제4차 한국교통안전공단 자율주행본부 기간제근로자 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304607",
+   "start_date": "2026-09-07",
+   "end_date": "2026-09-22",
+   "hire_type": "비정규직 외 1",
+   "recruit_type": "",
+   "region": "경기",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-11",
+   "uid": "b4fb2d70f1af2efa",
+   "cross_uid": "98c369aa7f243b8d",
+   "d_day": 11
+  },
+  {
    "source": "uman",
    "source_label": "대학교직원신문",
    "org": "전주비전대학교",
@@ -42,6 +84,27 @@
    "uid": "bf76c04840d58b81",
    "cross_uid": "7bd80da628f51cff",
    "d_day": 9
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국가생명윤리정책원",
+   "title": "제2026-3차 직원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304793",
+   "start_date": "2026-09-09",
+   "end_date": "2026-09-23",
+   "hire_type": "비정규직 외 1",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-11",
+   "uid": "5175a667c08d5cb1",
+   "cross_uid": "5abd8b23fe9213bf",
+   "d_day": 12
   },
   {
    "source": "seoul_notice",
