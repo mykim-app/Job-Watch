@@ -65,6 +65,16 @@ def excluded_reason(post: Posting, f: dict) -> str | None:
         if _hit(blob, bad):
             return f"제외 단어 '{bad}'"
 
+    # 고용형태 값이 믿을 만한 수집처는 그 값만 보고 엄격하게 판단한다.
+    # 제목의 '일반직' 같은 말에 휘둘리지 않게 하려는 것이다.
+    # (잡알리오는 상세에서 실제 고용형태를 읽어오므로 값이 정확하다)
+    if post.source in (f.get("strict_employment_sources") or []):
+        emp = squeeze(post.hire_type)
+        if emp:
+            if not _keep_spans(emp, f.get("keep_employment", [])):
+                return f"고용형태 '{emp[:20]}'"
+            return None
+
     keeps = f.get("keep_employment", [])
     spans = _keep_spans(blob, keeps)
 

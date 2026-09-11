@@ -95,6 +95,11 @@ filters:
     # 서울일자리포털(고용24)의 고용형태 표기
     - 기간의 정함이 있는
 
+  # 이 수집처는 고용형태 값에 정규직 계열이 들어 있을 때만 담는다.
+  # 제목에 '일반직' 같은 말이 있어도 고용형태가 인턴이면 뺀다.
+  strict_employment_sources:
+    - alio
+
   # 잡알리오처럼 고용형태를 '비정규직 외 1' 로 줄여 쓰는 곳이 있다.
   # 나머지 하나가 정규직일 수 있어 이 표시가 붙으면 제외하지 않는다.
   keep_multi_employment: true
@@ -128,6 +133,10 @@ sources:
   #     위 alio(API) 와 같은 데이터라 둘 다 켜면 중복 제거로 한쪽만 남는다.
   alio_web:
     enabled: true
+    # 목록의 고용형태가 '비정규직 외 1' 로 줄여 나온다.
+    # 이런 공고만 상세를 열어 실제 고용형태(예: 비정규직,정규직)로 바꿔 넣는다.
+    resolve_multi_employment: true
+    max_detail: 30
     ncs_codes: ["R600020"]   # R600020 = 정보통신
     max_pages: 12
     since_days: 30
