@@ -36,6 +36,11 @@ def _blob(post: Posting) -> str:
     )
 
 
+# 잡알리오는 여러 고용형태를 뽑는 공고를 '비정규직 외 1' 처럼 줄여 보여준다.
+# 나머지 하나가 정규직일 수 있으므로, 이 표시가 있으면 제외하지 않는다.
+_MULTI_EMP = re.compile(r"외\s*\d+")
+
+
 # '비정규직' 안에는 '정규직'이 들어 있다. 이 글자가 앞에 붙으면 정규직으로 보지 않는다.
 _NEGATION = "비준"
 
@@ -75,6 +80,8 @@ def excluded_reason(post: Posting, f: dict) -> str | None:
     if emp_bad:
         if spans:
             return None            # 정규직도 같이 뽑는 공고라 살린다
+        if f.get("keep_multi_employment", True) and _MULTI_EMP.search(squeeze(post.hire_type)):
+            return None            # '비정규직 외 1' — 나머지가 정규직일 수 있다
         return f"고용형태 '{emp_bad[0]}'"
 
     return None
