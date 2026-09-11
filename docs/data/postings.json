@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-11 13:07",
+ "updated_at": "2026-09-11 16:55",
  "postings": [
   {
    "source": "alio",
@@ -86,6 +86,47 @@
    "d_day": 9
   },
   {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "국회 국회사무처",
+   "title": "2026년도 국회사무처 정보기술직 9급(정보기술서기보) 경력경쟁채용시험 공고(구. 전산직9급)",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=303399",
+   "start_date": "2026-09-11",
+   "end_date": "2026-09-22",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-09-11",
+   "uid": "20f83508ffb46e9b",
+   "cross_uid": "6d026266b76369df",
+   "d_day": 11
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국민연금공단",
+   "title": "2026년 하반기 공무직 공개채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304886",
+   "start_date": "2026-09-11",
+   "end_date": "2026-09-28",
+   "hire_type": "무기계약직",
+   "recruit_type": "",
+   "region": "서울 외 10",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-11",
+   "uid": "068b15b972a71df4",
+   "cross_uid": "0b71a58b58e68d8c",
+   "d_day": 17
+  },
+  {
    "source": "alio",
    "source_label": "잡알리오",
    "org": "국가생명윤리정책원",
@@ -93,7 +134,7 @@
    "url": "https://job.alio.go.kr/recruitview.do?idx=304793",
    "start_date": "2026-09-09",
    "end_date": "2026-09-23",
-   "hire_type": "비정규직 외 1",
+   "hire_type": "비정규직,정규직",
    "recruit_type": "",
    "region": "서울",
    "ncs": "정보통신",
@@ -105,6 +146,28 @@
    "uid": "5175a667c08d5cb1",
    "cross_uid": "5abd8b23fe9213bf",
    "d_day": 12
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "경북대학교 정보화본부",
+   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
+   "start_date": "2026-09-11",
+   "end_date": "2026-09-16",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산",
+    "정보화"
+   ],
+   "first_seen": "2026-09-11",
+   "uid": "dd71644901b41e40",
+   "cross_uid": "b25d9522b71acaa1",
+   "d_day": 5,
+   "duplicate_of_other_source": true
   },
   {
    "source": "seoul_notice",
@@ -198,7 +261,7 @@
    "url": "https://job.alio.go.kr/recruitview.do?idx=304713",
    "start_date": "2026-09-07",
    "end_date": "2026-09-21",
-   "hire_type": "무기계약직 외 1",
+   "hire_type": "무기계약직,정규직",
    "recruit_type": "",
    "region": "강원 외 3",
    "ncs": "정보통신",
@@ -240,7 +303,7 @@
    "url": "https://job.alio.go.kr/recruitview.do?idx=304653",
    "start_date": "2026-09-07",
    "end_date": "2026-09-22",
-   "hire_type": "무기계약직 외 1",
+   "hire_type": "무기계약직,정규직",
    "recruit_type": "",
    "region": "인천 외 1",
    "ncs": "정보통신",
@@ -347,7 +410,7 @@
    "url": "https://job.alio.go.kr/recruitview.do?idx=304405",
    "start_date": "2026-08-31",
    "end_date": "2026-09-14",
-   "hire_type": "무기계약직 외 1",
+   "hire_type": "무기계약직,정규직",
    "recruit_type": "",
    "region": "대구 외 1",
    "ncs": "정보통신",
