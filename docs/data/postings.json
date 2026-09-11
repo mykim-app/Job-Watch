@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-11 08:55",
+ "updated_at": "2026-09-11 12:55",
  "postings": [
   {
    "source": "alio",
@@ -21,6 +21,27 @@
    "uid": "d1339d25106ce3f2",
    "cross_uid": "cdb3c379962bcb17",
    "d_day": 17
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "전주비전대학교",
+   "title": "전주비전대학교 정규직 채용 공고(기능직)(~09.20,18:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18343",
+   "start_date": "2026-09-11",
+   "end_date": "2026-09-20",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-11",
+   "uid": "bf76c04840d58b81",
+   "cross_uid": "7bd80da628f51cff",
+   "d_day": 9
   },
   {
    "source": "seoul_notice",
