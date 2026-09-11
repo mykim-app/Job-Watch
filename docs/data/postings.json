@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-09-11 16:55",
+ "updated_at": "2026-09-12 08:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "(재)한국우편사업진흥원",
+   "title": "한국우편사업진흥원 2026년 신입직원(일반직, 전문직(사무), 전문직(특수)) 채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304896",
+   "start_date": "2026-09-11",
+   "end_date": "2026-09-25",
+   "hire_type": "무기계약직,정규직",
+   "recruit_type": "",
+   "region": "서울 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-12",
+   "uid": "ec4fc51d51714993",
+   "cross_uid": "acdf2bc453e7c8aa",
+   "d_day": 13
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -41,7 +62,7 @@
    "first_seen": "2026-09-11",
    "uid": "d1339d25106ce3f2",
    "cross_uid": "cdb3c379962bcb17",
-   "d_day": 17
+   "d_day": 16
   },
   {
    "source": "alio",
@@ -83,7 +104,7 @@
    "first_seen": "2026-09-11",
    "uid": "bf76c04840d58b81",
    "cross_uid": "7bd80da628f51cff",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "gojobs",
@@ -103,7 +124,7 @@
    "first_seen": "2026-09-11",
    "uid": "20f83508ffb46e9b",
    "cross_uid": "6d026266b76369df",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -124,7 +145,7 @@
    "first_seen": "2026-09-11",
    "uid": "068b15b972a71df4",
    "cross_uid": "0b71a58b58e68d8c",
-   "d_day": 17
+   "d_day": 16
   },
   {
    "source": "alio",
@@ -145,7 +166,7 @@
    "first_seen": "2026-09-11",
    "uid": "5175a667c08d5cb1",
    "cross_uid": "5abd8b23fe9213bf",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "gojobs",
@@ -166,7 +187,7 @@
    "first_seen": "2026-09-11",
    "uid": "dd71644901b41e40",
    "cross_uid": "b25d9522b71acaa1",
-   "d_day": 5,
+   "d_day": 4,
    "duplicate_of_other_source": true
   },
   {
@@ -187,7 +208,7 @@
    "first_seen": "2026-09-10",
    "uid": "1bf41099385591b5",
    "cross_uid": "56dd207ce19e9f37",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "gojobs",
@@ -230,7 +251,7 @@
    "first_seen": "2026-09-08",
    "uid": "c486b8ed6432fe46",
    "cross_uid": "78f6552ae46ced5a",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -251,7 +272,7 @@
    "first_seen": "2026-09-08",
    "uid": "03574b07d1f1bf5c",
    "cross_uid": "dfff6e5065229ca6",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -272,7 +293,7 @@
    "first_seen": "2026-09-08",
    "uid": "5ac2281879d552e7",
    "cross_uid": "18ef771d2e99ddb1",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -314,7 +335,7 @@
    "first_seen": "2026-09-07",
    "uid": "587a3b42adaada6f",
    "cross_uid": "88609fccbfd82d14",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -336,7 +357,7 @@
    "first_seen": "2026-09-07",
    "uid": "29a49bce69f0c5dd",
    "cross_uid": "d58f5d071d2f708a",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "uman",
@@ -357,7 +378,7 @@
    "first_seen": "2026-09-07",
    "uid": "3ab037210a6d69cf",
    "cross_uid": "155ecc1e9d8531ca",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "uman",
@@ -379,7 +400,7 @@
    "first_seen": "2026-09-07",
    "uid": "67af424437e18801",
    "cross_uid": "80e0e4b5aacd343b",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "alio",
@@ -400,7 +421,7 @@
    "first_seen": "2026-09-06",
    "uid": "4ada055c9fe639d8",
    "cross_uid": "1c15e748a07fb391",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -421,7 +442,7 @@
    "first_seen": "2026-09-06",
    "uid": "ac0634c75b865d15",
    "cross_uid": "b6e5494a8e447fb5",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -442,7 +463,7 @@
    "first_seen": "2026-09-06",
    "uid": "9f2b290bf9d7c365",
    "cross_uid": "ccdc56eeed01aa61",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "alio",
@@ -463,7 +484,7 @@
    "first_seen": "2026-09-06",
    "uid": "02358bd23bb944a9",
    "cross_uid": "e08956b2c2f39351",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -485,28 +506,7 @@
    "first_seen": "2026-09-06",
    "uid": "3e7ab793ecbeeea5",
    "cross_uid": "dbd2742767586579",
-   "d_day": 4
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국수자원공사",
-   "title": "[한국수자원공사] 2026년 전문직, 시설운영직(경력) 제한경쟁 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=304367",
-   "start_date": "2026-08-28",
-   "end_date": "2026-09-11",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "경기",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "295bfdd0b1f5e6aa",
-   "cross_uid": "4ef0507bff3f3ea8",
-   "d_day": 0
+   "d_day": 3
   },
   {
    "source": "alio",
@@ -527,7 +527,7 @@
    "first_seen": "2026-09-06",
    "uid": "e3d98512e55795b7",
    "cross_uid": "02fcb656a29eca8e",
-   "d_day": 4
+   "d_day": 3
   },
   {
    "source": "alio",
@@ -548,7 +548,7 @@
    "first_seen": "2026-09-06",
    "uid": "dd06a57a14ffb042",
    "cross_uid": "d5fbba6bf300dc0e",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "gojobs",
@@ -568,7 +568,7 @@
    "first_seen": "2026-09-06",
    "uid": "a1b60b0438866d85",
    "cross_uid": "bd490317d8fe32c2",
-   "d_day": 4
+   "d_day": 3
   },
   {
    "source": "alio",
@@ -589,28 +589,7 @@
    "first_seen": "2026-09-06",
    "uid": "eb5aa3c8a636ee84",
    "cross_uid": "f213fe1527c13839",
-   "d_day": 4
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "예금보험공사",
-   "title": "2026년도 예금보험공사 신입직원 채용안내",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=304400",
-   "start_date": "2026-08-28",
-   "end_date": "2026-09-11",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "a69345e2ab44533d",
-   "cross_uid": "6fec7669721deda5",
-   "d_day": 0
+   "d_day": 3
   },
   {
    "source": "alio",
@@ -631,27 +610,7 @@
    "first_seen": "2026-09-06",
    "uid": "5181fff1443e1888",
    "cross_uid": "5a050833fb0f3767",
-   "d_day": 5
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "문화체육관광부 국립국어원",
-   "title": "2026년 국립국어원 언어정보과 공무직 근로자(전산원) 채용 변경 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302865",
-   "start_date": "2026-09-04",
-   "end_date": "2026-09-11",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "eabb1e3fba8a61d6",
-   "cross_uid": "289ed6b4694982d4",
-   "d_day": 0
+   "d_day": 4
   },
   {
    "source": "gojobs",
@@ -671,7 +630,7 @@
    "first_seen": "2026-09-06",
    "uid": "086de02cc7a0c416",
    "cross_uid": "77dddc848f57117b",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "gojobs",
@@ -691,7 +650,7 @@
    "first_seen": "2026-09-06",
    "uid": "c014112906c0ad7e",
    "cross_uid": "45ba99fb3821cbf3",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "gojobs",
@@ -716,5 +675,7 @@
   }
  ],
  "failed_sources": [],
- "pending": []
+ "pending": [
+  "ec4fc51d51714993"
+ ]
 }
