@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-09-12 12:55",
+ "updated_at": "2026-09-12 16:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "명지전문대학",
+   "title": "명지전문대학 정규직원(국제교류) 1명 신규채용 ~ 10. 4.(일) 오전 10:00 까지(학교 ...",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18344",
+   "start_date": "2026-09-12",
+   "end_date": "2026-10-04",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-12",
+   "uid": "9ab45f1ddc3cc0b4",
+   "cross_uid": "ac6e75fd6edcd451",
+   "d_day": 22
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -676,6 +697,7 @@
  ],
  "failed_sources": [],
  "pending": [
-  "ec4fc51d51714993"
+  "ec4fc51d51714993",
+  "9ab45f1ddc3cc0b4"
  ]
 }
