@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-14 12:55",
+ "updated_at": "2026-09-14 16:55",
  "postings": [
   {
    "source": "uman",
@@ -63,6 +63,27 @@
    "uid": "74410b4bd1e26fa2",
    "cross_uid": "2f64f6ce34dd73c6",
    "d_day": 20
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국토안전관리원",
+   "title": "2026년도 국토안전관리원 제2차 직무중심 채용 공고(일반직·전문직)",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304933",
+   "start_date": "2026-09-14",
+   "end_date": "2026-09-29",
+   "hire_type": "청년인턴(채용형),정규직",
+   "recruit_type": "",
+   "region": "강원 외 4",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-14",
+   "uid": "e0dbf7238ea11ed9",
+   "cross_uid": "bd8b36e15fc68f7c",
+   "d_day": 15
   },
   {
    "source": "uman",
