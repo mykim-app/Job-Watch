@@ -1,6 +1,134 @@
 {
- "updated_at": "2026-09-14 08:55",
+ "updated_at": "2026-09-14 12:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "한국체육대학교",
+   "title": "한국체육대학교 대학회계무기직원(사무원) 채용 공고(~09. 22.(화))",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18347",
+   "start_date": "2026-09-14",
+   "end_date": "2026-09-22",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-14",
+   "uid": "08468b9b38f23bbf",
+   "cross_uid": "57f87e3abbe05f3a",
+   "d_day": 8
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "서울과학기술대학교",
+   "title": "서울과학기술대학교 사업단 계약(행정원) 채용 공고(~09. 21.(월) 18:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18345",
+   "start_date": "2026-09-14",
+   "end_date": "2026-09-21",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-14",
+   "uid": "48c5e38e6a236015",
+   "cross_uid": "6c5d9576075b9c5f",
+   "d_day": 7
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "명지전문대학",
+   "title": "명지전문대학 정규직원 신규채용( ~ 10. 04.(일) 오전 10:00 )",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18344",
+   "start_date": "2026-09-12",
+   "end_date": "2026-10-04",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-14",
+   "uid": "74410b4bd1e26fa2",
+   "cross_uid": "2f64f6ce34dd73c6",
+   "d_day": 20
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "고려대학교",
+   "title": "고려대학교 세종캠퍼스 부서장 발령 직원 채용 공고 (~ 09.27.(일) 12:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18352",
+   "start_date": "2026-09-14",
+   "end_date": "2026-09-27",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-14",
+   "uid": "e399bb3b687fc3b6",
+   "cross_uid": "cf0ab93dc94fa098",
+   "d_day": 13
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "경북대학교 정보화본부",
+   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
+   "start_date": "2026-09-14",
+   "end_date": "2026-09-16",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산",
+    "정보화"
+   ],
+   "first_seen": "2026-09-14",
+   "uid": "668991861d7103af",
+   "cross_uid": "b25d9522b71acaa1",
+   "d_day": 2,
+   "duplicate_of_other_source": true
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "경북대학교",
+   "title": "경북대학교 정보화본부 무기계약직 채용 공고( ~09. 16.(수))",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18322",
+   "start_date": "2026-09-07",
+   "end_date": "2026-09-16",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보화",
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-14",
+   "uid": "de47eec1edb4ce6f",
+   "cross_uid": "cd453b9a451be926",
+   "d_day": 2
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
