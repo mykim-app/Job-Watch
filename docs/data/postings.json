@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-15 12:55",
+ "updated_at": "2026-09-15 16:55",
  "postings": [
   {
    "source": "incheon",
@@ -21,6 +21,27 @@
    "uid": "4d608ea65e1225c4",
    "cross_uid": "1f5fd37578e5edfb",
    "d_day": 0
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국어촌어항공단",
+   "title": "2026년 하반기 한국어촌어항공단 직원 공개채용 공고(일반직, 공무직, 기간제계약직, 체험형청년인턴)",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304996",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-30",
+   "hire_type": "무기계약직,비정규직,청년인턴(체험형),정규직",
+   "recruit_type": "",
+   "region": "서울 외 7",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-15",
+   "uid": "c0fc7cc11e9046aa",
+   "cross_uid": "714362ee4a551010",
+   "d_day": 15
   },
   {
    "source": "alio",
