@@ -1,26 +1,68 @@
 {
- "updated_at": "2026-09-15 16:55",
+ "updated_at": "2026-09-16 08:55",
  "postings": [
   {
-   "source": "incheon",
-   "source_label": "인천일자리플랫폼",
-   "org": "한국토지주택공사",
-   "title": "2026년 하반기 한국토지주택공사 신입사원(5·6급) 공채",
-   "url": "https://www.incheon.go.kr/jobs/main/recruit/public/view.do?rcrut_info_sn=95329",
-   "start_date": "",
-   "end_date": "2026-09-15",
-   "hire_type": "",
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국저작권위원회",
+   "title": "한국저작권위원회 2026년 제3차 직원 채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304922",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-30",
+   "hire_type": "비정규직,정규직",
    "recruit_type": "",
-   "region": "인천",
+   "region": "서울 외 1",
    "ncs": "정보통신",
    "matched": [
     "정보통신",
     "통신"
    ],
-   "first_seen": "2026-09-15",
-   "uid": "4d608ea65e1225c4",
-   "cross_uid": "1f5fd37578e5edfb",
-   "d_day": 0
+   "first_seen": "2026-09-16",
+   "uid": "85e2a475f12bcdf1",
+   "cross_uid": "2891849d4eeced20",
+   "d_day": 14
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국공항공사",
+   "title": "2026년도 하반기 신입사원(5급갑, 6급갑 고졸수준) 공개채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305011",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-29",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 12",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-16",
+   "uid": "cce6adcf486674c2",
+   "cross_uid": "fcfcc2232ced871f",
+   "d_day": 13
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국민건강보험공단",
+   "title": "2026년도 하반기 국민건강보험공단 신규직원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305006",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-29",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 15",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-16",
+   "uid": "d5289120f9a76494",
+   "cross_uid": "5eb2f47756682f29",
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -41,7 +83,7 @@
    "first_seen": "2026-09-15",
    "uid": "c0fc7cc11e9046aa",
    "cross_uid": "714362ee4a551010",
-   "d_day": 15
+   "d_day": 14
   },
   {
    "source": "alio",
@@ -62,7 +104,7 @@
    "first_seen": "2026-09-15",
    "uid": "6a40729293ddd7c9",
    "cross_uid": "24384c1845301780",
-   "d_day": 15
+   "d_day": 14
   },
   {
    "source": "alio",
@@ -83,7 +125,7 @@
    "first_seen": "2026-09-15",
    "uid": "81779dd41fc88314",
    "cross_uid": "17769d7c46dfbf6e",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "gojobs",
@@ -104,7 +146,7 @@
    "first_seen": "2026-09-15",
    "uid": "643f0842a59dd663",
    "cross_uid": "b25d9522b71acaa1",
-   "d_day": 1,
+   "d_day": 0,
    "duplicate_of_other_source": true
   },
   {
@@ -126,7 +168,7 @@
    "first_seen": "2026-09-15",
    "uid": "babef33521d492db",
    "cross_uid": "a72081c4835b52c3",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "uman",
@@ -147,7 +189,7 @@
    "first_seen": "2026-09-14",
    "uid": "08468b9b38f23bbf",
    "cross_uid": "57f87e3abbe05f3a",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "uman",
@@ -168,7 +210,7 @@
    "first_seen": "2026-09-14",
    "uid": "48c5e38e6a236015",
    "cross_uid": "6c5d9576075b9c5f",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "uman",
@@ -189,7 +231,7 @@
    "first_seen": "2026-09-14",
    "uid": "74410b4bd1e26fa2",
    "cross_uid": "2f64f6ce34dd73c6",
-   "d_day": 19
+   "d_day": 18
   },
   {
    "source": "alio",
@@ -210,7 +252,7 @@
    "first_seen": "2026-09-14",
    "uid": "e0dbf7238ea11ed9",
    "cross_uid": "bd8b36e15fc68f7c",
-   "d_day": 14
+   "d_day": 13
   },
   {
    "source": "uman",
@@ -231,7 +273,7 @@
    "first_seen": "2026-09-14",
    "uid": "e399bb3b687fc3b6",
    "cross_uid": "cf0ab93dc94fa098",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "gojobs",
@@ -275,7 +317,7 @@
    "first_seen": "2026-09-14",
    "uid": "de47eec1edb4ce6f",
    "cross_uid": "cd453b9a451be926",
-   "d_day": 1
+   "d_day": 0
   },
   {
    "source": "uman",
@@ -317,7 +359,7 @@
    "first_seen": "2026-09-12",
    "uid": "ec4fc51d51714993",
    "cross_uid": "acdf2bc453e7c8aa",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -359,7 +401,7 @@
    "first_seen": "2026-09-11",
    "uid": "d1339d25106ce3f2",
    "cross_uid": "cdb3c379962bcb17",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "alio",
@@ -401,7 +443,7 @@
    "first_seen": "2026-09-11",
    "uid": "bf76c04840d58b81",
    "cross_uid": "7bd80da628f51cff",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "gojobs",
@@ -421,7 +463,7 @@
    "first_seen": "2026-09-11",
    "uid": "20f83508ffb46e9b",
    "cross_uid": "6d026266b76369df",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -442,7 +484,7 @@
    "first_seen": "2026-09-11",
    "uid": "068b15b972a71df4",
    "cross_uid": "0b71a58b58e68d8c",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "alio",
@@ -463,7 +505,7 @@
    "first_seen": "2026-09-11",
    "uid": "5175a667c08d5cb1",
    "cross_uid": "5abd8b23fe9213bf",
-   "d_day": 8
+   "d_day": 7
   },
   {
    "source": "gojobs",
@@ -505,7 +547,7 @@
    "first_seen": "2026-09-10",
    "uid": "1bf41099385591b5",
    "cross_uid": "56dd207ce19e9f37",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "gojobs",
@@ -548,7 +590,7 @@
    "first_seen": "2026-09-08",
    "uid": "c486b8ed6432fe46",
    "cross_uid": "78f6552ae46ced5a",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -569,7 +611,7 @@
    "first_seen": "2026-09-08",
    "uid": "03574b07d1f1bf5c",
    "cross_uid": "dfff6e5065229ca6",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -590,7 +632,7 @@
    "first_seen": "2026-09-08",
    "uid": "5ac2281879d552e7",
    "cross_uid": "18ef771d2e99ddb1",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -632,7 +674,7 @@
    "first_seen": "2026-09-07",
    "uid": "587a3b42adaada6f",
    "cross_uid": "88609fccbfd82d14",
-   "d_day": 7
+   "d_day": 6
   },
   {
    "source": "alio",
@@ -654,7 +696,7 @@
    "first_seen": "2026-09-07",
    "uid": "29a49bce69f0c5dd",
    "cross_uid": "d58f5d071d2f708a",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "uman",
@@ -697,7 +739,7 @@
    "first_seen": "2026-09-06",
    "uid": "4ada055c9fe639d8",
    "cross_uid": "1c15e748a07fb391",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "alio",
@@ -718,49 +760,6 @@
    "first_seen": "2026-09-06",
    "uid": "9f2b290bf9d7c365",
    "cross_uid": "ccdc56eeed01aa61",
-   "d_day": 1
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국장학재단",
-   "title": "한국장학재단 2026년 하반기 종합직 채용 공고(일반행정, IT 개발운영, 시설관리(경력))",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=304490",
-   "start_date": "2026-09-01",
-   "end_date": "2026-09-15",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "대구",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신",
-    "IT"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "3e7ab793ecbeeea5",
-   "cross_uid": "dbd2742767586579",
-   "d_day": 0
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국가스공사",
-   "title": "2026년 하반기 일반직(신입, 경력), 연구직 및 별정직 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=304489",
-   "start_date": "2026-09-01",
-   "end_date": "2026-09-15",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울 외 14",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "e3d98512e55795b7",
-   "cross_uid": "02fcb656a29eca8e",
    "d_day": 0
   },
   {
@@ -782,48 +781,7 @@
    "first_seen": "2026-09-06",
    "uid": "dd06a57a14ffb042",
    "cross_uid": "d5fbba6bf300dc0e",
-   "d_day": 6
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "조달청",
-   "title": "조달청 일반직공무원[행정6급(법률), 전산7급, 시설7급] 경력경쟁채용시험 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302910",
-   "start_date": "2026-09-04",
-   "end_date": "2026-09-15",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "a1b60b0438866d85",
-   "cross_uid": "bd490317d8fe32c2",
-   "d_day": 0
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "인천국제공항공사",
-   "title": "2026년 신입직원(일반직, 안전보안직) 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=304492",
-   "start_date": "2026-09-01",
-   "end_date": "2026-09-15",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "인천",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "eb5aa3c8a636ee84",
-   "cross_uid": "f213fe1527c13839",
-   "d_day": 0
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -844,7 +802,7 @@
    "first_seen": "2026-09-06",
    "uid": "5181fff1443e1888",
    "cross_uid": "5a050833fb0f3767",
-   "d_day": 1
+   "d_day": 0
   },
   {
    "source": "gojobs",
