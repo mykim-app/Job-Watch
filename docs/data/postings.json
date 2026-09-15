@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-15 08:55",
+ "updated_at": "2026-09-15 12:55",
  "postings": [
   {
    "source": "incheon",
@@ -25,6 +25,27 @@
   {
    "source": "alio",
    "source_label": "잡알리오",
+   "org": "한국국제교류재단",
+   "title": "한국국제교류재단 일반직 신규 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304986",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-30",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 2",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-15",
+   "uid": "6a40729293ddd7c9",
+   "cross_uid": "24384c1845301780",
+   "d_day": 15
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
    "org": "국가아동권리보장원",
    "title": "(제2026-2호) 국가아동권리보장원 직원 채용",
    "url": "https://job.alio.go.kr/recruitview.do?idx=304956",
@@ -42,6 +63,49 @@
    "uid": "81779dd41fc88314",
    "cross_uid": "17769d7c46dfbf6e",
    "d_day": 13
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "경북대학교 정보화본부",
+   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-16",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산",
+    "정보화"
+   ],
+   "first_seen": "2026-09-15",
+   "uid": "643f0842a59dd663",
+   "cross_uid": "b25d9522b71acaa1",
+   "d_day": 1,
+   "duplicate_of_other_source": true
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "경복대학교",
+   "title": "경복대학교(남양주) 행정직원 채용공고(~26.09.20,11:59)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18357",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-20",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-15",
+   "uid": "babef33521d492db",
+   "cross_uid": "a72081c4835b52c3",
+   "d_day": 5
   },
   {
    "source": "uman",
