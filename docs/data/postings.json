@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16 12:55",
+ "updated_at": "2026-09-16 16:55",
  "postings": [
   {
    "source": "gojobs",
@@ -45,6 +45,27 @@
   {
    "source": "alio",
    "source_label": "잡알리오",
+   "org": "한국에너지공단",
+   "title": "한국에너지공단 전문경력직 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305060",
+   "start_date": "2026-09-16",
+   "end_date": "2026-10-01",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "울산 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-16",
+   "uid": "5ad6bc46dc8c8683",
+   "cross_uid": "20d32e2472ddda7a",
+   "d_day": 15
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
    "org": "한국공항공사",
    "title": "2026년도 하반기 신입사원(5급갑, 6급갑 고졸수준) 공개채용",
    "url": "https://job.alio.go.kr/recruitview.do?idx=305011",
@@ -62,6 +83,70 @@
    "uid": "cce6adcf486674c2",
    "cross_uid": "fcfcc2232ced871f",
    "d_day": 13
+  },
+  {
+   "source": "cleaneye",
+   "source_label": "클린아이",
+   "org": "서울시설공단",
+   "title": "2026년 서울시설공단 직무중심 일반직 2차(사무 기술) 공개채용 공고 - 7급 전산",
+   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=2007100264&entSeq=000087",
+   "start_date": "2026-09-16",
+   "end_date": "2026-10-06",
+   "hire_type": "일반정규직",
+   "recruit_type": "신입",
+   "region": "서울특별시",
+   "ncs": "정보통신",
+   "matched": [
+    "전산",
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-16",
+   "uid": "d19ba73b15a92390",
+   "cross_uid": "4837ea7393a18af7",
+   "d_day": 20
+  },
+  {
+   "source": "cleaneye",
+   "source_label": "클린아이",
+   "org": "서울시설공단",
+   "title": "2026년 서울시설공단 직무중심 일반직 2차(사무 기술) 공개채용 공고 - 7급 통신",
+   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=2007100264&entSeq=000093",
+   "start_date": "2026-09-16",
+   "end_date": "2026-10-06",
+   "hire_type": "일반정규직",
+   "recruit_type": "신입",
+   "region": "서울특별시",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-16",
+   "uid": "4f0765f0c6c0dbc0",
+   "cross_uid": "5b6026ec6a290197",
+   "d_day": 20
+  },
+  {
+   "source": "cleaneye",
+   "source_label": "클린아이",
+   "org": "서울시설공단",
+   "title": "2026년 서울시설공단 직무중심 일반직 2차(사무 기술) 공개채용 공고 - 7급(보) 통신 고졸인재",
+   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=2007100264&entSeq=000100",
+   "start_date": "2026-09-16",
+   "end_date": "2026-10-06",
+   "hire_type": "일반정규직",
+   "recruit_type": "신입",
+   "region": "서울특별시",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-16",
+   "uid": "95f99e90a43cf25d",
+   "cross_uid": "368eac0f74fe0838",
+   "d_day": 20
   },
   {
    "source": "alio",
