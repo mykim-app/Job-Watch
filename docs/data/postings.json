@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-09-16 16:55",
+ "updated_at": "2026-09-17 08:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국중부발전(주)",
+   "title": "2026년도 제3차 4직급 신입직원 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=304972",
+   "start_date": "2026-09-17",
+   "end_date": "2026-10-02",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 5",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-17",
+   "uid": "39e3b83ba0c01445",
+   "cross_uid": "71da310423bba517",
+   "d_day": 15
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
@@ -19,7 +40,7 @@
    "first_seen": "2026-09-16",
    "uid": "792cab9d78e39b72",
    "cross_uid": "dbbcdc42281849ff",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "alio",
@@ -40,7 +61,7 @@
    "first_seen": "2026-09-16",
    "uid": "85e2a475f12bcdf1",
    "cross_uid": "2891849d4eeced20",
-   "d_day": 14
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -61,7 +82,7 @@
    "first_seen": "2026-09-16",
    "uid": "5ad6bc46dc8c8683",
    "cross_uid": "20d32e2472ddda7a",
-   "d_day": 15
+   "d_day": 14
   },
   {
    "source": "alio",
@@ -82,7 +103,7 @@
    "first_seen": "2026-09-16",
    "uid": "cce6adcf486674c2",
    "cross_uid": "fcfcc2232ced871f",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "cleaneye",
@@ -104,7 +125,7 @@
    "first_seen": "2026-09-16",
    "uid": "d19ba73b15a92390",
    "cross_uid": "4837ea7393a18af7",
-   "d_day": 20
+   "d_day": 19
   },
   {
    "source": "cleaneye",
@@ -125,7 +146,7 @@
    "first_seen": "2026-09-16",
    "uid": "4f0765f0c6c0dbc0",
    "cross_uid": "5b6026ec6a290197",
-   "d_day": 20
+   "d_day": 19
   },
   {
    "source": "cleaneye",
@@ -146,7 +167,7 @@
    "first_seen": "2026-09-16",
    "uid": "95f99e90a43cf25d",
    "cross_uid": "368eac0f74fe0838",
-   "d_day": 20
+   "d_day": 19
   },
   {
    "source": "alio",
@@ -167,29 +188,7 @@
    "first_seen": "2026-09-16",
    "uid": "d5289120f9a76494",
    "cross_uid": "5eb2f47756682f29",
-   "d_day": 13
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "경북대학교 정보화본부",
-   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-16",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산",
-    "정보화"
-   ],
-   "first_seen": "2026-09-16",
-   "uid": "7b8172d649d0328c",
-   "cross_uid": "b25d9522b71acaa1",
-   "d_day": 0,
-   "duplicate_of_other_source": true
+   "d_day": 12
   },
   {
    "source": "uman",
@@ -210,7 +209,7 @@
    "first_seen": "2026-09-16",
    "uid": "d02f346c976b1901",
    "cross_uid": "a72081c4835b52c3",
-   "d_day": 4,
+   "d_day": 3,
    "duplicate_of_other_source": true
   },
   {
@@ -232,7 +231,7 @@
    "first_seen": "2026-09-15",
    "uid": "c0fc7cc11e9046aa",
    "cross_uid": "714362ee4a551010",
-   "d_day": 14
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -253,7 +252,7 @@
    "first_seen": "2026-09-15",
    "uid": "6a40729293ddd7c9",
    "cross_uid": "24384c1845301780",
-   "d_day": 14
+   "d_day": 13
   },
   {
    "source": "alio",
@@ -274,29 +273,7 @@
    "first_seen": "2026-09-15",
    "uid": "81779dd41fc88314",
    "cross_uid": "17769d7c46dfbf6e",
-   "d_day": 12
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "경북대학교 정보화본부",
-   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
-   "start_date": "2026-09-15",
-   "end_date": "2026-09-16",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산",
-    "정보화"
-   ],
-   "first_seen": "2026-09-15",
-   "uid": "643f0842a59dd663",
-   "cross_uid": "b25d9522b71acaa1",
-   "d_day": 0,
-   "duplicate_of_other_source": true
+   "d_day": 11
   },
   {
    "source": "uman",
@@ -338,7 +315,7 @@
    "first_seen": "2026-09-14",
    "uid": "08468b9b38f23bbf",
    "cross_uid": "57f87e3abbe05f3a",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "uman",
@@ -359,7 +336,7 @@
    "first_seen": "2026-09-14",
    "uid": "48c5e38e6a236015",
    "cross_uid": "6c5d9576075b9c5f",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "uman",
@@ -380,7 +357,7 @@
    "first_seen": "2026-09-14",
    "uid": "74410b4bd1e26fa2",
    "cross_uid": "2f64f6ce34dd73c6",
-   "d_day": 18
+   "d_day": 17
   },
   {
    "source": "alio",
@@ -401,7 +378,7 @@
    "first_seen": "2026-09-14",
    "uid": "e0dbf7238ea11ed9",
    "cross_uid": "bd8b36e15fc68f7c",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "uman",
@@ -422,51 +399,7 @@
    "first_seen": "2026-09-14",
    "uid": "e399bb3b687fc3b6",
    "cross_uid": "cf0ab93dc94fa098",
-   "d_day": 11
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "경북대학교 정보화본부",
-   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
-   "start_date": "2026-09-14",
-   "end_date": "2026-09-16",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산",
-    "정보화"
-   ],
-   "first_seen": "2026-09-14",
-   "uid": "668991861d7103af",
-   "cross_uid": "b25d9522b71acaa1",
-   "d_day": 1,
-   "duplicate_of_other_source": true
-  },
-  {
-   "source": "uman",
-   "source_label": "대학교직원신문",
-   "org": "경북대학교",
-   "title": "경북대학교 정보화본부 무기계약직 채용 공고( ~09. 16.(수))",
-   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18322",
-   "start_date": "2026-09-07",
-   "end_date": "2026-09-16",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "정보통신",
-   "matched": [
-    "정보화",
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-14",
-   "uid": "de47eec1edb4ce6f",
-   "cross_uid": "cd453b9a451be926",
-   "d_day": 0
+   "d_day": 10
   },
   {
    "source": "uman",
@@ -508,7 +441,7 @@
    "first_seen": "2026-09-12",
    "uid": "ec4fc51d51714993",
    "cross_uid": "acdf2bc453e7c8aa",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -550,7 +483,7 @@
    "first_seen": "2026-09-11",
    "uid": "d1339d25106ce3f2",
    "cross_uid": "cdb3c379962bcb17",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "alio",
@@ -592,7 +525,7 @@
    "first_seen": "2026-09-11",
    "uid": "bf76c04840d58b81",
    "cross_uid": "7bd80da628f51cff",
-   "d_day": 4
+   "d_day": 3
   },
   {
    "source": "gojobs",
@@ -612,7 +545,7 @@
    "first_seen": "2026-09-11",
    "uid": "20f83508ffb46e9b",
    "cross_uid": "6d026266b76369df",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -633,7 +566,7 @@
    "first_seen": "2026-09-11",
    "uid": "068b15b972a71df4",
    "cross_uid": "0b71a58b58e68d8c",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "alio",
@@ -654,29 +587,7 @@
    "first_seen": "2026-09-11",
    "uid": "5175a667c08d5cb1",
    "cross_uid": "5abd8b23fe9213bf",
-   "d_day": 7
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "경북대학교 정보화본부",
-   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
-   "start_date": "2026-09-11",
-   "end_date": "2026-09-16",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산",
-    "정보화"
-   ],
-   "first_seen": "2026-09-11",
-   "uid": "dd71644901b41e40",
-   "cross_uid": "b25d9522b71acaa1",
-   "d_day": 2,
-   "duplicate_of_other_source": true
+   "d_day": 6
   },
   {
    "source": "seoul_notice",
@@ -696,29 +607,7 @@
    "first_seen": "2026-09-10",
    "uid": "1bf41099385591b5",
    "cross_uid": "56dd207ce19e9f37",
-   "d_day": 2
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "경북대학교 정보화본부",
-   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
-   "start_date": "2026-09-10",
-   "end_date": "2026-09-16",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산",
-    "정보화"
-   ],
-   "first_seen": "2026-09-10",
-   "uid": "b49123381cce66ad",
-   "cross_uid": "b25d9522b71acaa1",
-   "d_day": 5,
-   "duplicate_of_other_source": true
+   "d_day": 1
   },
   {
    "source": "alio",
@@ -739,7 +628,7 @@
    "first_seen": "2026-09-08",
    "uid": "c486b8ed6432fe46",
    "cross_uid": "78f6552ae46ced5a",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -760,7 +649,7 @@
    "first_seen": "2026-09-08",
    "uid": "03574b07d1f1bf5c",
    "cross_uid": "dfff6e5065229ca6",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -781,7 +670,7 @@
    "first_seen": "2026-09-08",
    "uid": "5ac2281879d552e7",
    "cross_uid": "18ef771d2e99ddb1",
-   "d_day": 5
+   "d_day": 4
   },
   {
    "source": "alio",
@@ -823,7 +712,7 @@
    "first_seen": "2026-09-07",
    "uid": "587a3b42adaada6f",
    "cross_uid": "88609fccbfd82d14",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -845,29 +734,7 @@
    "first_seen": "2026-09-07",
    "uid": "29a49bce69f0c5dd",
    "cross_uid": "d58f5d071d2f708a",
-   "d_day": 5
-  },
-  {
-   "source": "uman",
-   "source_label": "대학교직원신문",
-   "org": "경북대학교",
-   "title": "경북대학교 정보화본부 무기계양직 채용 공고( ~09. 16.(수))",
-   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18322",
-   "start_date": "2026-09-07",
-   "end_date": "2026-09-16",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "정보통신",
-   "matched": [
-    "정보화",
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-07",
-   "uid": "67af424437e18801",
-   "cross_uid": "80e0e4b5aacd343b",
-   "d_day": 2
+   "d_day": 4
   },
   {
    "source": "alio",
@@ -888,27 +755,6 @@
    "first_seen": "2026-09-06",
    "uid": "4ada055c9fe639d8",
    "cross_uid": "1c15e748a07fb391",
-   "d_day": 1
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국전력공사",
-   "title": "2026년도 하반기 4직급 대졸수준 신입사원 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=304551",
-   "start_date": "2026-09-02",
-   "end_date": "2026-09-16",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울 외 15",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "9f2b290bf9d7c365",
-   "cross_uid": "ccdc56eeed01aa61",
    "d_day": 0
   },
   {
@@ -930,49 +776,7 @@
    "first_seen": "2026-09-06",
    "uid": "dd06a57a14ffb042",
    "cross_uid": "d5fbba6bf300dc0e",
-   "d_day": 5
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "신용보증기금",
-   "title": "2026년도 하반기 신용보증기금 신입직원 채용",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=304432",
-   "start_date": "2026-09-02",
-   "end_date": "2026-09-16",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울 외 15",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "5181fff1443e1888",
-   "cross_uid": "5a050833fb0f3767",
-   "d_day": 0
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "경북대학교 정보화본부",
-   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
-   "start_date": "2026-09-04",
-   "end_date": "2026-09-16",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산",
-    "정보화"
-   ],
-   "first_seen": "2026-09-06",
-   "uid": "65410974a0f8396a",
-   "cross_uid": "b25d9522b71acaa1",
-   "d_day": 7
+   "d_day": 4
   }
  ],
  "failed_sources": [],
