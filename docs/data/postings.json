@@ -1,6 +1,26 @@
 {
- "updated_at": "2026-09-16 08:55",
+ "updated_at": "2026-09-16 12:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "헌법재판소",
+   "title": "헌법재판소 일반직공무원(전산주사보) 전입 또는 경력경쟁채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=303711",
+   "start_date": "2026-09-16",
+   "end_date": "2026-09-29",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-09-16",
+   "uid": "792cab9d78e39b72",
+   "cross_uid": "dbbcdc42281849ff",
+   "d_day": 13
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -63,6 +83,50 @@
    "uid": "d5289120f9a76494",
    "cross_uid": "5eb2f47756682f29",
    "d_day": 13
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "경북대학교 정보화본부",
+   "title": "2026년도 제3회 경북대학교 정보화본부 대학회계 무기계약직원(전산직) 공개 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=302818",
+   "start_date": "2026-09-16",
+   "end_date": "2026-09-16",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산",
+    "정보화"
+   ],
+   "first_seen": "2026-09-16",
+   "uid": "7b8172d649d0328c",
+   "cross_uid": "b25d9522b71acaa1",
+   "d_day": 0,
+   "duplicate_of_other_source": true
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "경복대학교",
+   "title": "경복대학교(남양주) 행정직원 채용공고(~09.20,(일)11:59)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18357",
+   "start_date": "2026-09-15",
+   "end_date": "2026-09-20",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-16",
+   "uid": "d02f346c976b1901",
+   "cross_uid": "a72081c4835b52c3",
+   "d_day": 4,
+   "duplicate_of_other_source": true
   },
   {
    "source": "alio",
