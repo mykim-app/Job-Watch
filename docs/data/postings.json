@@ -1,6 +1,69 @@
 {
- "updated_at": "2026-09-17 12:55",
+ "updated_at": "2026-09-17 16:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "한성대학교",
+   "title": "한성대학교 직원(특수직 신입) 2차 채용공고 (~09. 28.(월) 11:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18365",
+   "start_date": "2026-09-17",
+   "end_date": "2026-09-28",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-17",
+   "uid": "83a85fb3bf1d0de2",
+   "cross_uid": "3f3eee02c3ffff04",
+   "d_day": 11
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "한성대학교",
+   "title": "한성대학교 직원(일반기술직 경력) 2차 채용공고(~09.. 28.(월) 11:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18364",
+   "start_date": "2026-09-17",
+   "end_date": "",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-17",
+   "uid": "0d046fb8a90e69d6",
+   "cross_uid": "5072669ec91da522",
+   "d_day": null
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "한성대학교",
+   "title": "한성대학교 직원(일반기술직 신입) 2차 채용공고(~09. 28.(월) 11:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18363",
+   "start_date": "2026-09-17",
+   "end_date": "2026-09-28",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-17",
+   "uid": "66d3af0d911653c3",
+   "cross_uid": "8f35601a7d51139d",
+   "d_day": 11
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -21,6 +84,28 @@
    "uid": "39e3b83ba0c01445",
    "cross_uid": "71da310423bba517",
    "d_day": 15
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "전주비전대학교",
+   "title": "전주비전대학교 정규직 채용 공고(기능직)(~09.20,(일) 18:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18343",
+   "start_date": "2026-09-11",
+   "end_date": "2026-09-20",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-17",
+   "uid": "54c6beb1297420cb",
+   "cross_uid": "7bd80da628f51cff",
+   "d_day": 3,
+   "duplicate_of_other_source": true
   },
   {
    "source": "gojobs",
