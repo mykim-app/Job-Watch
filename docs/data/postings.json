@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-19 16:55",
+ "updated_at": "2026-09-20 08:55",
  "postings": [
   {
    "source": "alio",
@@ -20,7 +20,7 @@
    "first_seen": "2026-09-18",
    "uid": "a9ca2c659f9d357f",
    "cross_uid": "6a8e5058afe04978",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "uman",
@@ -41,7 +41,7 @@
    "first_seen": "2026-09-17",
    "uid": "83a85fb3bf1d0de2",
    "cross_uid": "3f3eee02c3ffff04",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "uman",
@@ -83,7 +83,7 @@
    "first_seen": "2026-09-17",
    "uid": "66d3af0d911653c3",
    "cross_uid": "8f35601a7d51139d",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -104,7 +104,7 @@
    "first_seen": "2026-09-17",
    "uid": "39e3b83ba0c01445",
    "cross_uid": "71da310423bba517",
-   "d_day": 13
+   "d_day": 12
   },
   {
    "source": "uman",
@@ -125,7 +125,7 @@
    "first_seen": "2026-09-17",
    "uid": "54c6beb1297420cb",
    "cross_uid": "7bd80da628f51cff",
-   "d_day": 1,
+   "d_day": 0,
    "duplicate_of_other_source": true
   },
   {
@@ -146,7 +146,7 @@
    "first_seen": "2026-09-16",
    "uid": "792cab9d78e39b72",
    "cross_uid": "dbbcdc42281849ff",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "alio",
@@ -167,7 +167,7 @@
    "first_seen": "2026-09-16",
    "uid": "85e2a475f12bcdf1",
    "cross_uid": "2891849d4eeced20",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -188,7 +188,7 @@
    "first_seen": "2026-09-16",
    "uid": "5ad6bc46dc8c8683",
    "cross_uid": "20d32e2472ddda7a",
-   "d_day": 12
+   "d_day": 11
   },
   {
    "source": "alio",
@@ -209,7 +209,7 @@
    "first_seen": "2026-09-16",
    "uid": "cce6adcf486674c2",
    "cross_uid": "fcfcc2232ced871f",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "cleaneye",
@@ -231,7 +231,7 @@
    "first_seen": "2026-09-16",
    "uid": "d19ba73b15a92390",
    "cross_uid": "4837ea7393a18af7",
-   "d_day": 17
+   "d_day": 16
   },
   {
    "source": "cleaneye",
@@ -252,7 +252,7 @@
    "first_seen": "2026-09-16",
    "uid": "4f0765f0c6c0dbc0",
    "cross_uid": "5b6026ec6a290197",
-   "d_day": 17
+   "d_day": 16
   },
   {
    "source": "cleaneye",
@@ -273,7 +273,7 @@
    "first_seen": "2026-09-16",
    "uid": "95f99e90a43cf25d",
    "cross_uid": "368eac0f74fe0838",
-   "d_day": 17
+   "d_day": 16
   },
   {
    "source": "alio",
@@ -294,7 +294,7 @@
    "first_seen": "2026-09-16",
    "uid": "d5289120f9a76494",
    "cross_uid": "5eb2f47756682f29",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "uman",
@@ -315,7 +315,7 @@
    "first_seen": "2026-09-16",
    "uid": "d02f346c976b1901",
    "cross_uid": "a72081c4835b52c3",
-   "d_day": 1,
+   "d_day": 0,
    "duplicate_of_other_source": true
   },
   {
@@ -337,7 +337,7 @@
    "first_seen": "2026-09-15",
    "uid": "c0fc7cc11e9046aa",
    "cross_uid": "714362ee4a551010",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -358,7 +358,7 @@
    "first_seen": "2026-09-15",
    "uid": "6a40729293ddd7c9",
    "cross_uid": "24384c1845301780",
-   "d_day": 11
+   "d_day": 10
   },
   {
    "source": "alio",
@@ -379,7 +379,7 @@
    "first_seen": "2026-09-15",
    "uid": "81779dd41fc88314",
    "cross_uid": "17769d7c46dfbf6e",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "uman",
@@ -421,7 +421,7 @@
    "first_seen": "2026-09-14",
    "uid": "08468b9b38f23bbf",
    "cross_uid": "57f87e3abbe05f3a",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "uman",
@@ -442,7 +442,7 @@
    "first_seen": "2026-09-14",
    "uid": "48c5e38e6a236015",
    "cross_uid": "6c5d9576075b9c5f",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "uman",
@@ -463,7 +463,7 @@
    "first_seen": "2026-09-14",
    "uid": "74410b4bd1e26fa2",
    "cross_uid": "2f64f6ce34dd73c6",
-   "d_day": 15
+   "d_day": 14
   },
   {
    "source": "alio",
@@ -484,7 +484,7 @@
    "first_seen": "2026-09-14",
    "uid": "e0dbf7238ea11ed9",
    "cross_uid": "bd8b36e15fc68f7c",
-   "d_day": 10
+   "d_day": 9
   },
   {
    "source": "uman",
@@ -505,7 +505,7 @@
    "first_seen": "2026-09-14",
    "uid": "e399bb3b687fc3b6",
    "cross_uid": "cf0ab93dc94fa098",
-   "d_day": 8
+   "d_day": 7
   },
   {
    "source": "uman",
@@ -547,7 +547,7 @@
    "first_seen": "2026-09-12",
    "uid": "ec4fc51d51714993",
    "cross_uid": "acdf2bc453e7c8aa",
-   "d_day": 6
+   "d_day": 5
   },
   {
    "source": "alio",
@@ -589,7 +589,7 @@
    "first_seen": "2026-09-11",
    "uid": "d1339d25106ce3f2",
    "cross_uid": "cdb3c379962bcb17",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -651,7 +651,7 @@
    "first_seen": "2026-09-11",
    "uid": "20f83508ffb46e9b",
    "cross_uid": "6d026266b76369df",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -672,7 +672,7 @@
    "first_seen": "2026-09-11",
    "uid": "068b15b972a71df4",
    "cross_uid": "0b71a58b58e68d8c",
-   "d_day": 9
+   "d_day": 8
   },
   {
    "source": "alio",
@@ -693,7 +693,7 @@
    "first_seen": "2026-09-11",
    "uid": "5175a667c08d5cb1",
    "cross_uid": "5abd8b23fe9213bf",
-   "d_day": 4
+   "d_day": 3
   },
   {
    "source": "alio",
@@ -714,7 +714,7 @@
    "first_seen": "2026-09-08",
    "uid": "c486b8ed6432fe46",
    "cross_uid": "78f6552ae46ced5a",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -735,7 +735,7 @@
    "first_seen": "2026-09-08",
    "uid": "03574b07d1f1bf5c",
    "cross_uid": "dfff6e5065229ca6",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -756,7 +756,7 @@
    "first_seen": "2026-09-08",
    "uid": "5ac2281879d552e7",
    "cross_uid": "18ef771d2e99ddb1",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "alio",
@@ -798,7 +798,7 @@
    "first_seen": "2026-09-07",
    "uid": "587a3b42adaada6f",
    "cross_uid": "88609fccbfd82d14",
-   "d_day": 3
+   "d_day": 2
   },
   {
    "source": "alio",
@@ -820,7 +820,7 @@
    "first_seen": "2026-09-07",
    "uid": "29a49bce69f0c5dd",
    "cross_uid": "d58f5d071d2f708a",
-   "d_day": 2
+   "d_day": 1
   },
   {
    "source": "alio",
@@ -841,7 +841,7 @@
    "first_seen": "2026-09-06",
    "uid": "dd06a57a14ffb042",
    "cross_uid": "d5fbba6bf300dc0e",
-   "d_day": 2
+   "d_day": 1
   }
  ],
  "failed_sources": [],
