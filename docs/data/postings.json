@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-09-21 12:55",
+ "updated_at": "2026-09-21 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "농업정책보험금융원",
+   "title": "농업정책보험금융원 신규직원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305184",
+   "start_date": "2026-09-21",
+   "end_date": "2026-10-06",
+   "hire_type": "비정규직,청년인턴(체험형),정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-21",
+   "uid": "d34b4e2a8bd67774",
+   "cross_uid": "b4767ae8d13f700a",
+   "d_day": 15
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
