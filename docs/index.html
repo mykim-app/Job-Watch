@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>전산·통신직 채용 정보 모니터링</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,20 +14,19 @@
   --display:"Nanum Myeongjo",serif;
   --body:Pretendard,-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
   --data:"IBM Plex Mono",ui-monospace,monospace;
+  box-sizing:border-box;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
   -webkit-font-smoothing:antialiased}
 .wrap{max-width:680px;margin:0 auto;padding:22px 16px 64px}
 
-/* ── 머리말 */
 .eyebrow{font-family:var(--data);font-size:11px;letter-spacing:.14em;color:var(--muted);
   text-transform:uppercase}
 h1{font-family:var(--display);font-weight:800;font-size:clamp(23px,6.2vw,32px);
   line-height:1.26;letter-spacing:-.01em;margin:8px 0 6px;word-break:keep-all}
 .sub{font-size:13.5px;line-height:1.6;color:var(--muted);margin:0;word-break:keep-all}
 
-/* ── 접수인 (이 페이지의 signature) */
 .seal-row{display:flex;align-items:center;gap:18px;margin:26px 0 8px}
 .seal{flex:0 0 auto;width:104px;height:104px;display:grid;place-items:center;
   border:2.5px solid var(--seal);border-radius:3px;color:var(--seal);
@@ -50,7 +49,6 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(23px,6.2vw,32px);
 .range{font-family:var(--data);font-size:11.5px;color:var(--muted);margin-top:24px;
   letter-spacing:.02em}
 
-/* ── 출처 필터 */
 .chips{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0 14px}
 .chip{font-family:var(--data);font-size:11.5px;letter-spacing:.02em;padding:6px 11px;
   border:1px solid var(--rule);background:var(--card);color:var(--muted);
@@ -58,7 +56,6 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(23px,6.2vw,32px);
 .chip[aria-pressed="true"]{border-color:var(--ink);color:var(--ink);font-weight:500}
 .chip:focus-visible{outline:2px solid var(--seal);outline-offset:2px}
 
-/* ── 목록 */
 .band{font-family:var(--data);font-size:11px;letter-spacing:.14em;color:var(--muted);
   border-top:1.5px solid var(--ink);padding-top:9px;margin:30px 0 0;
   display:flex;justify-content:space-between;align-items:baseline}
@@ -74,6 +71,7 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(23px,6.2vw,32px);
 .tag.new{border-color:var(--seal);color:var(--seal)}
 .dday{font-weight:500}
 .dday.soon{color:var(--alert)}
+
 /* 읽은 공고 */
 .item.read{background:#FAFBFC}
 .item.read .ttl{color:var(--muted);font-weight:500}
@@ -83,8 +81,6 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(23px,6.2vw,32px);
 .item.read .dday.soon{color:#C08A80}
 .item.read .ttl::after{content:"읽음";font-family:var(--data);font-size:10px;
   letter-spacing:.08em;color:#98A2B3;margin-left:7px;vertical-align:1px;white-space:nowrap}
-.warn{margin-top:10px;padding:9px 11px;border:1px solid #E4C7C0;background:#FCF6F4;
-  color:var(--alert);font-family:var(--data);font-size:11.5px;line-height:1.6;border-radius:2px}
 .reset{background:none;border:none;padding:0;margin-top:8px;font-family:var(--data);
   font-size:11.5px;color:var(--muted);cursor:pointer;text-decoration:underline}
 .reset:hover{color:var(--ink)}
@@ -93,6 +89,8 @@ h1{font-family:var(--display);font-weight:800;font-size:clamp(23px,6.2vw,32px);
   text-align:center;color:var(--muted);font-size:14px;line-height:1.7;word-break:keep-all}
 footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
   border-top:1px solid var(--rule);padding-top:14px}
+.warn{margin-top:10px;padding:9px 11px;border:1px solid #E4C7C0;background:#FCF6F4;
+  color:var(--alert);font-family:var(--data);font-size:11.5px;line-height:1.6;border-radius:2px}
 .more{margin-top:14px;font-family:var(--data);font-size:12px;background:var(--card);
   border:1px solid var(--rule);padding:11px 14px;color:var(--ink);cursor:pointer;width:100%;
   letter-spacing:.02em}
@@ -105,7 +103,7 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
 <div class="wrap">
   <div class="eyebrow" id="stamp-date">—</div>
   <h1>전산·통신직 채용 정보 모니터링</h1>
-  <p class="sub">공공기관·지방공기업·공무원 채용공고를 하루 세 번 훑습니다. 최근 30일치를 게시일 최신순으로 보여 줍니다.</p>
+  <p class="sub">공공기관·지방공기업·공무원 채용공고를 하루 세 번 훑습니다. 최근 30일치를 보여 줍니다. 오늘 신규는 게시일순, 이전 공고는 마감임박순으로 정렬합니다.</p>
 
   <div class="seal-row">
     <div class="seal zero" id="seal"><div><div class="n" id="seal-n">–</div><div class="lbl">신규</div></div></div>
@@ -126,20 +124,11 @@ footer{margin-top:34px;font-size:12px;line-height:1.7;color:var(--muted);
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const DAYS = ["일","월","화","수","목","금","토"];
-const WINDOW_DAYS = 30;   // 화면에 보여줄 기간. 이 숫자만 바꾸면 된다
+const WINDOW_DAYS = 30;          // 화면에 보여줄 기간. 이 숫자만 바꾸면 된다
 const RUN_HOURS = [9, 13, 17];   // NAS 작업 스케줄러에 걸어둔 시각. 바꾸면 여기도 맞출 것
-
-// 지금 시각 기준으로 다음 수집이 언제인지 문장으로 만든다
-function nextRunText() {
-  const now = new Date();
-  const h = now.getHours(), m = now.getMinutes();
-  const label = n => (n < 12 ? "오전 " + n : "오후 " + (n === 12 ? 12 : n - 12)) + "시";
-  for (const t of RUN_HOURS) {
-    if (h < t || (h === t && m < 5)) return "오늘 " + label(t);
-  }
-  return "내일 " + label(RUN_HOURS[0]);
-}
 const READ_KEY = "jobwatch:read";
+
+let ALL = [], SOURCE = "전체", TODAY = "", CUTOFF = "", ARCHIVE = false;
 
 // 읽은 공고는 이 브라우저에만 기록된다. 휴대폰과 PC는 따로 관리된다.
 function readSet() {
@@ -150,7 +139,6 @@ function saveRead(set) {
   try { localStorage.setItem(READ_KEY, JSON.stringify([...set])); } catch (e) {}
 }
 let READ = readSet();
-let ALL = [], SOURCE = "전체", TODAY = "", CUTOFF = "", ARCHIVE = false;
 
 const ddayText = d => d === null || d === undefined ? "" : (d < 0 ? "마감" : d === 0 ? "오늘 마감" : "D-" + d);
 const posted = p => p.start_date || p.first_seen || "";
@@ -164,6 +152,17 @@ function backDays(iso, n) {
   const d = new Date(iso + "T00:00:00");
   d.setDate(d.getDate() - (n - 1));
   return d.toISOString().slice(0, 10);
+}
+
+// 지금 시각 기준으로 다음 수집이 언제인지 문장으로 만든다
+function nextRunText() {
+  const now = new Date();
+  const h = now.getHours(), m = now.getMinutes();
+  const label = n => (n < 12 ? "오전 " + n : "오후 " + (n === 12 ? 12 : n - 12)) + "시";
+  for (const t of RUN_HOURS) {
+    if (h < t || (h === t && m < 5)) return "오늘 " + label(t);
+  }
+  return "내일 " + label(RUN_HOURS[0]);
 }
 
 function card(p, isNew) {
@@ -187,11 +186,18 @@ function card(p, isNew) {
          '<div class="meta">' + bits.join("") + "</div></article>";
 }
 
-// 게시일 최신순, 같으면 발견일 최신순, 그다음 기관명
+// 오늘 신규 — 게시일 최신순, 같으면 발견일 최신순, 그다음 기관명
 const byNewest = (a, b) =>
   posted(b).localeCompare(posted(a)) ||
   (b.first_seen || "").localeCompare(a.first_seen || "") ||
   (a.org || "").localeCompare(b.org || "", "ko");
+
+// 이전 공고 — 마감이 임박한 순. 마감일이 없는(상시채용) 공고는 뒤로 보낸다
+const byDeadline = (a, b) => {
+  const da = (a.d_day === null || a.d_day === undefined) ? Infinity : a.d_day;
+  const db = (b.d_day === null || b.d_day === undefined) ? Infinity : b.d_day;
+  return da - db || (a.org || "").localeCompare(b.org || "", "ko");
+};
 
 function inWindow(p) {
   return ARCHIVE || (p.first_seen || "") >= CUTOFF;
@@ -203,7 +209,7 @@ function render() {
     .filter(inWindow);
 
   const fresh = pool.filter(p => p.first_seen === TODAY).sort(byNewest);
-  const rest  = pool.filter(p => p.first_seen !== TODAY).sort(byNewest);
+  const rest  = pool.filter(p => p.first_seen !== TODAY).sort(byDeadline);
 
   let html = '<div class="band"><span>오늘 신규</span><span>' + fresh.length + "건</span></div>";
   html += fresh.length
@@ -242,6 +248,15 @@ function render() {
   return fresh.length;
 }
 
+function chips(labels) {
+  $("#chips").innerHTML = ["전체", ...labels]
+    .map(l => '<button class="chip" aria-pressed="' + (l === SOURCE) + '">' + esc(l) + "</button>").join("");
+  $("#chips").querySelectorAll(".chip").forEach(b => b.onclick = () => {
+    SOURCE = b.textContent;
+    chips(labels); render();
+  });
+}
+
 function updateReset() {
   const known = new Set(ALL.map(p => p.uid));
   const n = [...READ].filter(u => known.has(u)).length;
@@ -269,15 +284,6 @@ function refresh() {
     ? "보관 중인 공고 전체 · 접수 진행 중인 건만"
     : (CUTOFF ? fmt(CUTOFF) + " ~ " + fmt(TODAY) + " · 최근 " + WINDOW_DAYS + "일" : "");
   return n;
-}
-
-function chips(labels) {
-  $("#chips").innerHTML = ["전체", ...labels]
-    .map(l => '<button class="chip" aria-pressed="' + (l === SOURCE) + '">' + esc(l) + "</button>").join("");
-  $("#chips").querySelectorAll(".chip").forEach(b => b.onclick = () => {
-    SOURCE = b.textContent;
-    chips(labels); render();
-  });
 }
 
 fetch("data/postings.json?v=" + Date.now())
