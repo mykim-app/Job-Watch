@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-22 08:55",
+ "updated_at": "2026-09-22 11:08",
  "postings": [
   {
    "source": "alio",
@@ -41,6 +41,27 @@
    "first_seen": "2026-09-22",
    "uid": "ced1fac92c8d0e4a",
    "cross_uid": "eb0b9c92f475e270",
+   "d_day": 14
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국가평생교육진흥원",
+   "title": "[NCS기반 블라인드 채용] 2026년 국가평생교육진흥원 정규직 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305222",
+   "start_date": "2026-09-22",
+   "end_date": "2026-10-06",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-22",
+   "uid": "66ee3734383f0916",
+   "cross_uid": "c81d1051e53fbfe7",
    "d_day": 14
   },
   {
@@ -113,7 +134,7 @@
    "title": "한성대학교 직원(일반기술직 경력) 2차 채용공고(~09.. 28.(월) 11:00)",
    "url": "https://www.uman.kr/board/index.html?id=talk4&no=18364",
    "start_date": "2026-09-17",
-   "end_date": "",
+   "end_date": "2026-09-28",
    "hire_type": "",
    "recruit_type": "",
    "region": "",
@@ -125,7 +146,7 @@
    "first_seen": "2026-09-17",
    "uid": "0d046fb8a90e69d6",
    "cross_uid": "5072669ec91da522",
-   "d_day": null
+   "d_day": 6
   },
   {
    "source": "uman",
