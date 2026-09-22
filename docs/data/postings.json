@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-09-22 12:55",
+ "updated_at": "2026-09-22 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국전력공사",
+   "title": "2026년도 하반기 보훈 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305239",
+   "start_date": "2026-09-22",
+   "end_date": "2026-10-06",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 15",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-22",
+   "uid": "302327d49ac5aee6",
+   "cross_uid": "c89213af39f451ee",
+   "d_day": 14,
+   "last_confirmed": "2026-09-22"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -48,6 +70,28 @@
   {
    "source": "alio",
    "source_label": "잡알리오",
+   "org": "한국교육학술정보원",
+   "title": "2026년 제6차 직원(정규직) 채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305253",
+   "start_date": "2026-09-22",
+   "end_date": "2026-10-06",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "대구",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-22",
+   "uid": "e3b128f88d9da216",
+   "cross_uid": "57a1a367f21f1a47",
+   "d_day": 14,
+   "last_confirmed": "2026-09-22"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
    "org": "국가평생교육진흥원",
    "title": "[NCS기반 블라인드 채용] 2026년 국가평생교육진흥원 정규직 채용 공고",
    "url": "https://job.alio.go.kr/recruitview.do?idx=305222",
@@ -64,6 +108,28 @@
    "first_seen": "2026-09-22",
    "uid": "66ee3734383f0916",
    "cross_uid": "c81d1051e53fbfe7",
+   "d_day": 14,
+   "last_confirmed": "2026-09-22"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "(재)우체국금융개발원",
+   "title": "우체국금융개발원 2026년 9차 공개채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305147",
+   "start_date": "2026-09-22",
+   "end_date": "2026-10-06",
+   "hire_type": "무기계약직,정규직",
+   "recruit_type": "",
+   "region": "서울 외 4",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-22",
+   "uid": "479d907cd3fca3c5",
+   "cross_uid": "c674add25fc1d76d",
    "d_day": 14,
    "last_confirmed": "2026-09-22"
   },
