@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-09-28 12:55",
+ "updated_at": "2026-09-28 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국농수산식품유통공사",
+   "title": "2026년 신입직원 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305395",
+   "start_date": "2026-09-28",
+   "end_date": "2026-10-13",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 11",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-28",
+   "uid": "960e8b28a3667fa0",
+   "cross_uid": "510dcfb50fa900cd",
+   "d_day": 15,
+   "last_confirmed": "2026-09-28"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "스포츠윤리센터",
+   "title": "스포츠윤리센터 2026년 제2차 직원 신규채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305398",
+   "start_date": "2026-09-28",
+   "end_date": "2026-10-13",
+   "hire_type": "비정규직,정규직",
+   "recruit_type": "",
+   "region": "서울 외 3",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-28",
+   "uid": "ff68ded57345eab2",
+   "cross_uid": "8fb525bd17245d03",
+   "d_day": 15,
+   "last_confirmed": "2026-09-28"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
