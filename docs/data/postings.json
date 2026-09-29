@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-29 16:55",
+ "updated_at": "2026-09-30 08:55",
  "postings": [
   {
    "source": "alio",
@@ -20,8 +20,8 @@
    "first_seen": "2026-09-29",
    "uid": "801f32d9a01d4087",
    "cross_uid": "4a56ce212dad965e",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -42,8 +42,8 @@
    "first_seen": "2026-09-28",
    "uid": "960e8b28a3667fa0",
    "cross_uid": "510dcfb50fa900cd",
-   "d_day": 14,
-   "last_confirmed": "2026-09-29"
+   "d_day": 13,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -64,8 +64,8 @@
    "first_seen": "2026-09-28",
    "uid": "ff68ded57345eab2",
    "cross_uid": "8fb525bd17245d03",
-   "d_day": 14,
-   "last_confirmed": "2026-09-29"
+   "d_day": 13,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -86,8 +86,8 @@
    "first_seen": "2026-09-23",
    "uid": "a89b8fec6ee4f3ac",
    "cross_uid": "392190af20a6534b",
-   "d_day": 8,
-   "last_confirmed": "2026-09-29"
+   "d_day": 7,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -108,8 +108,8 @@
    "first_seen": "2026-09-23",
    "uid": "2518d25a8ccb6fbb",
    "cross_uid": "08257a5ab0851884",
-   "d_day": 8,
-   "last_confirmed": "2026-09-29"
+   "d_day": 7,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -130,8 +130,8 @@
    "first_seen": "2026-09-23",
    "uid": "a59a9315a13b3d94",
    "cross_uid": "4475a2ac2051e136",
-   "d_day": 8,
-   "last_confirmed": "2026-09-29"
+   "d_day": 7,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -152,8 +152,8 @@
    "first_seen": "2026-09-23",
    "uid": "9f8cc5c40942a7ef",
    "cross_uid": "3d7450faded29675",
-   "d_day": 8,
-   "last_confirmed": "2026-09-29"
+   "d_day": 7,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "cleaneye",
@@ -174,8 +174,8 @@
    "first_seen": "2026-09-23",
    "uid": "e3d46eea0d081787",
    "cross_uid": "a78cf7e5e6adb98a",
-   "d_day": 8,
-   "last_confirmed": "2026-09-29"
+   "d_day": 7,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "cleaneye",
@@ -195,8 +195,8 @@
    "first_seen": "2026-09-23",
    "uid": "8f90151016b92059",
    "cross_uid": "5358dc1aca016c74",
-   "d_day": 8,
-   "last_confirmed": "2026-09-29"
+   "d_day": 7,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -217,8 +217,8 @@
    "first_seen": "2026-09-23",
    "uid": "f986dd39e95bab0e",
    "cross_uid": "00c43f1e6f5061b6",
-   "d_day": 8,
-   "last_confirmed": "2026-09-29"
+   "d_day": 7,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -239,8 +239,8 @@
    "first_seen": "2026-09-23",
    "uid": "81126ff9bc4009de",
    "cross_uid": "c497a6bcd2367d8f",
-   "d_day": 8,
-   "last_confirmed": "2026-09-29"
+   "d_day": 7,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -261,8 +261,8 @@
    "first_seen": "2026-09-22",
    "uid": "302327d49ac5aee6",
    "cross_uid": "c89213af39f451ee",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -283,8 +283,8 @@
    "first_seen": "2026-09-22",
    "uid": "5fee215819e8db9d",
    "cross_uid": "ff1929cbbe61a9c8",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -305,8 +305,8 @@
    "first_seen": "2026-09-22",
    "uid": "ced1fac92c8d0e4a",
    "cross_uid": "eb0b9c92f475e270",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -327,8 +327,8 @@
    "first_seen": "2026-09-22",
    "uid": "e3b128f88d9da216",
    "cross_uid": "57a1a367f21f1a47",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -349,8 +349,8 @@
    "first_seen": "2026-09-22",
    "uid": "66ee3734383f0916",
    "cross_uid": "c81d1051e53fbfe7",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -371,8 +371,8 @@
    "first_seen": "2026-09-22",
    "uid": "479d907cd3fca3c5",
    "cross_uid": "c674add25fc1d76d",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -393,7 +393,7 @@
    "first_seen": "2026-09-21",
    "uid": "d34b4e2a8bd67774",
    "cross_uid": "b4767ae8d13f700a",
-   "d_day": 7,
+   "d_day": 6,
    "last_confirmed": "2026-09-28"
   },
   {
@@ -415,8 +415,8 @@
    "first_seen": "2026-09-18",
    "uid": "a9ca2c659f9d357f",
    "cross_uid": "6a8e5058afe04978",
-   "d_day": 3,
-   "last_confirmed": "2026-09-29"
+   "d_day": 2,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -437,29 +437,8 @@
    "first_seen": "2026-09-17",
    "uid": "39e3b83ba0c01445",
    "cross_uid": "71da310423bba517",
-   "d_day": 3,
-   "last_confirmed": "2026-09-29"
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "헌법재판소",
-   "title": "헌법재판소 일반직공무원(전산주사보) 전입 또는 경력경쟁채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=303711",
-   "start_date": "2026-09-16",
-   "end_date": "2026-09-29",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-09-16",
-   "uid": "792cab9d78e39b72",
-   "cross_uid": "dbbcdc42281849ff",
-   "d_day": 0,
-   "last_confirmed": "2026-09-29"
+   "d_day": 2,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -480,8 +459,8 @@
    "first_seen": "2026-09-16",
    "uid": "85e2a475f12bcdf1",
    "cross_uid": "2891849d4eeced20",
-   "d_day": 1,
-   "last_confirmed": "2026-09-29"
+   "d_day": 0,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -502,30 +481,8 @@
    "first_seen": "2026-09-16",
    "uid": "5ad6bc46dc8c8683",
    "cross_uid": "20d32e2472ddda7a",
-   "d_day": 2,
-   "last_confirmed": "2026-09-29"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국공항공사",
-   "title": "2026년도 하반기 신입사원(5급갑, 6급갑 고졸수준) 공개채용",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305011",
-   "start_date": "2026-09-15",
-   "end_date": "2026-09-29",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울 외 12",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-16",
-   "uid": "cce6adcf486674c2",
-   "cross_uid": "fcfcc2232ced871f",
-   "d_day": 0,
-   "last_confirmed": "2026-09-29"
+   "d_day": 1,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "cleaneye",
@@ -547,8 +504,8 @@
    "first_seen": "2026-09-16",
    "uid": "d19ba73b15a92390",
    "cross_uid": "4837ea7393a18af7",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "cleaneye",
@@ -569,8 +526,8 @@
    "first_seen": "2026-09-16",
    "uid": "4f0765f0c6c0dbc0",
    "cross_uid": "5b6026ec6a290197",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "cleaneye",
@@ -591,30 +548,8 @@
    "first_seen": "2026-09-16",
    "uid": "95f99e90a43cf25d",
    "cross_uid": "368eac0f74fe0838",
-   "d_day": 7,
-   "last_confirmed": "2026-09-29"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "국민건강보험공단",
-   "title": "2026년도 하반기 국민건강보험공단 신규직원 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305006",
-   "start_date": "2026-09-15",
-   "end_date": "2026-09-29",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울 외 15",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-16",
-   "uid": "d5289120f9a76494",
-   "cross_uid": "5eb2f47756682f29",
-   "d_day": 0,
-   "last_confirmed": "2026-09-29"
+   "d_day": 6,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -635,8 +570,8 @@
    "first_seen": "2026-09-15",
    "uid": "c0fc7cc11e9046aa",
    "cross_uid": "714362ee4a551010",
-   "d_day": 1,
-   "last_confirmed": "2026-09-29"
+   "d_day": 0,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "alio",
@@ -657,8 +592,8 @@
    "first_seen": "2026-09-15",
    "uid": "6a40729293ddd7c9",
    "cross_uid": "24384c1845301780",
-   "d_day": 1,
-   "last_confirmed": "2026-09-29"
+   "d_day": 0,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "uman",
@@ -679,30 +614,8 @@
    "first_seen": "2026-09-14",
    "uid": "74410b4bd1e26fa2",
    "cross_uid": "2f64f6ce34dd73c6",
-   "d_day": 5,
-   "last_confirmed": "2026-09-29"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "국토안전관리원",
-   "title": "2026년도 국토안전관리원 제2차 직무중심 채용 공고(일반직·전문직)",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=304933",
-   "start_date": "2026-09-14",
-   "end_date": "2026-09-29",
-   "hire_type": "청년인턴(채용형),정규직",
-   "recruit_type": "",
-   "region": "강원 외 4",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-14",
-   "uid": "e0dbf7238ea11ed9",
-   "cross_uid": "bd8b36e15fc68f7c",
-   "d_day": 0,
-   "last_confirmed": "2026-09-29"
+   "d_day": 4,
+   "last_confirmed": "2026-09-30"
   },
   {
    "source": "uman",
@@ -723,7 +636,7 @@
    "first_seen": "2026-09-12",
    "uid": "9ab45f1ddc3cc0b4",
    "cross_uid": "ac6e75fd6edcd451",
-   "d_day": 5,
+   "d_day": 4,
    "last_confirmed": "2026-09-12"
   }
  ],
