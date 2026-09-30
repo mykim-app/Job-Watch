@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-09-30 08:55",
+ "updated_at": "2026-09-30 12:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "대구한의대학교",
+   "title": "대구한의대학교 직원 채용 공고(~10. 11.(일))",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18409",
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-11",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-30",
+   "uid": "27e709cc059aa9f6",
+   "cross_uid": "527927ffd0faea52",
+   "d_day": 11,
+   "last_confirmed": "2026-09-30"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "농림식품기술기획평가원",
+   "title": "2026년도 2차 정규직 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305522",
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-15",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "전남광주",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-30",
+   "uid": "26bde4d873a4d440",
+   "cross_uid": "3c67e4dd1a805a97",
+   "d_day": 15,
+   "last_confirmed": "2026-09-30"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
