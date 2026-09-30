@@ -1,6 +1,71 @@
 {
- "updated_at": "2026-09-30 12:55",
+ "updated_at": "2026-09-30 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국서부발전(주)",
+   "title": "2026년도 하반기 4직급 대졸 신입사원 모집 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305552",
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-14",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "인천 외 5",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-30",
+   "uid": "ee286421fc8be3e4",
+   "cross_uid": "7c79ea65bcbf6922",
+   "d_day": 14,
+   "last_confirmed": "2026-09-30"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국농어촌공사",
+   "title": "2026년도 직무중심 신입사원(5급, 6급) 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305542",
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-19",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "인천 외 13",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-09-30",
+   "uid": "a5af42b3e480158b",
+   "cross_uid": "d4af4b99570f5ad0",
+   "d_day": 19,
+   "last_confirmed": "2026-09-30"
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "외교부",
+   "title": "[외교부 공고 제2026-171호] 외교부 일반직공무원(전산7급) 전입희망자 모집 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304695",
+   "start_date": "2026-09-30",
+   "end_date": "2026-10-13",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-09-30",
+   "uid": "848627ff6d25733b",
+   "cross_uid": "e85a0b77171db38b",
+   "d_day": 13,
+   "last_confirmed": "2026-09-30"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
