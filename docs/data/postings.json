@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-02 12:55",
+ "updated_at": "2026-10-02 16:55",
  "postings": [
   {
    "source": "gojobs",
@@ -20,6 +20,72 @@
    "uid": "ba92f22e7de58c6a",
    "cross_uid": "9d9164f122a9fdac",
    "d_day": 16,
+   "last_confirmed": "2026-10-02"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국의료기기안전정보원",
+   "title": "2026년 제4차 한국의료기기안전정보원 직원(정규직 및 무기직) 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305695",
+   "start_date": "2026-10-02",
+   "end_date": "2026-10-19",
+   "hire_type": "무기계약직,정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-02",
+   "uid": "309e44c9658380ce",
+   "cross_uid": "dd80433e729ae5f9",
+   "d_day": 17,
+   "last_confirmed": "2026-10-02"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국수출입은행",
+   "title": "한국수출입은행 2026년 하반기 전문직행원(신입) 채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305702",
+   "start_date": "2026-10-02",
+   "end_date": "2026-10-19",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-02",
+   "uid": "9e4df3d5cd1723c3",
+   "cross_uid": "15c1473d52fe1464",
+   "d_day": 17,
+   "last_confirmed": "2026-10-02"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국디자인진흥원",
+   "title": "한국디자인진흥원 직원(기능직, 공무직, 기간제) 공개·제한 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305707",
+   "start_date": "2026-10-02",
+   "end_date": "2026-10-16",
+   "hire_type": "무기계약직,비정규직,정규직",
+   "recruit_type": "",
+   "region": "경기",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-02",
+   "uid": "5d20b91d7f4cc1f8",
+   "cross_uid": "4fb3e0796ca9509a",
+   "d_day": 14,
    "last_confirmed": "2026-10-02"
   },
   {
