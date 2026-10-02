@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-10-02 08:55",
+ "updated_at": "2026-10-02 12:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "한국희귀필수의약품센터",
+   "title": "2026년 제5차 직원 채용 공고(정규직, 6급 행정<전산, 기획>)",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304872",
+   "start_date": "2026-10-02",
+   "end_date": "2026-10-18",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-10-02",
+   "uid": "ba92f22e7de58c6a",
+   "cross_uid": "9d9164f122a9fdac",
+   "d_day": 16,
+   "last_confirmed": "2026-10-02"
+  },
   {
    "source": "cleaneye",
    "source_label": "클린아이",
