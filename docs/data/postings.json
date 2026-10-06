@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-10-06 12:55",
+ "updated_at": "2026-10-06 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국언론진흥재단",
+   "title": "한국언론진흥재단 2026년 2차 정규직 신입사원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305752",
+   "start_date": "2026-10-06",
+   "end_date": "2026-10-20",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-06",
+   "uid": "845268683b593296",
+   "cross_uid": "e84d731966f17166",
+   "d_day": 14,
+   "last_confirmed": "2026-10-06"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "자동차손해배상진흥원",
+   "title": "자동차손해배상진흥원 전문직(경력직) 직원 제한경쟁 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305751",
+   "start_date": "2026-10-06",
+   "end_date": "2026-10-20",
+   "hire_type": "무기계약직,비정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-06",
+   "uid": "ea13e623e121da54",
+   "cross_uid": "8bf9eef10abd5d66",
+   "d_day": 14,
+   "last_confirmed": "2026-10-06"
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
