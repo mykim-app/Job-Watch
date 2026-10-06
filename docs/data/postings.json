@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-06 16:55",
+ "updated_at": "2026-10-07 08:55",
  "postings": [
   {
    "source": "alio",
@@ -20,8 +20,8 @@
    "first_seen": "2026-10-06",
    "uid": "845268683b593296",
    "cross_uid": "e84d731966f17166",
-   "d_day": 14,
-   "last_confirmed": "2026-10-06"
+   "d_day": 13,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -42,8 +42,8 @@
    "first_seen": "2026-10-06",
    "uid": "ea13e623e121da54",
    "cross_uid": "8bf9eef10abd5d66",
-   "d_day": 14,
-   "last_confirmed": "2026-10-06"
+   "d_day": 13,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "gojobs",
@@ -63,8 +63,8 @@
    "first_seen": "2026-10-02",
    "uid": "ba92f22e7de58c6a",
    "cross_uid": "9d9164f122a9fdac",
-   "d_day": 12,
-   "last_confirmed": "2026-10-06"
+   "d_day": 11,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -85,8 +85,8 @@
    "first_seen": "2026-10-02",
    "uid": "309e44c9658380ce",
    "cross_uid": "dd80433e729ae5f9",
-   "d_day": 13,
-   "last_confirmed": "2026-10-06"
+   "d_day": 12,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -107,8 +107,8 @@
    "first_seen": "2026-10-02",
    "uid": "9e4df3d5cd1723c3",
    "cross_uid": "15c1473d52fe1464",
-   "d_day": 13,
-   "last_confirmed": "2026-10-06"
+   "d_day": 12,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -129,8 +129,8 @@
    "first_seen": "2026-10-02",
    "uid": "5d20b91d7f4cc1f8",
    "cross_uid": "4fb3e0796ca9509a",
-   "d_day": 10,
-   "last_confirmed": "2026-10-06"
+   "d_day": 9,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "cleaneye",
@@ -151,8 +151,8 @@
    "first_seen": "2026-10-02",
    "uid": "256ba29d3b0f0a78",
    "cross_uid": "cc1be5e6dd6b1724",
-   "d_day": 14,
-   "last_confirmed": "2026-10-06"
+   "d_day": 13,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -173,8 +173,8 @@
    "first_seen": "2026-10-01",
    "uid": "b9e8a2cbb5d7b6fa",
    "cross_uid": "5ea31c8bc436fb0b",
-   "d_day": 10,
-   "last_confirmed": "2026-10-06"
+   "d_day": 9,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -197,8 +197,8 @@
    "first_seen": "2026-10-01",
    "uid": "d0889528446206ef",
    "cross_uid": "20315de33bbfda56",
-   "d_day": 8,
-   "last_confirmed": "2026-10-06"
+   "d_day": 7,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "gojobs",
@@ -219,8 +219,8 @@
    "first_seen": "2026-10-01",
    "uid": "b2cdf0a59bba71ae",
    "cross_uid": "ad8e05ee6c562844",
-   "d_day": 10,
-   "last_confirmed": "2026-10-06"
+   "d_day": 9,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -242,8 +242,8 @@
    "first_seen": "2026-10-01",
    "uid": "e63f5f4d76eea1c7",
    "cross_uid": "d11067248f0be8b3",
-   "d_day": 9,
-   "last_confirmed": "2026-10-06"
+   "d_day": 8,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -265,8 +265,8 @@
    "first_seen": "2026-10-01",
    "uid": "b55e8207b8563b8b",
    "cross_uid": "3ca2e346d7ab5c96",
-   "d_day": 10,
-   "last_confirmed": "2026-10-06"
+   "d_day": 9,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -287,8 +287,8 @@
    "first_seen": "2026-09-30",
    "uid": "ee286421fc8be3e4",
    "cross_uid": "7c79ea65bcbf6922",
-   "d_day": 8,
-   "last_confirmed": "2026-10-06"
+   "d_day": 7,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -309,8 +309,8 @@
    "first_seen": "2026-09-30",
    "uid": "a5af42b3e480158b",
    "cross_uid": "d4af4b99570f5ad0",
-   "d_day": 13,
-   "last_confirmed": "2026-10-06"
+   "d_day": 12,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "gojobs",
@@ -330,8 +330,8 @@
    "first_seen": "2026-09-30",
    "uid": "848627ff6d25733b",
    "cross_uid": "e85a0b77171db38b",
-   "d_day": 7,
-   "last_confirmed": "2026-10-06"
+   "d_day": 6,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "uman",
@@ -352,8 +352,8 @@
    "first_seen": "2026-09-30",
    "uid": "27e709cc059aa9f6",
    "cross_uid": "527927ffd0faea52",
-   "d_day": 5,
-   "last_confirmed": "2026-10-06"
+   "d_day": 4,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -374,30 +374,8 @@
    "first_seen": "2026-09-30",
    "uid": "26bde4d873a4d440",
    "cross_uid": "3c67e4dd1a805a97",
-   "d_day": 9,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "농업정책보험금융원",
-   "title": "(수정) 농업정책보험금융원 신규직원 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305413",
-   "start_date": "2026-09-21",
-   "end_date": "2026-10-06",
-   "hire_type": "비정규직,청년인턴(체험형),정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-29",
-   "uid": "801f32d9a01d4087",
-   "cross_uid": "4a56ce212dad965e",
-   "d_day": 0,
-   "last_confirmed": "2026-10-06"
+   "d_day": 8,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -418,8 +396,8 @@
    "first_seen": "2026-09-28",
    "uid": "960e8b28a3667fa0",
    "cross_uid": "510dcfb50fa900cd",
-   "d_day": 7,
-   "last_confirmed": "2026-10-06"
+   "d_day": 6,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -440,8 +418,8 @@
    "first_seen": "2026-09-28",
    "uid": "ff68ded57345eab2",
    "cross_uid": "8fb525bd17245d03",
-   "d_day": 7,
-   "last_confirmed": "2026-10-06"
+   "d_day": 6,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -462,8 +440,8 @@
    "first_seen": "2026-09-23",
    "uid": "a89b8fec6ee4f3ac",
    "cross_uid": "392190af20a6534b",
-   "d_day": 1,
-   "last_confirmed": "2026-10-06"
+   "d_day": 0,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -484,8 +462,8 @@
    "first_seen": "2026-09-23",
    "uid": "2518d25a8ccb6fbb",
    "cross_uid": "08257a5ab0851884",
-   "d_day": 1,
-   "last_confirmed": "2026-10-06"
+   "d_day": 0,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -506,8 +484,8 @@
    "first_seen": "2026-09-23",
    "uid": "a59a9315a13b3d94",
    "cross_uid": "4475a2ac2051e136",
-   "d_day": 1,
-   "last_confirmed": "2026-10-06"
+   "d_day": 0,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -528,8 +506,8 @@
    "first_seen": "2026-09-23",
    "uid": "9f8cc5c40942a7ef",
    "cross_uid": "3d7450faded29675",
-   "d_day": 1,
-   "last_confirmed": "2026-10-06"
+   "d_day": 0,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "cleaneye",
@@ -550,8 +528,8 @@
    "first_seen": "2026-09-23",
    "uid": "e3d46eea0d081787",
    "cross_uid": "a78cf7e5e6adb98a",
-   "d_day": 1,
-   "last_confirmed": "2026-10-06"
+   "d_day": 0,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "cleaneye",
@@ -571,7 +549,7 @@
    "first_seen": "2026-09-23",
    "uid": "8f90151016b92059",
    "cross_uid": "5358dc1aca016c74",
-   "d_day": 1,
+   "d_day": 0,
    "last_confirmed": "2026-09-30"
   },
   {
@@ -593,8 +571,8 @@
    "first_seen": "2026-09-23",
    "uid": "f986dd39e95bab0e",
    "cross_uid": "00c43f1e6f5061b6",
-   "d_day": 1,
-   "last_confirmed": "2026-10-06"
+   "d_day": 0,
+   "last_confirmed": "2026-10-07"
   },
   {
    "source": "alio",
@@ -615,229 +593,8 @@
    "first_seen": "2026-09-23",
    "uid": "81126ff9bc4009de",
    "cross_uid": "c497a6bcd2367d8f",
-   "d_day": 1,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국전력공사",
-   "title": "2026년도 하반기 보훈 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305239",
-   "start_date": "2026-09-22",
-   "end_date": "2026-10-06",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울 외 15",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-22",
-   "uid": "302327d49ac5aee6",
-   "cross_uid": "c89213af39f451ee",
    "d_day": 0,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국장애인고용공단",
-   "title": "2026년 제2차 한국장애인고용공단 직원 채용",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305198",
-   "start_date": "2026-09-21",
-   "end_date": "2026-10-06",
-   "hire_type": "무기계약직,청년인턴(채용형),정규직",
-   "recruit_type": "",
-   "region": "서울 외 15",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-22",
-   "uid": "5fee215819e8db9d",
-   "cross_uid": "ff1929cbbe61a9c8",
-   "d_day": 0,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국인터넷진흥원",
-   "title": "2026년 하반기 한국인터넷진흥원 일반직, 일반계약직 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305199",
-   "start_date": "2026-09-22",
-   "end_date": "2026-10-06",
-   "hire_type": "무기계약직,정규직",
-   "recruit_type": "",
-   "region": "서울 외 1",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-22",
-   "uid": "ced1fac92c8d0e4a",
-   "cross_uid": "eb0b9c92f475e270",
-   "d_day": 0,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국교육학술정보원",
-   "title": "2026년 제6차 직원(정규직) 채용",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305253",
-   "start_date": "2026-09-22",
-   "end_date": "2026-10-06",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "대구",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-22",
-   "uid": "e3b128f88d9da216",
-   "cross_uid": "57a1a367f21f1a47",
-   "d_day": 0,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "국가평생교육진흥원",
-   "title": "[NCS기반 블라인드 채용] 2026년 국가평생교육진흥원 정규직 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305222",
-   "start_date": "2026-09-22",
-   "end_date": "2026-10-06",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-22",
-   "uid": "66ee3734383f0916",
-   "cross_uid": "c81d1051e53fbfe7",
-   "d_day": 0,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "(재)우체국금융개발원",
-   "title": "우체국금융개발원 2026년 9차 공개채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305147",
-   "start_date": "2026-09-22",
-   "end_date": "2026-10-06",
-   "hire_type": "무기계약직,정규직",
-   "recruit_type": "",
-   "region": "서울 외 4",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-22",
-   "uid": "479d907cd3fca3c5",
-   "cross_uid": "c674add25fc1d76d",
-   "d_day": 0,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "농업정책보험금융원",
-   "title": "농업정책보험금융원 신규직원 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305184",
-   "start_date": "2026-09-21",
-   "end_date": "2026-10-06",
-   "hire_type": "비정규직,청년인턴(체험형),정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-21",
-   "uid": "d34b4e2a8bd67774",
-   "cross_uid": "b4767ae8d13f700a",
-   "d_day": 0,
-   "last_confirmed": "2026-09-28"
-  },
-  {
-   "source": "cleaneye",
-   "source_label": "클린아이",
-   "org": "서울시설공단",
-   "title": "2026년 서울시설공단 직무중심 일반직 2차(사무 기술) 공개채용 공고 - 7급 전산",
-   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=2007100264&entSeq=000087",
-   "start_date": "2026-09-16",
-   "end_date": "2026-10-06",
-   "hire_type": "일반정규직",
-   "recruit_type": "신입",
-   "region": "서울특별시",
-   "ncs": "정보통신",
-   "matched": [
-    "전산",
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-16",
-   "uid": "d19ba73b15a92390",
-   "cross_uid": "4837ea7393a18af7",
-   "d_day": 0,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "cleaneye",
-   "source_label": "클린아이",
-   "org": "서울시설공단",
-   "title": "2026년 서울시설공단 직무중심 일반직 2차(사무 기술) 공개채용 공고 - 7급 통신",
-   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=2007100264&entSeq=000093",
-   "start_date": "2026-09-16",
-   "end_date": "2026-10-06",
-   "hire_type": "일반정규직",
-   "recruit_type": "신입",
-   "region": "서울특별시",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-16",
-   "uid": "4f0765f0c6c0dbc0",
-   "cross_uid": "5b6026ec6a290197",
-   "d_day": 0,
-   "last_confirmed": "2026-10-06"
-  },
-  {
-   "source": "cleaneye",
-   "source_label": "클린아이",
-   "org": "서울시설공단",
-   "title": "2026년 서울시설공단 직무중심 일반직 2차(사무 기술) 공개채용 공고 - 7급(보) 통신 고졸인재",
-   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=2007100264&entSeq=000100",
-   "start_date": "2026-09-16",
-   "end_date": "2026-10-06",
-   "hire_type": "일반정규직",
-   "recruit_type": "신입",
-   "region": "서울특별시",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-16",
-   "uid": "95f99e90a43cf25d",
-   "cross_uid": "368eac0f74fe0838",
-   "d_day": 0,
-   "last_confirmed": "2026-10-06"
+   "last_confirmed": "2026-10-07"
   }
  ],
  "failed_sources": [],
