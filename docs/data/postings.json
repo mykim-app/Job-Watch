@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-10-07 08:55",
+ "updated_at": "2026-10-07 12:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "코레일테크(주)",
+   "title": "2026년 제2차 일반직사원(경력직 및 채용형인턴) 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305774",
+   "start_date": "2026-10-07",
+   "end_date": "2026-10-21",
+   "hire_type": "청년인턴(채용형),정규직",
+   "recruit_type": "",
+   "region": "서울 외 2",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-07",
+   "uid": "d212253cf07a3976",
+   "cross_uid": "4f32b7ca60795d48",
+   "d_day": 14,
+   "last_confirmed": "2026-10-07"
+  },
+  {
+   "source": "cleaneye",
+   "source_label": "클린아이",
+   "org": "재단법인 구리시청소년재단",
+   "title": "구리시청소년재단 2026년 제4회 공개채용 공고(정보보안 및 전산행정)",
+   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000795&entSeq=000035",
+   "start_date": "2026-10-06",
+   "end_date": "2026-10-18",
+   "hire_type": "일반정규직",
+   "recruit_type": "신입+경력",
+   "region": "경기도",
+   "ncs": "",
+   "matched": [
+    "전산",
+    "정보보안"
+   ],
+   "first_seen": "2026-10-07",
+   "uid": "6f8efdc07d01aa71",
+   "cross_uid": "07116c51421fd53b",
+   "d_day": 11,
+   "last_confirmed": "2026-10-07"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
