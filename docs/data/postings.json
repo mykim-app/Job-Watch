@@ -1,6 +1,49 @@
 {
- "updated_at": "2026-10-08 08:55",
+ "updated_at": "2026-10-08 12:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "한림대학교",
+   "title": "한림대학교 교직원(정규직) 채용 공고(~10.21.(수)까지)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18431",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-21",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-08",
+   "uid": "c1ba365c97a872eb",
+   "cross_uid": "0ca8e71a9e3f60f2",
+   "d_day": 13,
+   "last_confirmed": "2026-10-08"
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "국립경국대학교",
+   "title": "국립경국대학교 국가공무원(사서, 전산) 경력경쟁채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=305126",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-19",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-10-08",
+   "uid": "33abc8373b957121",
+   "cross_uid": "26e9a2b401607101",
+   "d_day": 11,
+   "last_confirmed": "2026-10-08"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
