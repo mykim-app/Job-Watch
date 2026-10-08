@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-10-07 16:55",
+ "updated_at": "2026-10-08 08:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "건강보험심사평가원",
+   "title": "2026년 하반기 건강보험심사평가원 운영직 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305738",
+   "start_date": "2026-10-07",
+   "end_date": "2026-10-21",
+   "hire_type": "무기계약직",
+   "recruit_type": "",
+   "region": "서울 외 3",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-08",
+   "uid": "1d731f1ff50b3f0b",
+   "cross_uid": "d530afa0372500f7",
+   "d_day": 13,
+   "last_confirmed": "2026-10-08"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -20,8 +42,8 @@
    "first_seen": "2026-10-07",
    "uid": "d212253cf07a3976",
    "cross_uid": "4f32b7ca60795d48",
-   "d_day": 14,
-   "last_confirmed": "2026-10-07"
+   "d_day": 13,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "cleaneye",
@@ -42,8 +64,8 @@
    "first_seen": "2026-10-07",
    "uid": "6f8efdc07d01aa71",
    "cross_uid": "07116c51421fd53b",
-   "d_day": 11,
-   "last_confirmed": "2026-10-07"
+   "d_day": 10,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -64,8 +86,8 @@
    "first_seen": "2026-10-06",
    "uid": "845268683b593296",
    "cross_uid": "e84d731966f17166",
-   "d_day": 13,
-   "last_confirmed": "2026-10-07"
+   "d_day": 12,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -86,8 +108,8 @@
    "first_seen": "2026-10-06",
    "uid": "ea13e623e121da54",
    "cross_uid": "8bf9eef10abd5d66",
-   "d_day": 13,
-   "last_confirmed": "2026-10-07"
+   "d_day": 12,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "gojobs",
@@ -107,8 +129,8 @@
    "first_seen": "2026-10-02",
    "uid": "ba92f22e7de58c6a",
    "cross_uid": "9d9164f122a9fdac",
-   "d_day": 11,
-   "last_confirmed": "2026-10-07"
+   "d_day": 10,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -129,8 +151,8 @@
    "first_seen": "2026-10-02",
    "uid": "309e44c9658380ce",
    "cross_uid": "dd80433e729ae5f9",
-   "d_day": 12,
-   "last_confirmed": "2026-10-07"
+   "d_day": 11,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -151,8 +173,8 @@
    "first_seen": "2026-10-02",
    "uid": "9e4df3d5cd1723c3",
    "cross_uid": "15c1473d52fe1464",
-   "d_day": 12,
-   "last_confirmed": "2026-10-07"
+   "d_day": 11,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -173,8 +195,8 @@
    "first_seen": "2026-10-02",
    "uid": "5d20b91d7f4cc1f8",
    "cross_uid": "4fb3e0796ca9509a",
-   "d_day": 9,
-   "last_confirmed": "2026-10-07"
+   "d_day": 8,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "cleaneye",
@@ -195,8 +217,8 @@
    "first_seen": "2026-10-02",
    "uid": "256ba29d3b0f0a78",
    "cross_uid": "cc1be5e6dd6b1724",
-   "d_day": 13,
-   "last_confirmed": "2026-10-07"
+   "d_day": 12,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -217,8 +239,8 @@
    "first_seen": "2026-10-01",
    "uid": "b9e8a2cbb5d7b6fa",
    "cross_uid": "5ea31c8bc436fb0b",
-   "d_day": 9,
-   "last_confirmed": "2026-10-07"
+   "d_day": 8,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -241,8 +263,8 @@
    "first_seen": "2026-10-01",
    "uid": "d0889528446206ef",
    "cross_uid": "20315de33bbfda56",
-   "d_day": 7,
-   "last_confirmed": "2026-10-07"
+   "d_day": 6,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "gojobs",
@@ -263,8 +285,8 @@
    "first_seen": "2026-10-01",
    "uid": "b2cdf0a59bba71ae",
    "cross_uid": "ad8e05ee6c562844",
-   "d_day": 9,
-   "last_confirmed": "2026-10-07"
+   "d_day": 8,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -286,8 +308,8 @@
    "first_seen": "2026-10-01",
    "uid": "e63f5f4d76eea1c7",
    "cross_uid": "d11067248f0be8b3",
-   "d_day": 8,
-   "last_confirmed": "2026-10-07"
+   "d_day": 7,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -309,8 +331,8 @@
    "first_seen": "2026-10-01",
    "uid": "b55e8207b8563b8b",
    "cross_uid": "3ca2e346d7ab5c96",
-   "d_day": 9,
-   "last_confirmed": "2026-10-07"
+   "d_day": 8,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -331,8 +353,8 @@
    "first_seen": "2026-09-30",
    "uid": "ee286421fc8be3e4",
    "cross_uid": "7c79ea65bcbf6922",
-   "d_day": 7,
-   "last_confirmed": "2026-10-07"
+   "d_day": 6,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -353,8 +375,8 @@
    "first_seen": "2026-09-30",
    "uid": "a5af42b3e480158b",
    "cross_uid": "d4af4b99570f5ad0",
-   "d_day": 12,
-   "last_confirmed": "2026-10-07"
+   "d_day": 11,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "gojobs",
@@ -374,8 +396,8 @@
    "first_seen": "2026-09-30",
    "uid": "848627ff6d25733b",
    "cross_uid": "e85a0b77171db38b",
-   "d_day": 6,
-   "last_confirmed": "2026-10-07"
+   "d_day": 5,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "uman",
@@ -396,8 +418,8 @@
    "first_seen": "2026-09-30",
    "uid": "27e709cc059aa9f6",
    "cross_uid": "527927ffd0faea52",
-   "d_day": 4,
-   "last_confirmed": "2026-10-07"
+   "d_day": 3,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -418,8 +440,8 @@
    "first_seen": "2026-09-30",
    "uid": "26bde4d873a4d440",
    "cross_uid": "3c67e4dd1a805a97",
-   "d_day": 8,
-   "last_confirmed": "2026-10-07"
+   "d_day": 7,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -440,8 +462,8 @@
    "first_seen": "2026-09-28",
    "uid": "960e8b28a3667fa0",
    "cross_uid": "510dcfb50fa900cd",
-   "d_day": 6,
-   "last_confirmed": "2026-10-07"
+   "d_day": 5,
+   "last_confirmed": "2026-10-08"
   },
   {
    "source": "alio",
@@ -462,183 +484,8 @@
    "first_seen": "2026-09-28",
    "uid": "ff68ded57345eab2",
    "cross_uid": "8fb525bd17245d03",
-   "d_day": 6,
-   "last_confirmed": "2026-10-07"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국철도공사",
-   "title": "2026년도 하반기 한국철도공사 전문ㆍ경력직 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305305",
-   "start_date": "2026-09-23",
-   "end_date": "2026-10-07",
-   "hire_type": "비정규직,정규직",
-   "recruit_type": "",
-   "region": "서울 외 3",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-23",
-   "uid": "a89b8fec6ee4f3ac",
-   "cross_uid": "392190af20a6534b",
-   "d_day": 0,
-   "last_confirmed": "2026-10-07"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국수자원공사",
-   "title": "[한국수자원공사] 2026년 하반기 전문직 제한경쟁 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305309",
-   "start_date": "2026-09-23",
-   "end_date": "2026-10-07",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "대전 외 4",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-23",
-   "uid": "2518d25a8ccb6fbb",
-   "cross_uid": "08257a5ab0851884",
-   "d_day": 0,
-   "last_confirmed": "2026-10-07"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국수자원공사",
-   "title": "[한국수자원공사] 2026년 하반기 시설운영직 고졸 신입사원 공채",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305296",
-   "start_date": "2026-09-23",
-   "end_date": "2026-10-07",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "인천 외 14",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-23",
-   "uid": "a59a9315a13b3d94",
-   "cross_uid": "4475a2ac2051e136",
-   "d_day": 0,
-   "last_confirmed": "2026-10-07"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국수자원공사",
-   "title": "[한국수자원공사] 2026년 하반기 일반직 신입사원 공채",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305290",
-   "start_date": "2026-09-23",
-   "end_date": "2026-10-07",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "인천 외 14",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-23",
-   "uid": "9f8cc5c40942a7ef",
-   "cross_uid": "3d7450faded29675",
-   "d_day": 0,
-   "last_confirmed": "2026-10-07"
-  },
-  {
-   "source": "cleaneye",
-   "source_label": "클린아이",
-   "org": "인천스마트시티(주)",
-   "title": "인천스마트시티(주) 2026년 제4 채용공고(CCTV 모니터링)",
-   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000171&entSeq=000006",
-   "start_date": "2026-09-23",
-   "end_date": "2026-10-07",
-   "hire_type": "무기계약직",
-   "recruit_type": "신입+경력",
-   "region": "인천광역시",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-23",
-   "uid": "e3d46eea0d081787",
-   "cross_uid": "a78cf7e5e6adb98a",
-   "d_day": 0,
-   "last_confirmed": "2026-10-07"
-  },
-  {
-   "source": "cleaneye",
-   "source_label": "클린아이",
-   "org": "인천스마트시티(주)",
-   "title": "인천스마트시티(주) 2026년 제4 채용공고(IT 사업 기획 및 운영)",
-   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000171&entSeq=000007",
-   "start_date": "2026-09-23",
-   "end_date": "2026-10-07",
-   "hire_type": "일반정규직",
-   "recruit_type": "경력",
-   "region": "인천광역시",
-   "ncs": "",
-   "matched": [
-    "IT"
-   ],
-   "first_seen": "2026-09-23",
-   "uid": "8f90151016b92059",
-   "cross_uid": "5358dc1aca016c74",
-   "d_day": 0,
-   "last_confirmed": "2026-09-30"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "국민건강보험공단 일산병원",
-   "title": "2026년 하반기 정규직(사무직-정보개발) 모집공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305231",
-   "start_date": "2026-09-23",
-   "end_date": "2026-10-07",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "경기",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-23",
-   "uid": "f986dd39e95bab0e",
-   "cross_uid": "00c43f1e6f5061b6",
-   "d_day": 0,
-   "last_confirmed": "2026-10-07"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "국가철도공단",
-   "title": "2026년도 제2차 국가철도공단 신입직원 및 체험형 청년인턴 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305321",
-   "start_date": "2026-09-23",
-   "end_date": "2026-10-07",
-   "hire_type": "무기계약직,비정규직,청년인턴(체험형),정규직",
-   "recruit_type": "",
-   "region": "서울 외 4",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-23",
-   "uid": "81126ff9bc4009de",
-   "cross_uid": "c497a6bcd2367d8f",
-   "d_day": 0,
-   "last_confirmed": "2026-10-07"
+   "d_day": 5,
+   "last_confirmed": "2026-10-08"
   }
  ],
  "failed_sources": [],
