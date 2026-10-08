@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-10-08 12:55",
+ "updated_at": "2026-10-08 16:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "행정중심복합도시건설청",
+   "title": "행정중심복합도시건설청 일반직공무원[전산주사보, 기록연구사(일반임기제)] 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=305351",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-19",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-10-08",
+   "uid": "0b20c9811ac8c812",
+   "cross_uid": "ade2f4c3d5443879",
+   "d_day": 11,
+   "last_confirmed": "2026-10-08"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
@@ -26,6 +47,27 @@
   {
    "source": "gojobs",
    "source_label": "나라일터",
+   "org": "서울특별시교육청 서울특별시남부교육지원청 서울덕의초등학교",
+   "title": "서울덕의초등학교 교육실무사(전산업무) 대체직원 채용계획 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=305310",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-13",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-10-08",
+   "uid": "6575b6d3e9866bfb",
+   "cross_uid": "da6e56b9e1cdfa04",
+   "d_day": 5,
+   "last_confirmed": "2026-10-08"
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
    "org": "국립경국대학교",
    "title": "국립경국대학교 국가공무원(사서, 전산) 경력경쟁채용 공고",
    "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=305126",
@@ -42,6 +84,27 @@
    "uid": "33abc8373b957121",
    "cross_uid": "26e9a2b401607101",
    "d_day": 11,
+   "last_confirmed": "2026-10-08"
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "경기도교육청",
+   "title": "경기도교육청 정보화담당관(개방형직위) 공개모집 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=305347",
+   "start_date": "2026-10-08",
+   "end_date": "2026-10-26",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정보화"
+   ],
+   "first_seen": "2026-10-08",
+   "uid": "f942905f143c5e6e",
+   "cross_uid": "cd387f3c0ebecf46",
+   "d_day": 18,
    "last_confirmed": "2026-10-08"
   },
   {
