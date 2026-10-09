@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-09 16:55",
+ "updated_at": "2026-10-10 08:55",
  "postings": [
   {
    "source": "uman",
@@ -20,8 +20,8 @@
    "first_seen": "2026-10-09",
    "uid": "74b579fd6bc122fa",
    "cross_uid": "fb2fd318d4684ccf",
-   "d_day": 12,
-   "last_confirmed": "2026-10-09"
+   "d_day": 11,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "gojobs",
@@ -41,8 +41,8 @@
    "first_seen": "2026-10-08",
    "uid": "0b20c9811ac8c812",
    "cross_uid": "ade2f4c3d5443879",
-   "d_day": 10,
-   "last_confirmed": "2026-10-09"
+   "d_day": 9,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "uman",
@@ -63,8 +63,8 @@
    "first_seen": "2026-10-08",
    "uid": "c1ba365c97a872eb",
    "cross_uid": "0ca8e71a9e3f60f2",
-   "d_day": 12,
-   "last_confirmed": "2026-10-09"
+   "d_day": 11,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "gojobs",
@@ -84,8 +84,8 @@
    "first_seen": "2026-10-08",
    "uid": "6575b6d3e9866bfb",
    "cross_uid": "da6e56b9e1cdfa04",
-   "d_day": 4,
-   "last_confirmed": "2026-10-09"
+   "d_day": 3,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "gojobs",
@@ -105,8 +105,8 @@
    "first_seen": "2026-10-08",
    "uid": "33abc8373b957121",
    "cross_uid": "26e9a2b401607101",
-   "d_day": 10,
-   "last_confirmed": "2026-10-09"
+   "d_day": 9,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "gojobs",
@@ -126,8 +126,8 @@
    "first_seen": "2026-10-08",
    "uid": "f942905f143c5e6e",
    "cross_uid": "cd387f3c0ebecf46",
-   "d_day": 17,
-   "last_confirmed": "2026-10-09"
+   "d_day": 16,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -148,8 +148,8 @@
    "first_seen": "2026-10-08",
    "uid": "1d731f1ff50b3f0b",
    "cross_uid": "d530afa0372500f7",
-   "d_day": 12,
-   "last_confirmed": "2026-10-09"
+   "d_day": 11,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -170,8 +170,8 @@
    "first_seen": "2026-10-07",
    "uid": "d212253cf07a3976",
    "cross_uid": "4f32b7ca60795d48",
-   "d_day": 12,
-   "last_confirmed": "2026-10-09"
+   "d_day": 11,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "cleaneye",
@@ -192,8 +192,8 @@
    "first_seen": "2026-10-07",
    "uid": "6f8efdc07d01aa71",
    "cross_uid": "07116c51421fd53b",
-   "d_day": 9,
-   "last_confirmed": "2026-10-09"
+   "d_day": 8,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -214,8 +214,8 @@
    "first_seen": "2026-10-06",
    "uid": "845268683b593296",
    "cross_uid": "e84d731966f17166",
-   "d_day": 11,
-   "last_confirmed": "2026-10-09"
+   "d_day": 10,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -236,8 +236,8 @@
    "first_seen": "2026-10-06",
    "uid": "ea13e623e121da54",
    "cross_uid": "8bf9eef10abd5d66",
-   "d_day": 11,
-   "last_confirmed": "2026-10-09"
+   "d_day": 10,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "gojobs",
@@ -257,8 +257,8 @@
    "first_seen": "2026-10-02",
    "uid": "ba92f22e7de58c6a",
    "cross_uid": "9d9164f122a9fdac",
-   "d_day": 9,
-   "last_confirmed": "2026-10-09"
+   "d_day": 8,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -279,8 +279,8 @@
    "first_seen": "2026-10-02",
    "uid": "309e44c9658380ce",
    "cross_uid": "dd80433e729ae5f9",
-   "d_day": 10,
-   "last_confirmed": "2026-10-09"
+   "d_day": 9,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -301,8 +301,8 @@
    "first_seen": "2026-10-02",
    "uid": "9e4df3d5cd1723c3",
    "cross_uid": "15c1473d52fe1464",
-   "d_day": 10,
-   "last_confirmed": "2026-10-09"
+   "d_day": 9,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -323,8 +323,8 @@
    "first_seen": "2026-10-02",
    "uid": "5d20b91d7f4cc1f8",
    "cross_uid": "4fb3e0796ca9509a",
-   "d_day": 7,
-   "last_confirmed": "2026-10-09"
+   "d_day": 6,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "cleaneye",
@@ -345,8 +345,8 @@
    "first_seen": "2026-10-02",
    "uid": "256ba29d3b0f0a78",
    "cross_uid": "cc1be5e6dd6b1724",
-   "d_day": 11,
-   "last_confirmed": "2026-10-09"
+   "d_day": 10,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -367,8 +367,8 @@
    "first_seen": "2026-10-01",
    "uid": "b9e8a2cbb5d7b6fa",
    "cross_uid": "5ea31c8bc436fb0b",
-   "d_day": 7,
-   "last_confirmed": "2026-10-09"
+   "d_day": 6,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -391,8 +391,8 @@
    "first_seen": "2026-10-01",
    "uid": "d0889528446206ef",
    "cross_uid": "20315de33bbfda56",
-   "d_day": 5,
-   "last_confirmed": "2026-10-09"
+   "d_day": 4,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "gojobs",
@@ -413,8 +413,8 @@
    "first_seen": "2026-10-01",
    "uid": "b2cdf0a59bba71ae",
    "cross_uid": "ad8e05ee6c562844",
-   "d_day": 7,
-   "last_confirmed": "2026-10-09"
+   "d_day": 6,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -436,8 +436,8 @@
    "first_seen": "2026-10-01",
    "uid": "e63f5f4d76eea1c7",
    "cross_uid": "d11067248f0be8b3",
-   "d_day": 6,
-   "last_confirmed": "2026-10-09"
+   "d_day": 5,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -459,8 +459,8 @@
    "first_seen": "2026-10-01",
    "uid": "b55e8207b8563b8b",
    "cross_uid": "3ca2e346d7ab5c96",
-   "d_day": 7,
-   "last_confirmed": "2026-10-09"
+   "d_day": 6,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -481,8 +481,8 @@
    "first_seen": "2026-09-30",
    "uid": "ee286421fc8be3e4",
    "cross_uid": "7c79ea65bcbf6922",
-   "d_day": 5,
-   "last_confirmed": "2026-10-09"
+   "d_day": 4,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -503,8 +503,8 @@
    "first_seen": "2026-09-30",
    "uid": "a5af42b3e480158b",
    "cross_uid": "d4af4b99570f5ad0",
-   "d_day": 10,
-   "last_confirmed": "2026-10-09"
+   "d_day": 9,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "gojobs",
@@ -524,8 +524,8 @@
    "first_seen": "2026-09-30",
    "uid": "848627ff6d25733b",
    "cross_uid": "e85a0b77171db38b",
-   "d_day": 4,
-   "last_confirmed": "2026-10-09"
+   "d_day": 3,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "uman",
@@ -546,8 +546,8 @@
    "first_seen": "2026-09-30",
    "uid": "27e709cc059aa9f6",
    "cross_uid": "527927ffd0faea52",
-   "d_day": 2,
-   "last_confirmed": "2026-10-09"
+   "d_day": 1,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -568,8 +568,8 @@
    "first_seen": "2026-09-30",
    "uid": "26bde4d873a4d440",
    "cross_uid": "3c67e4dd1a805a97",
-   "d_day": 6,
-   "last_confirmed": "2026-10-09"
+   "d_day": 5,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -590,8 +590,8 @@
    "first_seen": "2026-09-28",
    "uid": "960e8b28a3667fa0",
    "cross_uid": "510dcfb50fa900cd",
-   "d_day": 4,
-   "last_confirmed": "2026-10-09"
+   "d_day": 3,
+   "last_confirmed": "2026-10-10"
   },
   {
    "source": "alio",
@@ -612,8 +612,8 @@
    "first_seen": "2026-09-28",
    "uid": "ff68ded57345eab2",
    "cross_uid": "8fb525bd17245d03",
-   "d_day": 4,
-   "last_confirmed": "2026-10-09"
+   "d_day": 3,
+   "last_confirmed": "2026-10-10"
   }
  ],
  "failed_sources": [],
