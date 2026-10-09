@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-10-09 12:55",
+ "updated_at": "2026-10-09 16:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "고려대학교",
+   "title": "고려대학교 세종캠 정규 직원 채용 공고(~10.. 21.(수) 12:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18438",
+   "start_date": "2026-10-09",
+   "end_date": "2026-10-21",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-09",
+   "uid": "74b579fd6bc122fa",
+   "cross_uid": "fb2fd318d4684ccf",
+   "d_day": 12,
+   "last_confirmed": "2026-10-09"
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
@@ -595,5 +617,7 @@
   }
  ],
  "failed_sources": [],
- "pending": []
+ "pending": [
+  "74b579fd6bc122fa"
+ ]
 }
