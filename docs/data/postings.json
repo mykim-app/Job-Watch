@@ -1,6 +1,118 @@
 {
- "updated_at": "2026-10-12 12:55",
+ "updated_at": "2026-10-12 16:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "한국항공대학교",
+   "title": "한국항공대학교 정규직 전환형 신규직원 채용 공고(~10. 21(수) 23:59)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18455",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-21",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-12",
+   "uid": "4a3ea5bf3df85299",
+   "cross_uid": "b1cf30962012958e",
+   "d_day": 9,
+   "last_confirmed": "2026-10-12"
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "울산대학교",
+   "title": "울산대학교 정규직원 (전산) 채용 공고 (~10. 20(화) 14:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18452",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-20",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "전산",
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-12",
+   "uid": "cd7927f837b11cae",
+   "cross_uid": "1eeceb266965c002",
+   "d_day": 8,
+   "last_confirmed": "2026-10-12"
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "울산대학교",
+   "title": "울산대학교 무기계약직 신규채용(~10. 20.(화) 17:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18453",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-20",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-12",
+   "uid": "01b8596be20957de",
+   "cross_uid": "1bbe8adca05321b9",
+   "d_day": 8,
+   "last_confirmed": "2026-10-12"
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "연세대학교 미래캠퍼스",
+   "title": "연세대학교 미래캠퍼스 정규직원(일반행정, 전산) 채용 공고(~10.25.(일) 17시)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18448",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-25",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "전산",
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-12",
+   "uid": "4cbe66ea3d602582",
+   "cross_uid": "af9410a40175f1e2",
+   "d_day": 13,
+   "last_confirmed": "2026-10-12"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "(재)한국통계정보원",
+   "title": "[제2026-10] 한국통계정보원 무기계약직(경력직) 제한경쟁 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305910",
+   "start_date": "2026-10-12",
+   "end_date": "2026-10-26",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "대전",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-12",
+   "uid": "bb00de60a04a101c",
+   "cross_uid": "f5507321d6285d8e",
+   "d_day": 14,
+   "last_confirmed": "2026-10-12"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
