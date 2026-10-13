@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-10-13 12:55",
+ "updated_at": "2026-10-13 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국의약품안전관리원",
+   "title": "한국의약품안전관리원 2026년 3차 채용 공고(정규직, 전문/일반계약직, 일반계약직(육아휴직 대체))",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=305962",
+   "start_date": "2026-10-13",
+   "end_date": "2026-10-27",
+   "hire_type": "비정규직,정규직",
+   "recruit_type": "",
+   "region": "경기",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-13",
+   "uid": "0d7b4097653da3df",
+   "cross_uid": "d94ff80bf3b90f3f",
+   "d_day": 14,
+   "last_confirmed": "2026-10-13"
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
