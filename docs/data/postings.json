@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-10-13 08:55",
+ "updated_at": "2026-10-13 12:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "서울특별시교육청 서울특별시서부교육지원청 서울상지초등학교",
+   "title": "서울상지초등학교 2026학년도 교육공무직원(교육실무사-전산 업무) 대체직원 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=305562",
+   "start_date": "2026-10-13",
+   "end_date": "2026-10-19",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-10-13",
+   "uid": "b9145b3b30f9834e",
+   "cross_uid": "9b3f78bb20557cae",
+   "d_day": 6,
+   "last_confirmed": "2026-10-13"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
