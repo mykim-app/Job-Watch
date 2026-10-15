@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-10-15 08:55",
+ "updated_at": "2026-10-15 12:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "코레일테크(주)",
+   "title": "2027년 제1차 공무직사원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306032",
+   "start_date": "2026-10-15",
+   "end_date": "2026-10-29",
+   "hire_type": "무기계약직",
+   "recruit_type": "",
+   "region": "서울 외 14",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-15",
+   "uid": "09c5deaa4a4d3641",
+   "cross_uid": "4ec08f59cec94aaa",
+   "d_day": 14,
+   "last_confirmed": "2026-10-15"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
