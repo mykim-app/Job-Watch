@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16 12:55",
+ "updated_at": "2026-10-16 16:55",
  "postings": [
   {
    "source": "alio",
@@ -21,6 +21,28 @@
    "uid": "a3043c52e095ec46",
    "cross_uid": "a007dca68982af60",
    "d_day": 14,
+   "last_confirmed": "2026-10-16"
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "경복대학교",
+   "title": "경복대학교(남양주) 행정직원 채용공고(~10.22,(목)12:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18461",
+   "start_date": "2026-10-16",
+   "end_date": "2026-10-22",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-16",
+   "uid": "f51e0a357aaf1239",
+   "cross_uid": "a72081c4835b52c3",
+   "d_day": 6,
    "last_confirmed": "2026-10-16"
   },
   {
