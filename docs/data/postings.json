@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-16 16:55",
+ "updated_at": "2026-10-17 08:55",
  "postings": [
   {
    "source": "alio",
@@ -20,8 +20,8 @@
    "first_seen": "2026-10-16",
    "uid": "a3043c52e095ec46",
    "cross_uid": "a007dca68982af60",
-   "d_day": 14,
-   "last_confirmed": "2026-10-16"
+   "d_day": 13,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "uman",
@@ -42,8 +42,8 @@
    "first_seen": "2026-10-16",
    "uid": "f51e0a357aaf1239",
    "cross_uid": "a72081c4835b52c3",
-   "d_day": 6,
-   "last_confirmed": "2026-10-16"
+   "d_day": 5,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "alio",
@@ -64,8 +64,8 @@
    "first_seen": "2026-10-15",
    "uid": "09c5deaa4a4d3641",
    "cross_uid": "4ec08f59cec94aaa",
-   "d_day": 13,
-   "last_confirmed": "2026-10-16"
+   "d_day": 12,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "alio",
@@ -86,8 +86,8 @@
    "first_seen": "2026-10-13",
    "uid": "0d7b4097653da3df",
    "cross_uid": "d94ff80bf3b90f3f",
-   "d_day": 11,
-   "last_confirmed": "2026-10-16"
+   "d_day": 10,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "gojobs",
@@ -107,8 +107,8 @@
    "first_seen": "2026-10-13",
    "uid": "b9145b3b30f9834e",
    "cross_uid": "9b3f78bb20557cae",
-   "d_day": 3,
-   "last_confirmed": "2026-10-16"
+   "d_day": 2,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "uman",
@@ -129,8 +129,8 @@
    "first_seen": "2026-10-12",
    "uid": "4a3ea5bf3df85299",
    "cross_uid": "b1cf30962012958e",
-   "d_day": 5,
-   "last_confirmed": "2026-10-16"
+   "d_day": 4,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "uman",
@@ -152,8 +152,8 @@
    "first_seen": "2026-10-12",
    "uid": "cd7927f837b11cae",
    "cross_uid": "1eeceb266965c002",
-   "d_day": 4,
-   "last_confirmed": "2026-10-16"
+   "d_day": 3,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "uman",
@@ -174,8 +174,8 @@
    "first_seen": "2026-10-12",
    "uid": "01b8596be20957de",
    "cross_uid": "1bbe8adca05321b9",
-   "d_day": 4,
-   "last_confirmed": "2026-10-16"
+   "d_day": 3,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "uman",
@@ -197,8 +197,8 @@
    "first_seen": "2026-10-12",
    "uid": "4cbe66ea3d602582",
    "cross_uid": "af9410a40175f1e2",
-   "d_day": 9,
-   "last_confirmed": "2026-10-16"
+   "d_day": 8,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "alio",
@@ -219,8 +219,8 @@
    "first_seen": "2026-10-12",
    "uid": "bb00de60a04a101c",
    "cross_uid": "f5507321d6285d8e",
-   "d_day": 10,
-   "last_confirmed": "2026-10-16"
+   "d_day": 9,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "uman",
@@ -241,8 +241,8 @@
    "first_seen": "2026-10-09",
    "uid": "74b579fd6bc122fa",
    "cross_uid": "fb2fd318d4684ccf",
-   "d_day": 5,
-   "last_confirmed": "2026-10-16"
+   "d_day": 4,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "gojobs",
@@ -262,8 +262,8 @@
    "first_seen": "2026-10-08",
    "uid": "0b20c9811ac8c812",
    "cross_uid": "ade2f4c3d5443879",
-   "d_day": 3,
-   "last_confirmed": "2026-10-16"
+   "d_day": 2,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "uman",
@@ -284,8 +284,8 @@
    "first_seen": "2026-10-08",
    "uid": "c1ba365c97a872eb",
    "cross_uid": "0ca8e71a9e3f60f2",
-   "d_day": 5,
-   "last_confirmed": "2026-10-16"
+   "d_day": 4,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "gojobs",
@@ -305,8 +305,8 @@
    "first_seen": "2026-10-08",
    "uid": "33abc8373b957121",
    "cross_uid": "26e9a2b401607101",
-   "d_day": 3,
-   "last_confirmed": "2026-10-16"
+   "d_day": 2,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "gojobs",
@@ -326,8 +326,8 @@
    "first_seen": "2026-10-08",
    "uid": "f942905f143c5e6e",
    "cross_uid": "cd387f3c0ebecf46",
-   "d_day": 10,
-   "last_confirmed": "2026-10-16"
+   "d_day": 9,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "alio",
@@ -348,8 +348,8 @@
    "first_seen": "2026-10-08",
    "uid": "1d731f1ff50b3f0b",
    "cross_uid": "d530afa0372500f7",
-   "d_day": 5,
-   "last_confirmed": "2026-10-16"
+   "d_day": 4,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "alio",
@@ -370,8 +370,8 @@
    "first_seen": "2026-10-07",
    "uid": "d212253cf07a3976",
    "cross_uid": "4f32b7ca60795d48",
-   "d_day": 5,
-   "last_confirmed": "2026-10-16"
+   "d_day": 4,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "cleaneye",
@@ -392,7 +392,7 @@
    "first_seen": "2026-10-07",
    "uid": "6f8efdc07d01aa71",
    "cross_uid": "07116c51421fd53b",
-   "d_day": 2,
+   "d_day": 1,
    "last_confirmed": "2026-10-11"
   },
   {
@@ -414,8 +414,8 @@
    "first_seen": "2026-10-06",
    "uid": "845268683b593296",
    "cross_uid": "e84d731966f17166",
-   "d_day": 4,
-   "last_confirmed": "2026-10-16"
+   "d_day": 3,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "alio",
@@ -436,8 +436,8 @@
    "first_seen": "2026-10-06",
    "uid": "ea13e623e121da54",
    "cross_uid": "8bf9eef10abd5d66",
-   "d_day": 4,
-   "last_confirmed": "2026-10-16"
+   "d_day": 3,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "gojobs",
@@ -457,8 +457,8 @@
    "first_seen": "2026-10-02",
    "uid": "ba92f22e7de58c6a",
    "cross_uid": "9d9164f122a9fdac",
-   "d_day": 2,
-   "last_confirmed": "2026-10-16"
+   "d_day": 1,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "alio",
@@ -479,8 +479,8 @@
    "first_seen": "2026-10-02",
    "uid": "309e44c9658380ce",
    "cross_uid": "dd80433e729ae5f9",
-   "d_day": 3,
-   "last_confirmed": "2026-10-16"
+   "d_day": 2,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "alio",
@@ -501,30 +501,8 @@
    "first_seen": "2026-10-02",
    "uid": "9e4df3d5cd1723c3",
    "cross_uid": "15c1473d52fe1464",
-   "d_day": 3,
-   "last_confirmed": "2026-10-16"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국디자인진흥원",
-   "title": "한국디자인진흥원 직원(기능직, 공무직, 기간제) 공개·제한 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305707",
-   "start_date": "2026-10-02",
-   "end_date": "2026-10-16",
-   "hire_type": "무기계약직,비정규직,정규직",
-   "recruit_type": "",
-   "region": "경기",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-02",
-   "uid": "5d20b91d7f4cc1f8",
-   "cross_uid": "4fb3e0796ca9509a",
-   "d_day": 0,
-   "last_confirmed": "2026-10-16"
+   "d_day": 2,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "cleaneye",
@@ -545,75 +523,8 @@
    "first_seen": "2026-10-02",
    "uid": "256ba29d3b0f0a78",
    "cross_uid": "cc1be5e6dd6b1724",
-   "d_day": 4,
-   "last_confirmed": "2026-10-16"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국벤처투자",
-   "title": "2026년 3차 한국벤처투자 채용 공고(신입 및 경력)",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305568",
-   "start_date": "2026-10-01",
-   "end_date": "2026-10-16",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-01",
-   "uid": "b9e8a2cbb5d7b6fa",
-   "cross_uid": "5ea31c8bc436fb0b",
-   "d_day": 0,
-   "last_confirmed": "2026-10-16"
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "정보통신산업진흥원",
-   "title": "정보통신산업진흥원 KIC실리콘밸리센터장 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=304824",
-   "start_date": "2026-10-01",
-   "end_date": "2026-10-16",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-01",
-   "uid": "b2cdf0a59bba71ae",
-   "cross_uid": "ad8e05ee6c562844",
-   "d_day": 0,
-   "last_confirmed": "2026-10-16"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "국립중앙의료원",
-   "title": "기술직 6급 전산행정(정보운영팀) 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305641",
-   "start_date": "2026-10-01",
-   "end_date": "2026-10-16",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "전산",
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-01",
-   "uid": "b55e8207b8563b8b",
-   "cross_uid": "3ca2e346d7ab5c96",
-   "d_day": 0,
-   "last_confirmed": "2026-10-16"
+   "d_day": 3,
+   "last_confirmed": "2026-10-17"
   },
   {
    "source": "alio",
@@ -634,8 +545,8 @@
    "first_seen": "2026-09-30",
    "uid": "a5af42b3e480158b",
    "cross_uid": "d4af4b99570f5ad0",
-   "d_day": 3,
-   "last_confirmed": "2026-10-16"
+   "d_day": 2,
+   "last_confirmed": "2026-10-17"
   }
  ],
  "failed_sources": [],
