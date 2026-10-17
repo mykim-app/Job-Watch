@@ -32,6 +32,7 @@ git pull --rebase -q
 
 .venv/bin/python main.py
 RC=$?
+.venv/bin/python keepalive.py || true
 
 git add docs/data/postings.json
 if git diff --staged --quiet; then
