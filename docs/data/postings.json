@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-19 16:55",
+ "updated_at": "2026-10-20 08:55",
  "postings": [
   {
    "source": "alio",
@@ -20,8 +20,8 @@
    "first_seen": "2026-10-19",
    "uid": "4e70317e230aa560",
    "cross_uid": "b33dadef8d98986f",
-   "d_day": 14,
-   "last_confirmed": "2026-10-19"
+   "d_day": 13,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "alio",
@@ -42,8 +42,8 @@
    "first_seen": "2026-10-19",
    "uid": "4615c4fb81dd113c",
    "cross_uid": "2701246f24253143",
-   "d_day": 7,
-   "last_confirmed": "2026-10-19"
+   "d_day": 6,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "gojobs",
@@ -63,8 +63,8 @@
    "first_seen": "2026-10-19",
    "uid": "697565f3eff430f8",
    "cross_uid": "630c0c6c36c547f8",
-   "d_day": 21,
-   "last_confirmed": "2026-10-19"
+   "d_day": 20,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "alio",
@@ -85,8 +85,8 @@
    "first_seen": "2026-10-16",
    "uid": "a3043c52e095ec46",
    "cross_uid": "a007dca68982af60",
-   "d_day": 11,
-   "last_confirmed": "2026-10-19"
+   "d_day": 10,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "uman",
@@ -107,8 +107,8 @@
    "first_seen": "2026-10-16",
    "uid": "f51e0a357aaf1239",
    "cross_uid": "a72081c4835b52c3",
-   "d_day": 3,
-   "last_confirmed": "2026-10-19"
+   "d_day": 2,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "alio",
@@ -129,8 +129,8 @@
    "first_seen": "2026-10-15",
    "uid": "09c5deaa4a4d3641",
    "cross_uid": "4ec08f59cec94aaa",
-   "d_day": 10,
-   "last_confirmed": "2026-10-19"
+   "d_day": 9,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "alio",
@@ -151,29 +151,8 @@
    "first_seen": "2026-10-13",
    "uid": "0d7b4097653da3df",
    "cross_uid": "d94ff80bf3b90f3f",
-   "d_day": 8,
-   "last_confirmed": "2026-10-19"
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "서울특별시교육청 서울특별시서부교육지원청 서울상지초등학교",
-   "title": "서울상지초등학교 2026학년도 교육공무직원(교육실무사-전산 업무) 대체직원 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=305562",
-   "start_date": "2026-10-13",
-   "end_date": "2026-10-19",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-10-13",
-   "uid": "b9145b3b30f9834e",
-   "cross_uid": "9b3f78bb20557cae",
-   "d_day": 0,
-   "last_confirmed": "2026-10-19"
+   "d_day": 7,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "uman",
@@ -194,8 +173,8 @@
    "first_seen": "2026-10-12",
    "uid": "4a3ea5bf3df85299",
    "cross_uid": "b1cf30962012958e",
-   "d_day": 2,
-   "last_confirmed": "2026-10-19"
+   "d_day": 1,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "uman",
@@ -217,8 +196,8 @@
    "first_seen": "2026-10-12",
    "uid": "cd7927f837b11cae",
    "cross_uid": "1eeceb266965c002",
-   "d_day": 1,
-   "last_confirmed": "2026-10-19"
+   "d_day": 0,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "uman",
@@ -239,8 +218,8 @@
    "first_seen": "2026-10-12",
    "uid": "01b8596be20957de",
    "cross_uid": "1bbe8adca05321b9",
-   "d_day": 1,
-   "last_confirmed": "2026-10-19"
+   "d_day": 0,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "uman",
@@ -262,8 +241,8 @@
    "first_seen": "2026-10-12",
    "uid": "4cbe66ea3d602582",
    "cross_uid": "af9410a40175f1e2",
-   "d_day": 6,
-   "last_confirmed": "2026-10-19"
+   "d_day": 5,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "alio",
@@ -284,8 +263,8 @@
    "first_seen": "2026-10-12",
    "uid": "bb00de60a04a101c",
    "cross_uid": "f5507321d6285d8e",
-   "d_day": 7,
-   "last_confirmed": "2026-10-19"
+   "d_day": 6,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "uman",
@@ -306,29 +285,8 @@
    "first_seen": "2026-10-09",
    "uid": "74b579fd6bc122fa",
    "cross_uid": "fb2fd318d4684ccf",
-   "d_day": 2,
-   "last_confirmed": "2026-10-19"
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "행정중심복합도시건설청",
-   "title": "행정중심복합도시건설청 일반직공무원[전산주사보, 기록연구사(일반임기제)] 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=305351",
-   "start_date": "2026-10-08",
-   "end_date": "2026-10-19",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-10-08",
-   "uid": "0b20c9811ac8c812",
-   "cross_uid": "ade2f4c3d5443879",
-   "d_day": 0,
-   "last_confirmed": "2026-10-19"
+   "d_day": 1,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "uman",
@@ -349,29 +307,8 @@
    "first_seen": "2026-10-08",
    "uid": "c1ba365c97a872eb",
    "cross_uid": "0ca8e71a9e3f60f2",
-   "d_day": 2,
-   "last_confirmed": "2026-10-19"
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "국립경국대학교",
-   "title": "국립경국대학교 국가공무원(사서, 전산) 경력경쟁채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=305126",
-   "start_date": "2026-10-08",
-   "end_date": "2026-10-19",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-10-08",
-   "uid": "33abc8373b957121",
-   "cross_uid": "26e9a2b401607101",
-   "d_day": 0,
-   "last_confirmed": "2026-10-19"
+   "d_day": 1,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "gojobs",
@@ -391,8 +328,8 @@
    "first_seen": "2026-10-08",
    "uid": "f942905f143c5e6e",
    "cross_uid": "cd387f3c0ebecf46",
-   "d_day": 7,
-   "last_confirmed": "2026-10-19"
+   "d_day": 6,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "alio",
@@ -413,8 +350,8 @@
    "first_seen": "2026-10-08",
    "uid": "1d731f1ff50b3f0b",
    "cross_uid": "d530afa0372500f7",
-   "d_day": 2,
-   "last_confirmed": "2026-10-19"
+   "d_day": 1,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "alio",
@@ -435,8 +372,8 @@
    "first_seen": "2026-10-07",
    "uid": "d212253cf07a3976",
    "cross_uid": "4f32b7ca60795d48",
-   "d_day": 2,
-   "last_confirmed": "2026-10-19"
+   "d_day": 1,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "alio",
@@ -457,8 +394,8 @@
    "first_seen": "2026-10-06",
    "uid": "845268683b593296",
    "cross_uid": "e84d731966f17166",
-   "d_day": 1,
-   "last_confirmed": "2026-10-19"
+   "d_day": 0,
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "alio",
@@ -479,52 +416,8 @@
    "first_seen": "2026-10-06",
    "uid": "ea13e623e121da54",
    "cross_uid": "8bf9eef10abd5d66",
-   "d_day": 1,
-   "last_confirmed": "2026-10-19"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국의료기기안전정보원",
-   "title": "2026년 제4차 한국의료기기안전정보원 직원(정규직 및 무기직) 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305695",
-   "start_date": "2026-10-02",
-   "end_date": "2026-10-19",
-   "hire_type": "무기계약직,정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-02",
-   "uid": "309e44c9658380ce",
-   "cross_uid": "dd80433e729ae5f9",
    "d_day": 0,
-   "last_confirmed": "2026-10-19"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국수출입은행",
-   "title": "한국수출입은행 2026년 하반기 전문직행원(신입) 채용",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305702",
-   "start_date": "2026-10-02",
-   "end_date": "2026-10-19",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-02",
-   "uid": "9e4df3d5cd1723c3",
-   "cross_uid": "15c1473d52fe1464",
-   "d_day": 0,
-   "last_confirmed": "2026-10-19"
+   "last_confirmed": "2026-10-20"
   },
   {
    "source": "cleaneye",
@@ -545,30 +438,8 @@
    "first_seen": "2026-10-02",
    "uid": "256ba29d3b0f0a78",
    "cross_uid": "cc1be5e6dd6b1724",
-   "d_day": 1,
-   "last_confirmed": "2026-10-19"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국농어촌공사",
-   "title": "2026년도 직무중심 신입사원(5급, 6급) 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305542",
-   "start_date": "2026-09-30",
-   "end_date": "2026-10-19",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "인천 외 13",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-09-30",
-   "uid": "a5af42b3e480158b",
-   "cross_uid": "d4af4b99570f5ad0",
    "d_day": 0,
-   "last_confirmed": "2026-10-19"
+   "last_confirmed": "2026-10-20"
   }
  ],
  "failed_sources": [],
