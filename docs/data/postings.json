@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-10-19 12:55",
+ "updated_at": "2026-10-19 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국건강증진개발원",
+   "title": "한국건강증진개발원 2026년 하반기 직원(일반직) 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306146",
+   "start_date": "2026-10-19",
+   "end_date": "2026-11-02",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-19",
+   "uid": "4e70317e230aa560",
+   "cross_uid": "b33dadef8d98986f",
+   "d_day": 14,
+   "last_confirmed": "2026-10-19"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "근로복지공단",
+   "title": "[인재개발원] 공무직(전기·기계·통신기사_전기, 기계) 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306137",
+   "start_date": "2026-10-19",
+   "end_date": "2026-10-26",
+   "hire_type": "무기계약직",
+   "recruit_type": "",
+   "region": "충북",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-19",
+   "uid": "4615c4fb81dd113c",
+   "cross_uid": "2701246f24253143",
+   "d_day": 7,
+   "last_confirmed": "2026-10-19"
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
