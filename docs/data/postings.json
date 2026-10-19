@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-10-19 08:55",
+ "updated_at": "2026-10-19 12:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "국가정보원",
+   "title": "2026년도 국가정보원 경력직 [특정 6급-네트워크 구축·운영] 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=306029",
+   "start_date": "2026-10-19",
+   "end_date": "2026-11-09",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "네트워크"
+   ],
+   "first_seen": "2026-10-19",
+   "uid": "697565f3eff430f8",
+   "cross_uid": "630c0c6c36c547f8",
+   "d_day": 21,
+   "last_confirmed": "2026-10-19"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
