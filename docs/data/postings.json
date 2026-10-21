@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-10-21 16:55",
+ "updated_at": "2026-10-22 08:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "농촌진흥청",
+   "title": "2026년 농촌진흥청 일반직공무원(전산주사보, 농업서기) 경력경쟁채용시험 공고(장애인구분모집)",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=306366",
+   "start_date": "2026-10-22",
+   "end_date": "2026-11-12",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-10-22",
+   "uid": "e27dc4144602e2b0",
+   "cross_uid": "2c7848e3b4ea351b",
+   "d_day": 21,
+   "last_confirmed": "2026-10-22"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -20,8 +41,8 @@
    "first_seen": "2026-10-19",
    "uid": "4e70317e230aa560",
    "cross_uid": "b33dadef8d98986f",
-   "d_day": 12,
-   "last_confirmed": "2026-10-21"
+   "d_day": 11,
+   "last_confirmed": "2026-10-22"
   },
   {
    "source": "alio",
@@ -42,8 +63,8 @@
    "first_seen": "2026-10-19",
    "uid": "4615c4fb81dd113c",
    "cross_uid": "2701246f24253143",
-   "d_day": 5,
-   "last_confirmed": "2026-10-21"
+   "d_day": 4,
+   "last_confirmed": "2026-10-22"
   },
   {
    "source": "gojobs",
@@ -63,8 +84,8 @@
    "first_seen": "2026-10-19",
    "uid": "697565f3eff430f8",
    "cross_uid": "630c0c6c36c547f8",
-   "d_day": 19,
-   "last_confirmed": "2026-10-21"
+   "d_day": 18,
+   "last_confirmed": "2026-10-22"
   },
   {
    "source": "alio",
@@ -85,8 +106,8 @@
    "first_seen": "2026-10-16",
    "uid": "a3043c52e095ec46",
    "cross_uid": "a007dca68982af60",
-   "d_day": 9,
-   "last_confirmed": "2026-10-21"
+   "d_day": 8,
+   "last_confirmed": "2026-10-22"
   },
   {
    "source": "uman",
@@ -107,8 +128,8 @@
    "first_seen": "2026-10-16",
    "uid": "f51e0a357aaf1239",
    "cross_uid": "a72081c4835b52c3",
-   "d_day": 1,
-   "last_confirmed": "2026-10-21"
+   "d_day": 0,
+   "last_confirmed": "2026-10-22"
   },
   {
    "source": "alio",
@@ -129,8 +150,8 @@
    "first_seen": "2026-10-15",
    "uid": "09c5deaa4a4d3641",
    "cross_uid": "4ec08f59cec94aaa",
-   "d_day": 8,
-   "last_confirmed": "2026-10-21"
+   "d_day": 7,
+   "last_confirmed": "2026-10-22"
   },
   {
    "source": "alio",
@@ -151,30 +172,8 @@
    "first_seen": "2026-10-13",
    "uid": "0d7b4097653da3df",
    "cross_uid": "d94ff80bf3b90f3f",
-   "d_day": 6,
-   "last_confirmed": "2026-10-21"
-  },
-  {
-   "source": "uman",
-   "source_label": "대학교직원신문",
-   "org": "한국항공대학교",
-   "title": "한국항공대학교 정규직 전환형 신규직원 채용 공고(~10. 21(수) 23:59)",
-   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18455",
-   "start_date": "2026-10-12",
-   "end_date": "2026-10-21",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-12",
-   "uid": "4a3ea5bf3df85299",
-   "cross_uid": "b1cf30962012958e",
-   "d_day": 0,
-   "last_confirmed": "2026-10-21"
+   "d_day": 5,
+   "last_confirmed": "2026-10-22"
   },
   {
    "source": "uman",
@@ -196,8 +195,8 @@
    "first_seen": "2026-10-12",
    "uid": "4cbe66ea3d602582",
    "cross_uid": "af9410a40175f1e2",
-   "d_day": 4,
-   "last_confirmed": "2026-10-21"
+   "d_day": 3,
+   "last_confirmed": "2026-10-22"
   },
   {
    "source": "alio",
@@ -218,52 +217,8 @@
    "first_seen": "2026-10-12",
    "uid": "bb00de60a04a101c",
    "cross_uid": "f5507321d6285d8e",
-   "d_day": 5,
-   "last_confirmed": "2026-10-21"
-  },
-  {
-   "source": "uman",
-   "source_label": "대학교직원신문",
-   "org": "고려대학교",
-   "title": "고려대학교 세종캠 정규 직원 채용 공고(~10.. 21.(수) 12:00)",
-   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18438",
-   "start_date": "2026-10-09",
-   "end_date": "2026-10-21",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-09",
-   "uid": "74b579fd6bc122fa",
-   "cross_uid": "fb2fd318d4684ccf",
-   "d_day": 0,
-   "last_confirmed": "2026-10-21"
-  },
-  {
-   "source": "uman",
-   "source_label": "대학교직원신문",
-   "org": "한림대학교",
-   "title": "한림대학교 교직원(정규직) 채용 공고(~10.21.(수)까지)",
-   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18431",
-   "start_date": "2026-10-08",
-   "end_date": "2026-10-21",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-08",
-   "uid": "c1ba365c97a872eb",
-   "cross_uid": "0ca8e71a9e3f60f2",
-   "d_day": 0,
-   "last_confirmed": "2026-10-21"
+   "d_day": 4,
+   "last_confirmed": "2026-10-22"
   },
   {
    "source": "gojobs",
@@ -283,52 +238,8 @@
    "first_seen": "2026-10-08",
    "uid": "f942905f143c5e6e",
    "cross_uid": "cd387f3c0ebecf46",
-   "d_day": 5,
-   "last_confirmed": "2026-10-21"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "건강보험심사평가원",
-   "title": "2026년 하반기 건강보험심사평가원 운영직 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305738",
-   "start_date": "2026-10-07",
-   "end_date": "2026-10-21",
-   "hire_type": "무기계약직",
-   "recruit_type": "",
-   "region": "서울 외 3",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-08",
-   "uid": "1d731f1ff50b3f0b",
-   "cross_uid": "d530afa0372500f7",
-   "d_day": 0,
-   "last_confirmed": "2026-10-21"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "코레일테크(주)",
-   "title": "2026년 제2차 일반직사원(경력직 및 채용형인턴) 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305774",
-   "start_date": "2026-10-07",
-   "end_date": "2026-10-21",
-   "hire_type": "청년인턴(채용형),정규직",
-   "recruit_type": "",
-   "region": "서울 외 2",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-07",
-   "uid": "d212253cf07a3976",
-   "cross_uid": "4f32b7ca60795d48",
-   "d_day": 0,
-   "last_confirmed": "2026-10-21"
+   "d_day": 4,
+   "last_confirmed": "2026-10-22"
   }
  ],
  "failed_sources": [],
