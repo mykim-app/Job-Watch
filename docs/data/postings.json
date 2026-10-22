@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-10-22 12:55",
+ "updated_at": "2026-10-22 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국산업기술진흥원",
+   "title": "[한국산업기술진흥원] 2026년 하반기 전문분야 신규직원 공개채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306258",
+   "start_date": "2026-10-22",
+   "end_date": "2026-11-06",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-22",
+   "uid": "a5c8a4e7dd7c15c2",
+   "cross_uid": "3270493ee1b4577d",
+   "d_day": 15,
+   "last_confirmed": "2026-10-22"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -11,7 +33,7 @@
    "end_date": "2026-11-05",
    "hire_type": "무기계약직",
    "recruit_type": "",
-   "region": "서울 외 2",
+   "region": "서울 외 3",
    "ncs": "정보통신",
    "matched": [
     "정보통신",
@@ -64,6 +86,27 @@
    "first_seen": "2026-10-22",
    "uid": "a9cb2c79023051f9",
    "cross_uid": "d544e39a88bceee4",
+   "d_day": 14,
+   "last_confirmed": "2026-10-22"
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "공무원연금공단",
+   "title": "(공무원연금공단) 2026년 하반기 신입직원(전산직 및 장애·보훈) 채용 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=306449",
+   "start_date": "2026-10-22",
+   "end_date": "2026-11-05",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-10-22",
+   "uid": "0b306dde62d77e62",
+   "cross_uid": "cc2fc04632c553c0",
    "d_day": 14,
    "last_confirmed": "2026-10-22"
   },
