@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-10-26 12:55",
+ "updated_at": "2026-10-26 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국민건강보험공단",
+   "title": "2026년도 제3차 국민건강보험공단 전문인력 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306339",
+   "start_date": "2026-10-26",
+   "end_date": "2026-11-09",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "강원 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-26",
+   "uid": "ce76ae05ce670d49",
+   "cross_uid": "dab5d165373068bf",
+   "d_day": 14,
+   "last_confirmed": "2026-10-26"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
