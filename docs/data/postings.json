@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-10-27 16:55",
+ "updated_at": "2026-10-28 08:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "독립기념관",
+   "title": "2026년 독립기념관 하반기 직원 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306408",
+   "start_date": "2026-10-28",
+   "end_date": "2026-11-12",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "충남",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-28",
+   "uid": "b7e2e22807e6cb8e",
+   "cross_uid": "75aa897f3be2d5a3",
+   "d_day": 15,
+   "last_confirmed": "2026-10-28"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -20,8 +42,8 @@
    "first_seen": "2026-10-26",
    "uid": "ce76ae05ce670d49",
    "cross_uid": "dab5d165373068bf",
-   "d_day": 13,
-   "last_confirmed": "2026-10-27"
+   "d_day": 12,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "alio",
@@ -42,8 +64,8 @@
    "first_seen": "2026-10-23",
    "uid": "67813274a30f64f3",
    "cross_uid": "5655a7d6eadd20e8",
-   "d_day": 9,
-   "last_confirmed": "2026-10-27"
+   "d_day": 8,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "alio",
@@ -64,8 +86,8 @@
    "first_seen": "2026-10-22",
    "uid": "a5c8a4e7dd7c15c2",
    "cross_uid": "3270493ee1b4577d",
-   "d_day": 10,
-   "last_confirmed": "2026-10-27"
+   "d_day": 9,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "alio",
@@ -86,8 +108,8 @@
    "first_seen": "2026-10-22",
    "uid": "371bf5afee80e5a7",
    "cross_uid": "ae5a8d05bea736df",
-   "d_day": 9,
-   "last_confirmed": "2026-10-27"
+   "d_day": 8,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "gojobs",
@@ -107,8 +129,8 @@
    "first_seen": "2026-10-22",
    "uid": "e27dc4144602e2b0",
    "cross_uid": "2c7848e3b4ea351b",
-   "d_day": 16,
-   "last_confirmed": "2026-10-27"
+   "d_day": 15,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "alio",
@@ -130,8 +152,8 @@
    "first_seen": "2026-10-22",
    "uid": "a9cb2c79023051f9",
    "cross_uid": "d544e39a88bceee4",
-   "d_day": 9,
-   "last_confirmed": "2026-10-27"
+   "d_day": 8,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "gojobs",
@@ -151,8 +173,8 @@
    "first_seen": "2026-10-22",
    "uid": "0b306dde62d77e62",
    "cross_uid": "cc2fc04632c553c0",
-   "d_day": 9,
-   "last_confirmed": "2026-10-27"
+   "d_day": 8,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "alio",
@@ -173,8 +195,8 @@
    "first_seen": "2026-10-19",
    "uid": "4e70317e230aa560",
    "cross_uid": "b33dadef8d98986f",
-   "d_day": 6,
-   "last_confirmed": "2026-10-27"
+   "d_day": 5,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "gojobs",
@@ -194,8 +216,8 @@
    "first_seen": "2026-10-19",
    "uid": "697565f3eff430f8",
    "cross_uid": "630c0c6c36c547f8",
-   "d_day": 13,
-   "last_confirmed": "2026-10-27"
+   "d_day": 12,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "alio",
@@ -216,8 +238,8 @@
    "first_seen": "2026-10-16",
    "uid": "a3043c52e095ec46",
    "cross_uid": "a007dca68982af60",
-   "d_day": 3,
-   "last_confirmed": "2026-10-27"
+   "d_day": 2,
+   "last_confirmed": "2026-10-28"
   },
   {
    "source": "alio",
@@ -238,30 +260,8 @@
    "first_seen": "2026-10-15",
    "uid": "09c5deaa4a4d3641",
    "cross_uid": "4ec08f59cec94aaa",
-   "d_day": 2,
-   "last_confirmed": "2026-10-27"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국의약품안전관리원",
-   "title": "한국의약품안전관리원 2026년 3차 채용 공고(정규직, 전문/일반계약직, 일반계약직(육아휴직 대체))",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=305962",
-   "start_date": "2026-10-13",
-   "end_date": "2026-10-27",
-   "hire_type": "비정규직,정규직",
-   "recruit_type": "",
-   "region": "경기",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-13",
-   "uid": "0d7b4097653da3df",
-   "cross_uid": "d94ff80bf3b90f3f",
-   "d_day": 0,
-   "last_confirmed": "2026-10-27"
+   "d_day": 1,
+   "last_confirmed": "2026-10-28"
   }
  ],
  "failed_sources": [],
