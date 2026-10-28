@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-10-28 12:55",
+ "updated_at": "2026-10-28 16:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "목포대학교",
+   "title": "2026년도 제3회 국립목포대학교 국가공무원(사서7급,전산8급,공업9급) 경력경쟁채용시험 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=306942",
+   "start_date": "2026-10-28",
+   "end_date": "2026-11-09",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-10-28",
+   "uid": "e4708397a37bfd47",
+   "cross_uid": "7ca4ff7935b19811",
+   "d_day": 12,
+   "last_confirmed": "2026-10-28"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
