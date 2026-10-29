@@ -1,6 +1,71 @@
 {
- "updated_at": "2026-10-29 08:55",
+ "updated_at": "2026-10-29 12:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "한경국립대학교",
+   "title": "2026년도 제5차 한경국립대학교 국가공무원 전입(지방직 경채 포함_전산8급, 공업9급 및 행정9급) 희망자 모집 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=306977",
+   "start_date": "2026-10-29",
+   "end_date": "2026-11-11",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-10-29",
+   "uid": "737d85698d0a9df9",
+   "cross_uid": "515795b7ce77d87c",
+   "d_day": 13,
+   "last_confirmed": "2026-10-29"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "중소벤처기업연구원",
+   "title": "2026년도 제6차 중소벤처기업연구원 공개채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306473",
+   "start_date": "2026-10-29",
+   "end_date": "2026-11-13",
+   "hire_type": "비정규직,정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-29",
+   "uid": "b0eefde6876548ac",
+   "cross_uid": "ed1dae3bd6f2e5e9",
+   "d_day": 15,
+   "last_confirmed": "2026-10-29"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "전쟁기념사업회",
+   "title": "전쟁기념사업회 2026-3차 직원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306458",
+   "start_date": "2026-10-29",
+   "end_date": "2026-11-12",
+   "hire_type": "무기계약직,비정규직,정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-29",
+   "uid": "29773defd204d2fa",
+   "cross_uid": "4aace711234fad50",
+   "d_day": 14,
+   "last_confirmed": "2026-10-29"
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
