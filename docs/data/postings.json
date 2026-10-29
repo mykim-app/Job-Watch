@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-10-29 12:55",
+ "updated_at": "2026-10-29 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국청소년상담복지개발원",
+   "title": "제2026-3호 국립대구청소년디딤센터 직원 모집",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306513",
+   "start_date": "2026-10-29",
+   "end_date": "2026-11-13",
+   "hire_type": "무기계약직",
+   "recruit_type": "",
+   "region": "대구",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-29",
+   "uid": "d66c00a081489f86",
+   "cross_uid": "abfb5da79a72a066",
+   "d_day": 15,
+   "last_confirmed": "2026-10-29"
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
@@ -47,6 +69,28 @@
   {
    "source": "alio",
    "source_label": "잡알리오",
+   "org": "제주국제자유도시개발센터",
+   "title": "2026년 정규직 직원 등 모집",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306508",
+   "start_date": "2026-10-29",
+   "end_date": "2026-11-13",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-29",
+   "uid": "5a6fb9094d40cd41",
+   "cross_uid": "986a76fb9f66629a",
+   "d_day": 15,
+   "last_confirmed": "2026-10-29"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
    "org": "전쟁기념사업회",
    "title": "전쟁기념사업회 2026-3차 직원 채용 공고",
    "url": "https://job.alio.go.kr/recruitview.do?idx=306458",
@@ -64,6 +108,28 @@
    "uid": "29773defd204d2fa",
    "cross_uid": "4aace711234fad50",
    "d_day": 14,
+   "last_confirmed": "2026-10-29"
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "국립목포대학교",
+   "title": "국립목포대학교 국가공무원 경력채용시험 공고(~11. 09(월) 18:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18491",
+   "start_date": "2026-10-29",
+   "end_date": "2026-11-09",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-10-29",
+   "uid": "65bd24cf8f3c44c0",
+   "cross_uid": "1cac38675e8e9ba2",
+   "d_day": 11,
    "last_confirmed": "2026-10-29"
   },
   {
