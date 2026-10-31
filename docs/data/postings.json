@@ -1,6 +1,31 @@
 {
- "updated_at": "2026-10-31 16:55",
+ "updated_at": "2026-11-01 08:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "차의과대학교",
+   "title": "차의과대학교 정보화실 직원 모집 공고 (전산·IT) (~11.3.(목)까지)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18500",
+   "start_date": "2026-10-31",
+   "end_date": "2026-11-03",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "전산",
+    "정보화",
+    "정보통신",
+    "통신",
+    "IT"
+   ],
+   "first_seen": "2026-11-01",
+   "uid": "43aae6eeac93f685",
+   "cross_uid": "62327507abc1fe1e",
+   "d_day": 2,
+   "last_confirmed": "2026-11-01"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -20,8 +45,8 @@
    "first_seen": "2026-10-31",
    "uid": "37a171ab7d0238ab",
    "cross_uid": "7bbbe1b2cbf3579f",
-   "d_day": 13,
-   "last_confirmed": "2026-10-31"
+   "d_day": 12,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -42,8 +67,8 @@
    "first_seen": "2026-10-29",
    "uid": "d66c00a081489f86",
    "cross_uid": "abfb5da79a72a066",
-   "d_day": 13,
-   "last_confirmed": "2026-10-31"
+   "d_day": 12,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "gojobs",
@@ -63,8 +88,8 @@
    "first_seen": "2026-10-29",
    "uid": "737d85698d0a9df9",
    "cross_uid": "515795b7ce77d87c",
-   "d_day": 11,
-   "last_confirmed": "2026-10-31"
+   "d_day": 10,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -85,8 +110,8 @@
    "first_seen": "2026-10-29",
    "uid": "b0eefde6876548ac",
    "cross_uid": "ed1dae3bd6f2e5e9",
-   "d_day": 13,
-   "last_confirmed": "2026-10-31"
+   "d_day": 12,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -107,8 +132,8 @@
    "first_seen": "2026-10-29",
    "uid": "5a6fb9094d40cd41",
    "cross_uid": "986a76fb9f66629a",
-   "d_day": 13,
-   "last_confirmed": "2026-10-31"
+   "d_day": 12,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -129,8 +154,8 @@
    "first_seen": "2026-10-29",
    "uid": "29773defd204d2fa",
    "cross_uid": "4aace711234fad50",
-   "d_day": 12,
-   "last_confirmed": "2026-10-31"
+   "d_day": 11,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "uman",
@@ -151,8 +176,8 @@
    "first_seen": "2026-10-29",
    "uid": "65bd24cf8f3c44c0",
    "cross_uid": "1cac38675e8e9ba2",
-   "d_day": 9,
-   "last_confirmed": "2026-10-31"
+   "d_day": 8,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "gojobs",
@@ -172,8 +197,8 @@
    "first_seen": "2026-10-28",
    "uid": "e4708397a37bfd47",
    "cross_uid": "7ca4ff7935b19811",
-   "d_day": 9,
-   "last_confirmed": "2026-10-31"
+   "d_day": 8,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -194,8 +219,8 @@
    "first_seen": "2026-10-28",
    "uid": "b7e2e22807e6cb8e",
    "cross_uid": "75aa897f3be2d5a3",
-   "d_day": 12,
-   "last_confirmed": "2026-10-31"
+   "d_day": 11,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -216,8 +241,8 @@
    "first_seen": "2026-10-26",
    "uid": "ce76ae05ce670d49",
    "cross_uid": "dab5d165373068bf",
-   "d_day": 9,
-   "last_confirmed": "2026-10-31"
+   "d_day": 8,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -238,8 +263,8 @@
    "first_seen": "2026-10-23",
    "uid": "67813274a30f64f3",
    "cross_uid": "5655a7d6eadd20e8",
-   "d_day": 5,
-   "last_confirmed": "2026-10-31"
+   "d_day": 4,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -260,8 +285,8 @@
    "first_seen": "2026-10-22",
    "uid": "a5c8a4e7dd7c15c2",
    "cross_uid": "3270493ee1b4577d",
-   "d_day": 6,
-   "last_confirmed": "2026-10-31"
+   "d_day": 5,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -282,8 +307,8 @@
    "first_seen": "2026-10-22",
    "uid": "371bf5afee80e5a7",
    "cross_uid": "ae5a8d05bea736df",
-   "d_day": 5,
-   "last_confirmed": "2026-10-31"
+   "d_day": 4,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "gojobs",
@@ -303,8 +328,8 @@
    "first_seen": "2026-10-22",
    "uid": "e27dc4144602e2b0",
    "cross_uid": "2c7848e3b4ea351b",
-   "d_day": 12,
-   "last_confirmed": "2026-10-31"
+   "d_day": 11,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -326,8 +351,8 @@
    "first_seen": "2026-10-22",
    "uid": "a9cb2c79023051f9",
    "cross_uid": "d544e39a88bceee4",
-   "d_day": 5,
-   "last_confirmed": "2026-10-31"
+   "d_day": 4,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "gojobs",
@@ -347,8 +372,8 @@
    "first_seen": "2026-10-22",
    "uid": "0b306dde62d77e62",
    "cross_uid": "cc2fc04632c553c0",
-   "d_day": 5,
-   "last_confirmed": "2026-10-31"
+   "d_day": 4,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "alio",
@@ -369,8 +394,8 @@
    "first_seen": "2026-10-19",
    "uid": "4e70317e230aa560",
    "cross_uid": "b33dadef8d98986f",
-   "d_day": 2,
-   "last_confirmed": "2026-10-31"
+   "d_day": 1,
+   "last_confirmed": "2026-11-01"
   },
   {
    "source": "gojobs",
@@ -390,12 +415,13 @@
    "first_seen": "2026-10-19",
    "uid": "697565f3eff430f8",
    "cross_uid": "630c0c6c36c547f8",
-   "d_day": 9,
-   "last_confirmed": "2026-10-31"
+   "d_day": 8,
+   "last_confirmed": "2026-11-01"
   }
  ],
  "failed_sources": [],
  "pending": [
-  "37a171ab7d0238ab"
+  "37a171ab7d0238ab",
+  "43aae6eeac93f685"
  ]
 }
