@@ -1,6 +1,73 @@
 {
- "updated_at": "2026-11-02 12:55",
+ "updated_at": "2026-11-02 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국해양조사협회",
+   "title": "한국해양조사협회 2026년 제4차 직원 공개 채용 공고(일반직)",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306612",
+   "start_date": "2026-11-02",
+   "end_date": "2026-11-17",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-02",
+   "uid": "0594bee7606129bb",
+   "cross_uid": "d785acffb2762e18",
+   "d_day": 15,
+   "last_confirmed": "2026-11-02"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국관광공사",
+   "title": "2026년 한국관광공사 개방형직위(정보보안파트장) 공개 모집",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306588",
+   "start_date": "2026-11-02",
+   "end_date": "2026-11-16",
+   "hire_type": "비정규직,정규직",
+   "recruit_type": "",
+   "region": "강원",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "정보보안",
+    "통신"
+   ],
+   "first_seen": "2026-11-02",
+   "uid": "7e004009892e3d5e",
+   "cross_uid": "62b75de3573aca94",
+   "d_day": 14,
+   "last_confirmed": "2026-11-02"
+  },
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "한국관광공사",
+   "title": "2026년 한국관광공사 개방형직위(정보보안파트장) 공개모집",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=307284",
+   "start_date": "2026-11-02",
+   "end_date": "2026-11-16",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "정보보안"
+   ],
+   "first_seen": "2026-11-02",
+   "uid": "f74c255fb12fd286",
+   "cross_uid": "62b75de3573aca94",
+   "d_day": 14,
+   "last_confirmed": "2026-11-02",
+   "duplicate_of_other_source": true
+  },
   {
    "source": "incheon",
    "source_label": "인천일자리플랫폼",
