@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-03 12:55",
+ "updated_at": "2026-11-03 16:55",
  "postings": [
   {
    "source": "uman",
@@ -22,6 +22,32 @@
    "cross_uid": "4fce3643bd6ace97",
    "d_day": 10,
    "last_confirmed": "2026-11-03"
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "차의과대학교",
+   "title": "차의과대학교 정보화실 직원 모집 공고 (전산·IT) (~11.3.(화)까지)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18500",
+   "start_date": "2026-10-31",
+   "end_date": "2026-11-03",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "전산",
+    "정보화",
+    "정보통신",
+    "통신",
+    "IT"
+   ],
+   "first_seen": "2026-11-03",
+   "uid": "0c8bc33392162fc2",
+   "cross_uid": "62327507abc1fe1e",
+   "d_day": 0,
+   "last_confirmed": "2026-11-03",
+   "duplicate_of_other_source": true
   },
   {
    "source": "uman",
