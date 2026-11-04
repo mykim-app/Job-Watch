@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-04 08:55",
+ "updated_at": "2026-11-04 12:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "국립한밭대학교",
+   "title": "국립한밭대학교 국가공무원(시설9급) 경력채용 공고(~11. 09.(월) 18:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18507",
+   "start_date": "2026-11-02",
+   "end_date": "2026-11-09",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-04",
+   "uid": "abfafb50b33090ee",
+   "cross_uid": "bfd6b07c20d19f9d",
+   "d_day": 5,
+   "last_confirmed": "2026-11-04"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
