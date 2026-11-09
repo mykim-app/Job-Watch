@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-11-09 12:55",
+ "updated_at": "2026-11-09 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국건강가정진흥원",
+   "title": "한국건강가정진흥원 2026년 제4차 직원 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306841",
+   "start_date": "2026-11-09",
+   "end_date": "2026-11-23",
+   "hire_type": "무기계약직,비정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-09",
+   "uid": "126a86629091490a",
+   "cross_uid": "ad634cfbe4227c0e",
+   "d_day": 14,
+   "last_confirmed": "2026-11-09"
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "상명대학교",
+   "title": "상명대학교 입학사정관(무기) 채용 공고 (~11. 16. (월). 13:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18547",
+   "start_date": "2026-11-09",
+   "end_date": "2026-11-16",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-09",
+   "uid": "3e26db2174fb48cc",
+   "cross_uid": "c2d30405f3eeb7fb",
+   "d_day": 7,
+   "last_confirmed": "2026-11-09"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
