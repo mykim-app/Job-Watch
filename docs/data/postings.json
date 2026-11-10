@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-10 08:55",
+ "updated_at": "2026-11-10 12:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "서울여자대학교",
+   "title": "서울여자대학교 2027학년도 1학기 신규직원(정규직) 채용(~11.20(금) 오후3시까지)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18553",
+   "start_date": "2026-11-10",
+   "end_date": "2026-11-20",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-10",
+   "uid": "77e400bea5820ac7",
+   "cross_uid": "7eaae5ac14d493e8",
+   "d_day": 10,
+   "last_confirmed": "2026-11-10"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
