@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-11 12:55",
+ "updated_at": "2026-11-11 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국해양과학기술원",
+   "title": "[제27-01-01호 및 제27-02-01호]한국해양과학기술원 2027년 1차 직원(정규직/무기계약직) 채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306913",
+   "start_date": "2026-11-11",
+   "end_date": "2026-11-26",
+   "hire_type": "무기계약직,정규직",
+   "recruit_type": "",
+   "region": "부산 외 3",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-11",
+   "uid": "2f1e5023c4214558",
+   "cross_uid": "b204c0f64ccabf0d",
+   "d_day": 15,
+   "last_confirmed": "2026-11-11"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
