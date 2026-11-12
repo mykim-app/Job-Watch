@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-12 16:55",
+ "updated_at": "2026-11-13 08:55",
  "postings": [
   {
    "source": "uman",
@@ -20,8 +20,8 @@
    "first_seen": "2026-11-12",
    "uid": "db80a04975613c66",
    "cross_uid": "c1beca5393f869b0",
-   "d_day": 26,
-   "last_confirmed": "2026-11-12",
+   "d_day": 25,
+   "last_confirmed": "2026-11-13",
    "duplicate_of_other_source": true
   },
   {
@@ -43,8 +43,8 @@
    "first_seen": "2026-11-11",
    "uid": "2f1e5023c4214558",
    "cross_uid": "b204c0f64ccabf0d",
-   "d_day": 14,
-   "last_confirmed": "2026-11-12"
+   "d_day": 13,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "alio",
@@ -65,8 +65,8 @@
    "first_seen": "2026-11-11",
    "uid": "230e2fe40e70ef3f",
    "cross_uid": "e2914a18d4a897a7",
-   "d_day": 13,
-   "last_confirmed": "2026-11-12"
+   "d_day": 12,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "uman",
@@ -87,8 +87,8 @@
    "first_seen": "2026-11-11",
    "uid": "605248928052c0e9",
    "cross_uid": "f5cf7f65c74bab87",
-   "d_day": 8,
-   "last_confirmed": "2026-11-12"
+   "d_day": 7,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "uman",
@@ -131,7 +131,7 @@
    "first_seen": "2026-11-10",
    "uid": "77e400bea5820ac7",
    "cross_uid": "7eaae5ac14d493e8",
-   "d_day": 8,
+   "d_day": 7,
    "last_confirmed": "2026-11-10"
   },
   {
@@ -153,8 +153,8 @@
    "first_seen": "2026-11-09",
    "uid": "126a86629091490a",
    "cross_uid": "ad634cfbe4227c0e",
-   "d_day": 11,
-   "last_confirmed": "2026-11-12"
+   "d_day": 10,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "uman",
@@ -175,8 +175,8 @@
    "first_seen": "2026-11-09",
    "uid": "3e26db2174fb48cc",
    "cross_uid": "c2d30405f3eeb7fb",
-   "d_day": 4,
-   "last_confirmed": "2026-11-12"
+   "d_day": 3,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "alio",
@@ -197,8 +197,8 @@
    "first_seen": "2026-11-05",
    "uid": "4ff3de709c502587",
    "cross_uid": "b1f5f84f1058f23f",
-   "d_day": 8,
-   "last_confirmed": "2026-11-12"
+   "d_day": 7,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "uman",
@@ -219,8 +219,8 @@
    "first_seen": "2026-11-03",
    "uid": "6782e604507ba1f2",
    "cross_uid": "4fce3643bd6ace97",
-   "d_day": 1,
-   "last_confirmed": "2026-11-12"
+   "d_day": 0,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "uman",
@@ -241,8 +241,8 @@
    "first_seen": "2026-11-03",
    "uid": "5be64656fcfb55ae",
    "cross_uid": "48fbfe443e2c6281",
-   "d_day": 1,
-   "last_confirmed": "2026-11-12"
+   "d_day": 0,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "alio",
@@ -263,8 +263,8 @@
    "first_seen": "2026-11-02",
    "uid": "0594bee7606129bb",
    "cross_uid": "d785acffb2762e18",
-   "d_day": 5,
-   "last_confirmed": "2026-11-12"
+   "d_day": 4,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "alio",
@@ -286,8 +286,8 @@
    "first_seen": "2026-11-02",
    "uid": "7e004009892e3d5e",
    "cross_uid": "62b75de3573aca94",
-   "d_day": 4,
-   "last_confirmed": "2026-11-12"
+   "d_day": 3,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "gojobs",
@@ -307,8 +307,8 @@
    "first_seen": "2026-11-02",
    "uid": "f74c255fb12fd286",
    "cross_uid": "62b75de3573aca94",
-   "d_day": 4,
-   "last_confirmed": "2026-11-12",
+   "d_day": 3,
+   "last_confirmed": "2026-11-13",
    "duplicate_of_other_source": true
   },
   {
@@ -330,8 +330,8 @@
    "first_seen": "2026-10-31",
    "uid": "37a171ab7d0238ab",
    "cross_uid": "7bbbe1b2cbf3579f",
-   "d_day": 1,
-   "last_confirmed": "2026-11-12"
+   "d_day": 0,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "alio",
@@ -352,8 +352,8 @@
    "first_seen": "2026-10-29",
    "uid": "d66c00a081489f86",
    "cross_uid": "abfb5da79a72a066",
-   "d_day": 1,
-   "last_confirmed": "2026-11-12"
+   "d_day": 0,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "alio",
@@ -374,8 +374,8 @@
    "first_seen": "2026-10-29",
    "uid": "b0eefde6876548ac",
    "cross_uid": "ed1dae3bd6f2e5e9",
-   "d_day": 1,
-   "last_confirmed": "2026-11-12"
+   "d_day": 0,
+   "last_confirmed": "2026-11-13"
   },
   {
    "source": "alio",
@@ -396,73 +396,8 @@
    "first_seen": "2026-10-29",
    "uid": "5a6fb9094d40cd41",
    "cross_uid": "986a76fb9f66629a",
-   "d_day": 1,
-   "last_confirmed": "2026-11-12"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "전쟁기념사업회",
-   "title": "전쟁기념사업회 2026-3차 직원 채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=306458",
-   "start_date": "2026-10-29",
-   "end_date": "2026-11-12",
-   "hire_type": "무기계약직,비정규직,정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-29",
-   "uid": "29773defd204d2fa",
-   "cross_uid": "4aace711234fad50",
    "d_day": 0,
-   "last_confirmed": "2026-11-12"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "독립기념관",
-   "title": "2026년 독립기념관 하반기 직원 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=306408",
-   "start_date": "2026-10-28",
-   "end_date": "2026-11-12",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "충남",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-28",
-   "uid": "b7e2e22807e6cb8e",
-   "cross_uid": "75aa897f3be2d5a3",
-   "d_day": 0,
-   "last_confirmed": "2026-11-12"
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "농촌진흥청",
-   "title": "2026년 농촌진흥청 일반직공무원(전산주사보, 농업서기) 경력경쟁채용시험 공고(장애인구분모집)",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=306366",
-   "start_date": "2026-10-22",
-   "end_date": "2026-11-12",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "전산"
-   ],
-   "first_seen": "2026-10-22",
-   "uid": "e27dc4144602e2b0",
-   "cross_uid": "2c7848e3b4ea351b",
-   "d_day": 0,
-   "last_confirmed": "2026-11-12"
+   "last_confirmed": "2026-11-13"
   }
  ],
  "failed_sources": [],
