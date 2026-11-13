@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-13 16:55",
+ "updated_at": "2026-11-14 08:55",
  "postings": [
   {
    "source": "uman",
@@ -21,7 +21,7 @@
    "uid": "c686fe521c6f5ded",
    "cross_uid": "4973ab3063332a78",
    "d_day": null,
-   "last_confirmed": "2026-11-13"
+   "last_confirmed": "2026-11-14"
   },
   {
    "source": "uman",
@@ -42,8 +42,8 @@
    "first_seen": "2026-11-12",
    "uid": "db80a04975613c66",
    "cross_uid": "c1beca5393f869b0",
-   "d_day": 25,
-   "last_confirmed": "2026-11-13",
+   "d_day": 24,
+   "last_confirmed": "2026-11-14",
    "duplicate_of_other_source": true
   },
   {
@@ -65,8 +65,8 @@
    "first_seen": "2026-11-11",
    "uid": "2f1e5023c4214558",
    "cross_uid": "b204c0f64ccabf0d",
-   "d_day": 13,
-   "last_confirmed": "2026-11-13"
+   "d_day": 12,
+   "last_confirmed": "2026-11-14"
   },
   {
    "source": "alio",
@@ -87,8 +87,8 @@
    "first_seen": "2026-11-11",
    "uid": "230e2fe40e70ef3f",
    "cross_uid": "e2914a18d4a897a7",
-   "d_day": 12,
-   "last_confirmed": "2026-11-13"
+   "d_day": 11,
+   "last_confirmed": "2026-11-14"
   },
   {
    "source": "uman",
@@ -109,8 +109,8 @@
    "first_seen": "2026-11-11",
    "uid": "605248928052c0e9",
    "cross_uid": "f5cf7f65c74bab87",
-   "d_day": 7,
-   "last_confirmed": "2026-11-13"
+   "d_day": 6,
+   "last_confirmed": "2026-11-14"
   },
   {
    "source": "uman",
@@ -153,7 +153,7 @@
    "first_seen": "2026-11-10",
    "uid": "77e400bea5820ac7",
    "cross_uid": "7eaae5ac14d493e8",
-   "d_day": 7,
+   "d_day": 6,
    "last_confirmed": "2026-11-10"
   },
   {
@@ -175,8 +175,8 @@
    "first_seen": "2026-11-09",
    "uid": "126a86629091490a",
    "cross_uid": "ad634cfbe4227c0e",
-   "d_day": 10,
-   "last_confirmed": "2026-11-13"
+   "d_day": 9,
+   "last_confirmed": "2026-11-14"
   },
   {
    "source": "uman",
@@ -197,8 +197,8 @@
    "first_seen": "2026-11-09",
    "uid": "3e26db2174fb48cc",
    "cross_uid": "c2d30405f3eeb7fb",
-   "d_day": 3,
-   "last_confirmed": "2026-11-13"
+   "d_day": 2,
+   "last_confirmed": "2026-11-14"
   },
   {
    "source": "alio",
@@ -219,52 +219,8 @@
    "first_seen": "2026-11-05",
    "uid": "4ff3de709c502587",
    "cross_uid": "b1f5f84f1058f23f",
-   "d_day": 7,
-   "last_confirmed": "2026-11-13"
-  },
-  {
-   "source": "uman",
-   "source_label": "대학교직원신문",
-   "org": "충북대학교",
-   "title": "충북대학교 대학회계 공무직(사무원) 공개경쟁채용시험 공고(~11. 13,(금))",
-   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18508",
-   "start_date": "2026-11-02",
-   "end_date": "2026-11-13",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-11-03",
-   "uid": "6782e604507ba1f2",
-   "cross_uid": "4fce3643bd6ace97",
-   "d_day": 0,
-   "last_confirmed": "2026-11-13"
-  },
-  {
-   "source": "uman",
-   "source_label": "대학교직원신문",
-   "org": "연성대학교",
-   "title": "연성대학교 직원 채용 공고(~11. 13(금) 14:00)",
-   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18509",
-   "start_date": "2026-11-02",
-   "end_date": "2026-11-13",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-11-03",
-   "uid": "5be64656fcfb55ae",
-   "cross_uid": "48fbfe443e2c6281",
-   "d_day": 0,
-   "last_confirmed": "2026-11-13"
+   "d_day": 6,
+   "last_confirmed": "2026-11-14"
   },
   {
    "source": "alio",
@@ -285,8 +241,8 @@
    "first_seen": "2026-11-02",
    "uid": "0594bee7606129bb",
    "cross_uid": "d785acffb2762e18",
-   "d_day": 4,
-   "last_confirmed": "2026-11-13"
+   "d_day": 3,
+   "last_confirmed": "2026-11-14"
   },
   {
    "source": "alio",
@@ -308,8 +264,8 @@
    "first_seen": "2026-11-02",
    "uid": "7e004009892e3d5e",
    "cross_uid": "62b75de3573aca94",
-   "d_day": 3,
-   "last_confirmed": "2026-11-13"
+   "d_day": 2,
+   "last_confirmed": "2026-11-14"
   },
   {
    "source": "gojobs",
@@ -329,97 +285,9 @@
    "first_seen": "2026-11-02",
    "uid": "f74c255fb12fd286",
    "cross_uid": "62b75de3573aca94",
-   "d_day": 3,
-   "last_confirmed": "2026-11-13",
+   "d_day": 2,
+   "last_confirmed": "2026-11-14",
    "duplicate_of_other_source": true
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국보훈복지의료공단",
-   "title": "[중앙보훈병원]2026년 하반기 정규직 및 2027년 정신건강임상심리수련생 채용공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=306556",
-   "start_date": "2026-10-30",
-   "end_date": "2026-11-13",
-   "hire_type": "비정규직,정규직",
-   "recruit_type": "",
-   "region": "서울 외 1",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-31",
-   "uid": "37a171ab7d0238ab",
-   "cross_uid": "7bbbe1b2cbf3579f",
-   "d_day": 0,
-   "last_confirmed": "2026-11-13"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "한국청소년상담복지개발원",
-   "title": "제2026-3호 국립대구청소년디딤센터 직원 모집",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=306513",
-   "start_date": "2026-10-29",
-   "end_date": "2026-11-13",
-   "hire_type": "무기계약직",
-   "recruit_type": "",
-   "region": "대구",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-29",
-   "uid": "d66c00a081489f86",
-   "cross_uid": "abfb5da79a72a066",
-   "d_day": 0,
-   "last_confirmed": "2026-11-13"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "중소벤처기업연구원",
-   "title": "2026년도 제6차 중소벤처기업연구원 공개채용 공고",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=306473",
-   "start_date": "2026-10-29",
-   "end_date": "2026-11-13",
-   "hire_type": "비정규직,정규직",
-   "recruit_type": "",
-   "region": "서울",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-29",
-   "uid": "b0eefde6876548ac",
-   "cross_uid": "ed1dae3bd6f2e5e9",
-   "d_day": 0,
-   "last_confirmed": "2026-11-13"
-  },
-  {
-   "source": "alio",
-   "source_label": "잡알리오",
-   "org": "제주국제자유도시개발센터",
-   "title": "2026년 정규직 직원 등 모집",
-   "url": "https://job.alio.go.kr/recruitview.do?idx=306508",
-   "start_date": "2026-10-29",
-   "end_date": "2026-11-13",
-   "hire_type": "정규직",
-   "recruit_type": "",
-   "region": "서울 외 1",
-   "ncs": "정보통신",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-10-29",
-   "uid": "5a6fb9094d40cd41",
-   "cross_uid": "986a76fb9f66629a",
-   "d_day": 0,
-   "last_confirmed": "2026-11-13"
   }
  ],
  "failed_sources": [],
