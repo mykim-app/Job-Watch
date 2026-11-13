@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-13 08:55",
+ "updated_at": "2026-11-13 12:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "부산외대",
+   "title": "부산외국어대학교 2027년 일반직(정규직) 직원 채용 공고(~11/26)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18560",
+   "start_date": "2026-11-13",
+   "end_date": "",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-13",
+   "uid": "c686fe521c6f5ded",
+   "cross_uid": "4973ab3063332a78",
+   "d_day": null,
+   "last_confirmed": "2026-11-13"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
