@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-11-16 08:55",
+ "updated_at": "2026-11-16 12:55",
  "postings": [
+  {
+   "source": "cleaneye",
+   "source_label": "클린아이",
+   "org": "홍성의료원",
+   "title": "조건부정규직 의료업무보조(전산처리사) 모집공고",
+   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=B000022&entSeq=000035",
+   "start_date": "2026-11-16",
+   "end_date": "2026-11-29",
+   "hire_type": "일반정규직",
+   "recruit_type": "신입+경력",
+   "region": "충청남도",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-11-16",
+   "uid": "5710c3eca0587ba2",
+   "cross_uid": "e1d90bd5afd3fed5",
+   "d_day": 13,
+   "last_confirmed": "2026-11-16"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
