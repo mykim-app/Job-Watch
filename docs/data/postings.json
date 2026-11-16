@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-16 12:55",
+ "updated_at": "2026-11-16 16:55",
  "postings": [
   {
    "source": "cleaneye",
@@ -20,6 +20,50 @@
    "uid": "5710c3eca0587ba2",
    "cross_uid": "e1d90bd5afd3fed5",
    "d_day": 13,
+   "last_confirmed": "2026-11-16"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "신용보증재단중앙회",
+   "title": "2026년 제2차 신용보증재단중앙회 신입직원(5급) 공개채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=307067",
+   "start_date": "2026-11-16",
+   "end_date": "2026-12-01",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "세종",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-16",
+   "uid": "3342aadb9fa11aec",
+   "cross_uid": "e81b78de0347622f",
+   "d_day": 15,
+   "last_confirmed": "2026-11-16"
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "부산외국어대학교",
+   "title": "부산외국어대학교 일반직(정규직) 직원 채용 공고(~11. 26.(목) 15:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18564",
+   "start_date": "2026-11-16",
+   "end_date": "2026-11-26",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-16",
+   "uid": "20996654bb2f015c",
+   "cross_uid": "178167132abd3f11",
+   "d_day": 10,
    "last_confirmed": "2026-11-16"
   },
   {
