@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-18 12:55",
+ "updated_at": "2026-11-18 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "국방과학연구소",
+   "title": "국방과학연구소 '27년 상반기 임용 공개채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=306990",
+   "start_date": "2026-11-18",
+   "end_date": "2026-12-02",
+   "hire_type": "무기계약직,비정규직,정규직",
+   "recruit_type": "",
+   "region": "서울 외 5",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-18",
+   "uid": "55fa9670bb2f9193",
+   "cross_uid": "96cf7291696829fd",
+   "d_day": 14,
+   "last_confirmed": "2026-11-18"
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
