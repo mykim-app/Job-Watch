@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-19 16:55",
+ "updated_at": "2026-11-20 08:55",
  "postings": [
+  {
+   "source": "seoul_notice",
+   "source_label": "서울시 채용공고",
+   "org": "도시경쟁력담당관",
+   "title": "2026년 제3회 서울연구원 직원(연구직) 채용 공고",
+   "url": "https://www.seoul.go.kr/news/news_employ.do?bbsNo=166&nttNo=470749",
+   "start_date": "2026-11-20",
+   "end_date": "2026-12-04",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-20",
+   "uid": "1b95e6ec40bb8316",
+   "cross_uid": "8142a6ac6e522b93",
+   "d_day": 14,
+   "last_confirmed": "2026-11-20"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -20,8 +42,8 @@
    "first_seen": "2026-11-19",
    "uid": "433fb667d1143f18",
    "cross_uid": "e0ec24cce96b7f63",
-   "d_day": 15,
-   "last_confirmed": "2026-11-19"
+   "d_day": 14,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "alio",
@@ -42,8 +64,8 @@
    "first_seen": "2026-11-19",
    "uid": "b1420dfc2aa0dff1",
    "cross_uid": "056feaea39c3b32a",
-   "d_day": 15,
-   "last_confirmed": "2026-11-19"
+   "d_day": 14,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "uman",
@@ -86,8 +108,8 @@
    "first_seen": "2026-11-18",
    "uid": "55fa9670bb2f9193",
    "cross_uid": "96cf7291696829fd",
-   "d_day": 13,
-   "last_confirmed": "2026-11-19"
+   "d_day": 12,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "gojobs",
@@ -108,8 +130,8 @@
    "first_seen": "2026-11-17",
    "uid": "107e81083a340d96",
    "cross_uid": "1108dd50de390ef3",
-   "d_day": 8,
-   "last_confirmed": "2026-11-19"
+   "d_day": 7,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "cleaneye",
@@ -129,7 +151,7 @@
    "first_seen": "2026-11-16",
    "uid": "5710c3eca0587ba2",
    "cross_uid": "e1d90bd5afd3fed5",
-   "d_day": 10,
+   "d_day": 9,
    "last_confirmed": "2026-11-19"
   },
   {
@@ -151,8 +173,8 @@
    "first_seen": "2026-11-16",
    "uid": "3342aadb9fa11aec",
    "cross_uid": "e81b78de0347622f",
-   "d_day": 12,
-   "last_confirmed": "2026-11-19"
+   "d_day": 11,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "uman",
@@ -173,8 +195,8 @@
    "first_seen": "2026-11-16",
    "uid": "20996654bb2f015c",
    "cross_uid": "178167132abd3f11",
-   "d_day": 7,
-   "last_confirmed": "2026-11-19"
+   "d_day": 6,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "uman",
@@ -196,7 +218,7 @@
    "uid": "c686fe521c6f5ded",
    "cross_uid": "4973ab3063332a78",
    "d_day": null,
-   "last_confirmed": "2026-11-19"
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "uman",
@@ -217,7 +239,7 @@
    "first_seen": "2026-11-12",
    "uid": "db80a04975613c66",
    "cross_uid": "c1beca5393f869b0",
-   "d_day": 19,
+   "d_day": 18,
    "last_confirmed": "2026-11-19",
    "duplicate_of_other_source": true
   },
@@ -240,8 +262,8 @@
    "first_seen": "2026-11-11",
    "uid": "2f1e5023c4214558",
    "cross_uid": "b204c0f64ccabf0d",
-   "d_day": 7,
-   "last_confirmed": "2026-11-19"
+   "d_day": 6,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "alio",
@@ -262,8 +284,8 @@
    "first_seen": "2026-11-11",
    "uid": "230e2fe40e70ef3f",
    "cross_uid": "e2914a18d4a897a7",
-   "d_day": 6,
-   "last_confirmed": "2026-11-19"
+   "d_day": 5,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "uman",
@@ -284,8 +306,8 @@
    "first_seen": "2026-11-11",
    "uid": "605248928052c0e9",
    "cross_uid": "f5cf7f65c74bab87",
-   "d_day": 1,
-   "last_confirmed": "2026-11-19"
+   "d_day": 0,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "uman",
@@ -328,7 +350,7 @@
    "first_seen": "2026-11-10",
    "uid": "77e400bea5820ac7",
    "cross_uid": "7eaae5ac14d493e8",
-   "d_day": 1,
+   "d_day": 0,
    "last_confirmed": "2026-11-10"
   },
   {
@@ -350,8 +372,8 @@
    "first_seen": "2026-11-09",
    "uid": "126a86629091490a",
    "cross_uid": "ad634cfbe4227c0e",
-   "d_day": 4,
-   "last_confirmed": "2026-11-19"
+   "d_day": 3,
+   "last_confirmed": "2026-11-20"
   },
   {
    "source": "alio",
@@ -372,8 +394,8 @@
    "first_seen": "2026-11-05",
    "uid": "4ff3de709c502587",
    "cross_uid": "b1f5f84f1058f23f",
-   "d_day": 1,
-   "last_confirmed": "2026-11-19"
+   "d_day": 0,
+   "last_confirmed": "2026-11-20"
   }
  ],
  "failed_sources": [],
