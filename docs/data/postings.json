@@ -1,6 +1,50 @@
 {
- "updated_at": "2026-11-19 12:55",
+ "updated_at": "2026-11-19 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국원자력안전기술원",
+   "title": "한국원자력안전기술원 2027년 상반기 정규직 직원 채용(보훈제한경쟁)",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=307240",
+   "start_date": "2026-11-19",
+   "end_date": "2026-12-04",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "대전",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-19",
+   "uid": "433fb667d1143f18",
+   "cross_uid": "e0ec24cce96b7f63",
+   "d_day": 15,
+   "last_confirmed": "2026-11-19"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국원자력안전기술원",
+   "title": "한국원자력안전기술원 2027년 상반기 정규직 직원 채용",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=307238",
+   "start_date": "2026-11-19",
+   "end_date": "2026-12-04",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "대전",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-19",
+   "uid": "b1420dfc2aa0dff1",
+   "cross_uid": "056feaea39c3b32a",
+   "d_day": 15,
+   "last_confirmed": "2026-11-19"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
