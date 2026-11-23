@@ -1,6 +1,51 @@
 {
- "updated_at": "2026-11-23 12:55",
+ "updated_at": "2026-11-23 16:55",
  "postings": [
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "한라대학교",
+   "title": "한라대학교 행정-전산 정규직 채용 공고(~12. 06.(일). 18:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18601",
+   "start_date": "2026-11-23",
+   "end_date": "2026-12-06",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "전산",
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-23",
+   "uid": "b091284362ea0043",
+   "cross_uid": "32045d5e9a66d02d",
+   "d_day": 13,
+   "last_confirmed": "2026-11-23"
+  },
+  {
+   "source": "uman",
+   "source_label": "대학교직원신문",
+   "org": "한동대학교",
+   "title": "한동대학교 정규직원 채용 공고(~11. 29.(일) 18:00)",
+   "url": "https://www.uman.kr/board/index.html?id=talk4&no=18603",
+   "start_date": "2026-11-23",
+   "end_date": "2026-11-29",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-23",
+   "uid": "c8ea14b630d47ece",
+   "cross_uid": "3c6fef08a27386ff",
+   "d_day": 6,
+   "last_confirmed": "2026-11-23"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
