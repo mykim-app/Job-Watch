@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-11-25 12:55",
+ "updated_at": "2026-11-25 16:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "공주교육대학교",
+   "title": "2026년도 공주교육대학교 전산8급 전입 희망자 모집 공고",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=400508",
+   "start_date": "2026-11-25",
+   "end_date": "2026-12-07",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-11-25",
+   "uid": "a16099268300e74e",
+   "cross_uid": "fefa733b670195cd",
+   "d_day": 12,
+   "last_confirmed": "2026-11-25"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
