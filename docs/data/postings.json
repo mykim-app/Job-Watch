@@ -1,6 +1,27 @@
 {
- "updated_at": "2026-11-26 12:55",
+ "updated_at": "2026-11-26 16:55",
  "postings": [
+  {
+   "source": "gojobs",
+   "source_label": "나라일터",
+   "org": "강원대학교",
+   "title": "강원대학교 국가직공무원 경력경쟁채용 공고(전산)",
+   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=400640",
+   "start_date": "2026-11-26",
+   "end_date": "2026-12-07",
+   "hire_type": "",
+   "recruit_type": "",
+   "region": "",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-11-26",
+   "uid": "f5c89421e09b3e6c",
+   "cross_uid": "2a548fa6f957c96a",
+   "d_day": 11,
+   "last_confirmed": "2026-11-26"
+  },
   {
    "source": "gojobs",
    "source_label": "나라일터",
