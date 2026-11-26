@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26 08:55",
+ "updated_at": "2026-11-26 12:55",
  "postings": [
   {
    "source": "gojobs",
@@ -350,8 +350,7 @@
    "uid": "db80a04975613c66",
    "cross_uid": "c1beca5393f869b0",
    "d_day": 12,
-   "last_confirmed": "2026-11-19",
-   "duplicate_of_other_source": true
+   "last_confirmed": "2026-11-19"
   },
   {
    "source": "alio",
