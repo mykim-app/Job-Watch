@@ -1,6 +1,49 @@
 {
- "updated_at": "2026-11-27 16:55",
+ "updated_at": "2026-11-28 08:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국체육산업개발(주)",
+   "title": "한국체육산업개발(주) 전임직 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=307560",
+   "start_date": "2026-11-27",
+   "end_date": "2026-12-11",
+   "hire_type": "무기계약직",
+   "recruit_type": "",
+   "region": "서울 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-28",
+   "uid": "9e028c5c5af56262",
+   "cross_uid": "d5ae0858febb1202",
+   "d_day": 13,
+   "last_confirmed": "2026-11-28"
+  },
+  {
+   "source": "cleaneye",
+   "source_label": "클린아이",
+   "org": "파주도시공사",
+   "title": "2027년 제1회 파주도시공사 직원(토목,건축,전기,소방,기계,전산,환경) 채용 공고",
+   "url": "https://job.cleaneye.go.kr/user/ypCareersData.do?empyear=2026&ypEntId=2020000003&entSeq=000030",
+   "start_date": "2026-11-27",
+   "end_date": "2026-12-07",
+   "hire_type": "일반정규직",
+   "recruit_type": "경력",
+   "region": "경기도",
+   "ncs": "",
+   "matched": [
+    "전산"
+   ],
+   "first_seen": "2026-11-28",
+   "uid": "99e17a03c951db80",
+   "cross_uid": "e227c60dae993bb4",
+   "d_day": 9,
+   "last_confirmed": "2026-11-28"
+  },
   {
    "source": "alio",
    "source_label": "잡알리오",
@@ -20,8 +63,8 @@
    "first_seen": "2026-11-27",
    "uid": "3bbe08adcf8b6e11",
    "cross_uid": "226e5af4a55fb8a0",
-   "d_day": 14,
-   "last_confirmed": "2026-11-27"
+   "d_day": 13,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "uman",
@@ -43,7 +86,7 @@
    "uid": "3490743388313bb6",
    "cross_uid": "0ed0269dfa5a7cb2",
    "d_day": null,
-   "last_confirmed": "2026-11-27"
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "alio",
@@ -64,8 +107,8 @@
    "first_seen": "2026-11-27",
    "uid": "1398eedab134428f",
    "cross_uid": "9275a15e62dc4629",
-   "d_day": 20,
-   "last_confirmed": "2026-11-27"
+   "d_day": 19,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "uman",
@@ -86,8 +129,8 @@
    "first_seen": "2026-11-27",
    "uid": "51ffd24a6f9608db",
    "cross_uid": "4f6d89b1dda41ad4",
-   "d_day": 7,
-   "last_confirmed": "2026-11-27"
+   "d_day": 6,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "gojobs",
@@ -107,8 +150,8 @@
    "first_seen": "2026-11-26",
    "uid": "f5c89421e09b3e6c",
    "cross_uid": "2a548fa6f957c96a",
-   "d_day": 10,
-   "last_confirmed": "2026-11-27"
+   "d_day": 9,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "gojobs",
@@ -128,8 +171,8 @@
    "first_seen": "2026-11-25",
    "uid": "a16099268300e74e",
    "cross_uid": "fefa733b670195cd",
-   "d_day": 10,
-   "last_confirmed": "2026-11-27"
+   "d_day": 9,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "uman",
@@ -150,8 +193,8 @@
    "first_seen": "2026-11-24",
    "uid": "f200b06768104358",
    "cross_uid": "c4902f44a5a1a7fd",
-   "d_day": 6,
-   "last_confirmed": "2026-11-27"
+   "d_day": 5,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "uman",
@@ -173,8 +216,8 @@
    "first_seen": "2026-11-23",
    "uid": "b091284362ea0043",
    "cross_uid": "32045d5e9a66d02d",
-   "d_day": 9,
-   "last_confirmed": "2026-11-27"
+   "d_day": 8,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "uman",
@@ -195,8 +238,8 @@
    "first_seen": "2026-11-23",
    "uid": "c8ea14b630d47ece",
    "cross_uid": "3c6fef08a27386ff",
-   "d_day": 2,
-   "last_confirmed": "2026-11-27"
+   "d_day": 1,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "uman",
@@ -217,8 +260,8 @@
    "first_seen": "2026-11-22",
    "uid": "0e0aaa9c0480af30",
    "cross_uid": "ccf10ac254d07aea",
-   "d_day": 12,
-   "last_confirmed": "2026-11-27"
+   "d_day": 11,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "seoul_notice",
@@ -239,8 +282,8 @@
    "first_seen": "2026-11-20",
    "uid": "1b95e6ec40bb8316",
    "cross_uid": "8142a6ac6e522b93",
-   "d_day": 7,
-   "last_confirmed": "2026-11-27"
+   "d_day": 6,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "alio",
@@ -261,8 +304,8 @@
    "first_seen": "2026-11-19",
    "uid": "433fb667d1143f18",
    "cross_uid": "e0ec24cce96b7f63",
-   "d_day": 7,
-   "last_confirmed": "2026-11-27"
+   "d_day": 6,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "alio",
@@ -283,8 +326,8 @@
    "first_seen": "2026-11-19",
    "uid": "b1420dfc2aa0dff1",
    "cross_uid": "056feaea39c3b32a",
-   "d_day": 7,
-   "last_confirmed": "2026-11-27"
+   "d_day": 6,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "uman",
@@ -327,30 +370,8 @@
    "first_seen": "2026-11-18",
    "uid": "55fa9670bb2f9193",
    "cross_uid": "96cf7291696829fd",
-   "d_day": 5,
-   "last_confirmed": "2026-11-27"
-  },
-  {
-   "source": "gojobs",
-   "source_label": "나라일터",
-   "org": "과학기술정보통신부",
-   "title": "2026년 과학기술정보통신부 민원실 공무직 근로자 채용 공고",
-   "url": "https://www.gojobs.go.kr/apmView.do?empmnsn=308800",
-   "start_date": "2026-11-17",
-   "end_date": "2026-11-27",
-   "hire_type": "",
-   "recruit_type": "",
-   "region": "",
-   "ncs": "",
-   "matched": [
-    "정보통신",
-    "통신"
-   ],
-   "first_seen": "2026-11-17",
-   "uid": "107e81083a340d96",
-   "cross_uid": "1108dd50de390ef3",
-   "d_day": 0,
-   "last_confirmed": "2026-11-27"
+   "d_day": 4,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "cleaneye",
@@ -370,7 +391,7 @@
    "first_seen": "2026-11-16",
    "uid": "5710c3eca0587ba2",
    "cross_uid": "e1d90bd5afd3fed5",
-   "d_day": 2,
+   "d_day": 1,
    "last_confirmed": "2026-11-19"
   },
   {
@@ -392,8 +413,8 @@
    "first_seen": "2026-11-16",
    "uid": "3342aadb9fa11aec",
    "cross_uid": "e81b78de0347622f",
-   "d_day": 4,
-   "last_confirmed": "2026-11-27"
+   "d_day": 3,
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "uman",
@@ -415,7 +436,7 @@
    "uid": "c686fe521c6f5ded",
    "cross_uid": "4973ab3063332a78",
    "d_day": null,
-   "last_confirmed": "2026-11-27"
+   "last_confirmed": "2026-11-28"
   },
   {
    "source": "uman",
@@ -436,10 +457,13 @@
    "first_seen": "2026-11-12",
    "uid": "db80a04975613c66",
    "cross_uid": "c1beca5393f869b0",
-   "d_day": 11,
+   "d_day": 10,
    "last_confirmed": "2026-11-19"
   }
  ],
  "failed_sources": [],
- "pending": []
+ "pending": [
+  "9e028c5c5af56262",
+  "99e17a03c951db80"
+ ]
 }
