@@ -1,6 +1,28 @@
 {
- "updated_at": "2026-11-27 12:55",
+ "updated_at": "2026-11-27 16:55",
  "postings": [
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "한국자산관리공사",
+   "title": "2026년도 한국자산관리공사 정규직 및 전문계약직 채용공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=307550",
+   "start_date": "2026-11-27",
+   "end_date": "2026-12-11",
+   "hire_type": "비정규직,정규직",
+   "recruit_type": "",
+   "region": "서울 외 1",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-27",
+   "uid": "3bbe08adcf8b6e11",
+   "cross_uid": "226e5af4a55fb8a0",
+   "d_day": 14,
+   "last_confirmed": "2026-11-27"
+  },
   {
    "source": "uman",
    "source_label": "대학교직원신문",
@@ -21,6 +43,28 @@
    "uid": "3490743388313bb6",
    "cross_uid": "0ed0269dfa5a7cb2",
    "d_day": null,
+   "last_confirmed": "2026-11-27"
+  },
+  {
+   "source": "alio",
+   "source_label": "잡알리오",
+   "org": "자동차손해배상진흥원",
+   "title": "자동차손해배상진흥원 정규직(경력직) 직원 제한경쟁 채용 공고",
+   "url": "https://job.alio.go.kr/recruitview.do?idx=307552",
+   "start_date": "2026-11-27",
+   "end_date": "2026-12-17",
+   "hire_type": "정규직",
+   "recruit_type": "",
+   "region": "서울",
+   "ncs": "정보통신",
+   "matched": [
+    "정보통신",
+    "통신"
+   ],
+   "first_seen": "2026-11-27",
+   "uid": "1398eedab134428f",
+   "cross_uid": "9275a15e62dc4629",
+   "d_day": 20,
    "last_confirmed": "2026-11-27"
   },
   {
